@@ -1,0 +1,230 @@
+/* EDITING form elements  
+
+meant to be used with style.css
+some styles are located in that file, ones that are identical to the
+survey output styles, such as question text
+
+*/
+/* ------------------------------------------------------  */
+
+
+.local_button {
+cursor:pointer;
+}
+		
+#instructions ol li {
+margin-top:10px;
+font-size: 20px;
+color: #999999;
+}
+
+#instructions ol li ul li{
+margin-top:2px;
+font-size: 14px;
+color: #000;
+}
+
+#send_out_survey input{
+border:1px solid #cbcbcb;
+font-size:18px;
+max-width:400px;
+margin:0;
+text-align:left;
+padding:4px;
+}
+
+
+/* style for the survey */
+
+
+#style_survey p{
+text-align:left;
+margin-top:20px;
+margin-bottom:2px;
+}
+
+.color_table{
+border:1px solid #ccc;
+}
+
+#background_color_table td, #fieldset_color_table td, #text_color_table td{
+width:20px;
+height:20px;
+}
+
+/* ------------------------------------------------------  */
+
+/* editing controls div inside the fieldsets */
+
+.drop_menu {
+width:90%;
+}
+
+
+.editing_controls_div {
+background:#FFFFFF;
+border: 2px dotted #CCCCCC;
+width:100%;
+text-align:center;
+padding:10px 0px 10px 0px;
+margin:10px 0px 10px 0px;
+}
+
+.editing_controls_div label{
+text-align:center;
+display:block;
+width:100%;}
+
+.editing_controls_div b{
+font-size: 20px;
+color: #999999;
+}
+
+.editing_controls_div label{
+font-size: 12px;
+font-weight:normal;
+}
+
+
+
+.editor_select {
+border:1px solid #cbcbcb;
+background-color: #C9DDEC;
+font-size:14px;
+}
+
+/* the add question buttons div under the answers list */
+#addq {
+text-align:left;
+padding-left:25px;}
+
+
+/* the question type selector on the editing page */
+
+.qtype {
+border:1px solid #CCCCCC;
+height:20px;
+padding:0px;
+margin:10px 0 0 0;
+}
+
+.qtype option{
+padding:5px 0px 5px 70px;
+border-bottom:1px dotted #CCCCCC;
+font-size:14px;
+}
+
+.qtype #radi {background:url(../img/form_radio_unselected.GIF) no-repeat; }
+
+.qtype #drop {background: url(../img/form_drop.GIF) no-repeat; }
+
+.qtype #chck {background: url(../img/form_check_checked.GIF) no-repeat;}
+
+.qtype #text {background: url(../img/form_text.GIF) no-repeat;}
+
+.qtype #txar {background: url(../img/form_textarea.GIF) no-repeat;
+height:30px; }
+
+.qtype #sldr {background: url(../img/horizSlider.png) no-repeat;}
+
+.qtype #quad {background: url(../img/form_quadrant.GIF) no-repeat;
+height:30px;}
+
+
+
+
+.goto_select {
+width:70px;
+background-color: #fff;
+padding:0px;
+font-size: 1em;
+border:0px solid #AAAAAA;
+color: #333333;
+}
+
+.goto_select option{
+background-color: #FFF;
+width:100%;
+}
+ 
+
+
+
+/* ------------------------------------------------------  */
+
+#question_list{
+padding:4px 0px 4px 0px;
+margin:0px 0px 20px 0px;
+max-height:300px;
+overflow:auto;
+border-top:1px dotted #CCCCCC;
+border-bottom:1px dotted #CCCCCC;
+}	
+
+#question_list li{
+list-style:none;
+margin:0px 0px 4px 0px;
+font-size: 12px;
+text-decoration:none;
+cursor:pointer;
+}	
+
+
+#question_list span:hover{
+text-decoration:underline;
+}	
+
+
+
+
+/* ------------------------------------------------------  */
+
+.modalPage, #loadingpage {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px; left: 0px;
+    text-align:center;
+}
+
+
+
+.modalPage{    display: none;}
+
+.modalBackground, #loadingBackground
+{
+    filter: Alpha(Opacity=60); -moz-opacity:0.6; opacity: 0.6;
+    width: 100%; 
+    height: 1200px;  /* this is a hack for an IE bug which did not accept 100%*/ 
+    background-color: #999999;
+    position: absolute;
+    z-index: 500;
+    top: 0px; left: 0px;
+/*        <!--[if IE]>
+    height: 1500px; 
+<![endif]-->
+*/
+}
+
+#loadingimg{
+margin-top:100px;
+}
+
+/*the style modal shouldn't have a color as you can't see the colors */
+#stylebackground { filter: Alpha(Opacity=5); -moz-opacity:0.05; opacity: 0.05;}
+
+.modal_content
+{
+    background-color: white;
+    border: solid 4px black; 
+    position: absolute;
+    top: 70px;
+    left: 200px;
+    z-index: 1000;
+    padding: 10px;
+    text-align:left;
+}
+
+#loadingcontent{
+  z-index: 1000;
+}

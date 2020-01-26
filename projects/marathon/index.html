@@ -1,0 +1,165 @@
+<html>
+<head>
+ <LINK href="style.css" rel="stylesheet" type="text/css">
+
+<script language="javascript" type="text/javascript" src="js/flot-0.7/jquery.js"></script>
+<script language="javascript" type="text/javascript" src="js/flot-0.7/jquery.flot.js"></script>
+
+<script type="text/javascript" src="js/jquery-flipv/js/cvi_text_lib.js"></script>
+<script type="text/javascript" src="js/jquery-flipv/js/jquery.flipv.js"></script>
+<script type="text/javascript" src="js/jquery-flipv/js/jquery.flipv_up.js"></script>  
+
+
+<script language="javascript" type="text/javascript" src="chart_style.js"></script>
+
+
+
+
+
+
+<script type="text/javascript">
+
+
+//////////////////////////////////////////////////////////////////////////////////
+
+function converttoHHMMSS(secs){
+var t = new Date(1970,0,1);
+t.setSeconds(secs);
+return t.toTimeString().substr(0,8);
+}
+</script>
+
+
+
+<script type='text/javascript' src='data/chart_country_split_over_time_USA_v_all.js'></script>
+<script type='text/javascript' src='data/chart_country_split_over_time_without_USA.js'></script>
+
+<script type='text/javascript' src='data/womens_finish_times_over_time.js'></script>
+<script type='text/javascript' src='data/mens_finish_times_over_time.js'></script>
+<script type='text/javascript' src='data/chart_gender_split_over_time.js'></script>
+<script type='text/javascript' src='data/chart_gender_gap_in_finish_times_over_time.js'></script>
+<script type='text/javascript' src='data/chart_team_split_over_time.js'></script>
+<ascript type='text/javascript' src='data/chart_team_rankings_over_time.js'></script>
+
+<style>
+.additional_links a {display:block; margin-top:5px;}
+.lookup{
+border:1px solid silver;
+padding:5px;
+width:640;
+background-color:#eee;
+}
+</style>
+</head>
+<body>
+
+<h1> New York City Marathon Data Visualization</h1>
+<p style="width:900px;font-size:14px;">
+This is a set of charts that analyze the results of the New York City Marathon  from 1970 to 2013 published by nyrr.org to the public internet without restriction or copyright.  No affilliation is intended or implied. 
+</p>
+
+<p><a href="marathon-dataviz-overview-screen.pdf">Example of application in action</a></p>
+<p><a href="marathon-dataviz-detail-screen-meb.pdf">Example of runner detail in action</a></p>
+
+<div class="chart_container_div" id="chart_country_split_over_time_USA_v_all">
+<div id="top-label"></div>
+ <table><tr><td width=50 valign=top align=left><div class="flipv_up y-axis" id="y-axis-label"></div></td>
+ <td><div id="placeholder" style="width:600px;height:300px;"></div></td>
+ <td valign=top align=left><div id="legend-container" ></div></td></tr></table>
+<div class="break"></div>
+  <div class="x-axis" id="x-axis-label"></div>
+</div>
+
+<div class="chart_container_div" id="chart_country_split_over_time_without_USA">
+<div id="top-label"></div>
+ <table><tr><td width=50 valign=top align=left><div class="flipv_up y-axis" id="y-axis-label"></div></td>
+ <td><div id="placeholder" style="width:600px;height:300px;"></div></td>
+ <td valign=top align=left><div id="legend-container" ></div></td></tr></table>
+<div class="break"></div>
+  <div class="x-axis" id="x-axis-label"></div>
+</div>
+
+
+<div class="chart_container_div" id="chart_gender_split_over_time">
+<div id="top-label"></div>
+ <table><tr><td width=50 valign=top align=left><div class="flipv_up y-axis" id="y-axis-label"></div></td>
+ <td><div id="placeholder" style="width:600px;height:300px;"></div></td>
+ <td valign=top align=left><div id="legend-container" ></div> </td></tr></table>
+<div class="break"></div>
+  <div class="x-axis" id="x-axis-label"></div>
+</div>
+
+
+
+
+
+
+
+<div class="chart_container_div" id="mens_finish_times_over_time">
+<div id="top-label"></div>
+ <table><tr><td width=50 valign=top align=left><div class="flipv_up y-axis" id="y-axis-label"></div></td>
+ <td><div id="placeholder" style="width:600px;height:300px;"></div></td>
+ <td valign=top align=left><div id="legend-container" ></div> </td></tr></table>
+<div class="break"></div>
+  <div class="x-axis" id="x-axis-label"></div>
+</div>
+
+
+
+
+
+
+<div class="chart_container_div" id="womens_finish_times_over_time">
+<div id="top-label"></div>
+ <table><tr><td width=50 valign=top align=left><div class="flipv_up y-axis" id="y-axis-label"></div></td>
+ <td><div id="placeholder" style="width:600px;height:300px;"></div></td>
+ <td valign=top align=left><div id="legend-container" ></div> </td></tr></table>
+<div class="break"></div>
+  <div class="x-axis" id="x-axis-label"></div>
+</div>
+
+
+
+<div class="chart_container_div" id="chart_gender_gap_in_finish_times_over_time">
+<div id="top-label"></div>
+ <table><tr><td width=50 valign=top align=left><div class="flipv_up y-axis" id="y-axis-label"></div></td>
+ <td><div id="placeholder" style="width:600px;height:300px;"></div></td>
+ <td valign=top align=left><div id="legend-container" ></div>
+ 
+ This chart shows the difference between the averages of the 5 20% groups from 1981 through 2010, in seconds.  The general direction is down, suggesting that the women are closing the gap to the men.  The slowest 20% of finishers shows a larger gap between men and women than the other groups.
+ 
+ </td></tr></table>
+<div class="break"></div>
+  <div class="x-axis" id="x-axis-label"></div>
+</div>
+
+
+
+
+<div class="chart_container_div" id="chart_team_split_over_time">
+<div id="top-label"></div>
+ <table><tr><td width=50 valign=top align=left><div class="flipv_up y-axis" id="y-axis-label"></div></td>
+ <td><div id="placeholder" style="width:600px;height:300px;"></div></td>
+ <td valign=top align=left><div id="legend-container" ></div> </td></tr></table>
+<div class="break"></div>
+  <div class="x-axis" id="x-axis-label"></div>
+</div>
+
+
+<!--
+<div class="chart_container_div" id="chart_team_rankings_over_time">
+<div id="top-label"></div>
+ <table><tr><td width=50 valign=top align=left><div class="flipv_up y-axis" id="y-axis-label"></div></td>
+ <td><div id="placeholder" style="width:600px;height:300px;"></div></td>
+ <td valign=top align=left><div id="legend-container" ></div>  
+ This chart shows the top 10 teams for each marathon.  
+ Place is identified by the number of points for the top 10 finishers from all the teams.  Each runner's finishing position is added to the team's total. The team with the lowest points wins.  Non-team runners are excluded.
+ </td></tr></table>
+<div class="break"></div>
+  <div class="x-axis" id="x-axis-label"></div>
+</div>
+-->
+
+
+</body>
+</html>

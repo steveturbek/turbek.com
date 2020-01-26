@@ -1,0 +1,158 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html><head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Chart Test</title>
+	<!--[if lte IE 8]><script language="javascript" type="text/javascript" src="flot-0.7/excanvas.min.js"></script><![endif]-->
+    <script language="javascript" type="text/javascript" src="flot-0.7/jquery.js"></script>
+	<script language="javascript" type="text/javascript" src="flot-0.7/jquery.flot.js"></script>
+    <script language="javascript" type="text/javascript" src="flot-0.7/jquery.flot.pie.js"></script>  
+    
+	<script language="javascript" type="text/javascript" src="min.js"></script>
+
+
+    <style>
+    @charset "utf-8";
+/* CSS Document */
+
+body
+{
+	font-family: sans-serif;
+	margin: 0;
+  padding: 0;
+  border: 0;
+  text-align: center;
+}
+
+  /* Wrapper */
+@media all {
+  #wrapper  {
+    margin: 0 auto;
+    padding: 0;
+    border: 0;
+    width: 700px;
+    text-align: left;
+    font-size:90%;
+    }
+  }
+@media handheld {
+  #wrapper  {
+    width: 90%;
+    }
+  }
+
+  /* Inner layout */
+@media all {
+  #main  {
+  padding: 0 20px;
+
+    width: 650px;
+    float: left;
+    }
+}
+
+@media handheld {
+  #main  {
+    width: 100%;
+    float: none;
+    }
+  }
+  
+div.graph
+{
+	width: 450px;
+	height: 300px;
+	margin-bottom:20px;
+}
+
+div#score_total_header{
+	margin-top:20px;
+font-weight:900;	
+
+}
+
+#labeler{
+float:right;	
+}
+
+a {
+text-decoration:none;
+padding:6px;
+background-color:#3366CC;
+color:#fff;
+}
+</style>
+    
+</head>
+<body id="the_body" >
+<div id="wrapper">
+<!-- Begin main column -->
+<div id="main">
+
+<div id='introText'>
+<h1>Charts: The game</h1>
+<h2>How good are you at reading charts?  Which chart is the best?</h2>
+<p>Guess the amount of each of the charts</p>
+<p>All answers are 2 digit numbers</p>
+<ul>
+<li>For Line, Column, Point, and Bar charts, guess the amount</li>
+<li>For Pie Charts, guess the Percentage (of 100%) of the selected slice</li>
+<li>To guess faster, you can hit enter / return instead of clicking the button</li>
+</ul>
+<p>Your accuracy will be averaged, and compared with everyone playing the game.  I'll publish the effectiveness of each chart on stephen.turbek.com  or follow @stephenturbek on twitter.</p>
+<p><b>Play 2 rounds and you'll start to see the average answers
+</b></p>
+
+
+
+<a href="#" onclick="start_game();">Start</a>
+</div>
+
+<div id='chart_container'  style='display:none'>
+<!--<a href='index.html'>Start Over</a>-->
+ <h1 id="chart_title">Sales per city</h1> 
+<div  id="labeler"></div>
+<div  id="default" class="graph">
+</div>
+
+
+
+    <form id='chart_test_form' onSubmit="return false;">
+    <h2 id="questionLine"></h2>
+    <input type="text" value="" name="userValue" id="userValue" size="2" maxlength="2" >
+    <input type="submit" value="Enter" onClick="on_submit_user_value(); return false;">
+    <!--<a href="#" onclick="draw_next_chart();">Skip</a>-->
+        <input type="checkbox" name="ignore"  id="ignore" value="1" /> <label for="ignore">Don't save the results, I'm just fooling around.</label>
+</form>
+</div>
+
+
+<div id="score_container"   style='display:none'>
+
+<div id="score_total_header"></div>
+<div id="scoreboard">
+<div id="score_total"></div>
+</div>
+
+
+<div id="stats_charts_container_container_div" style='display:none'>
+<h2>The stats</h2>
+<table><tr><td>
+<div class="stats_chart_container_div" id="stats_chart_container_div">
+<b id="stats_top_label">% wrong for each chart type</b>
+<div id="stats_chart" style="width:300px;height:200px;"></div>
+</div>
+</td><td>
+<div class="stats_time_chart_container_div" id="stats_time_chart_container_div">
+<b id="stats_time_top_label">Milliseconds to answer each chart type</b>
+<div id="stats_time_chart" style="width:300px;height:200px;"></div>
+</div>
+</td></tr></table>
+</div>
+<p>
+<a href="#" onclick="draw_next_chart();" >Next</a>  (or hit Enter / Return to go continue)
+</p>
+</div>
+
+
+</div></div>
+ </body></html>

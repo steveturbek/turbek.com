@@ -1,0 +1,134 @@
+@charset "utf-8";
+/* CSS Document */
+
+.x_axis_container_div{
+text-align:center;	
+}
+
+
+
+
+body{
+font: 300 100.01% "Helvetica Neue",Helvetica,"Arial Unicode MS",Arial,sans-serif;
+color: #000;
+margin: 0;
+padding: 0;
+padding-left:20px;
+padding-bottom:200px;
+line-height: 1;
+text-rendering: optimizeLegibility
+}
+
+h1 {
+color: #333;
+font-weight: 300;
+text-rendering: optimizeLegibility
+}
+
+a {
+text-decoration:none;
+color:#35478C;
+}
+
+a:hover {
+text-decoration:underline;
+}
+
+
+h2{
+font-size:14px;	
+}
+
+.y-axis {
+	float: left;
+	margin: 115px 5px 0 0;
+}
+.x-axis {
+	margin: 10px 0 0 290px;
+	text-align:center;
+width:300px;
+}
+#placeholder {
+	float: left;
+}
+.break {
+	clear: both;
+}
+
+.top-label{
+margin-top:10px;
+margin-bottom:10px;
+text-align:left;	
+width:600px;
+font-size:24px;	
+}
+
+
+/**
+ * Auto Complete 5.1
+ * April 13, 2010
+ * Corey Hart @ http://www.codenothing.com
+ */ 
+
+ul.auto-complete-list {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	z-index: 100;
+	max-height: 250px;
+	overflow: auto;
+		border-bottom: 1px solid black;
+}
+
+ul.auto-complete-list li {
+	list-style-type: none;
+	margin: 0;
+	padding: 2px;
+	background-color: white;
+	border-right: 1px solid black;
+	border-left: 1px solid black;
+	cursor: pointer;
+	font-size:11px;
+}
+
+ul.auto-complete-list li.auto-complete-list-rollover {
+	background-color: #c5c5c5;
+}
+
+ul.auto-complete-list .auto-complete-striped {
+	background-color: #eee;
+}
+
+
+
+span.deleteicon {
+	position: relative;
+}
+span.deleteicon span {
+	position: absolute;
+	display: block;
+	top: 3px;
+	right: 0px;
+	width: 16px;
+	height: 16px;
+	background: url('../img/delete.png');
+	cursor: pointer;
+}
+span.deleteicon input {
+	padding-right: 16px;
+}
+
+
+.legendLabel {
+	vertical-align: middle;
+}
+
+.chart_container_div2 .legendLabel {
+	cursor: pointer;
+}	
+	
+	
+.chart_container_div{
+margin-top:20px;
+}

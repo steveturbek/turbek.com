@@ -1,0 +1,73 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+  <title>stephen turbek: What I learned from my failed web 2.0 project</title>
+ 
+</head>
+<body>
+
+
+<!-- Begin wrapper -->
+<div id="wrapper">
+
+<a href="/" id="home-link">
+stephen.turbek.com
+</a>
+
+
+<!-- Begin content -->
+<div id="content">
+<!-- Begin main column -->
+<div id="main">
+
+<div class="post"><a name="6333099055037457538"></a>
+  
+<h1 class="post-title">
+What I learned from my failed web 2.0 project
+</h1>
+
+
+<div style="clear:both;"></div>From April till December 2006, I designed and coded survee.com (<a href="survee/index.htm">see some cached pages</a>), an attempt to<br /><ul><li>build an new approach to online surveys</li><li>explore AJAX coding</li><li>Start a company</li><li>try out new interaction models</li></ul>Though I dropped the project, it was very satisfying and it taught me some lessons.  I'm attempting here to make those clear to myself and perhaps others.  This project was no big deal in the grand scheme of things, but perhaps it will provide some entertainment: here are my rough notes<br /><br />When I started the project, I was very comfortable with my job and looking for new challenges.  After learning about all the change that had happened to browser scripting (for example DOM scripting and XMLHTTPREQUEST, aka "AJAX") since I had stopped doing JavaScript in disgust in 2000, I was excited about the possibilities and wanted to try them out.  As I am a User Experience designer/ analyst in my day job, I was also excited about the UI possibilities, and felt that the best way to come up with new ideas was to invent something.  I was coincidentally unhappy with the survey tools I used (surveymonkey.com and many others) and thought this was a good opportunity, particularly as surveys consist of user-generated content.  I wanted to make a tool, not a site.  It was a heady time;  37Signals "Get Real" was an inspiration.  After 11 years of designing sites for other people, I was in control of my own project.  Sole responsibility was a great feeling.
+
+<img src="12.jpg"/>
+
+<br /><br />I surveyed some friends, who thought this was a good idea, then I started designing.<br /><br />I followed some interesting current ideas, including separating content from style & behavior.  I learned about the power of CSS and was much impressed.<br /><br />I decided to make an AJAXy interface with each survey being stored in one HTML document.<br />and all interaction (showing one question at a time was a key design idea) done via javascript.  The same document worked for non-Javascript browsers through careful use of stylesheets.  (I was very proud of this questionable feature.)<br /><br /><br />Some things I learned:<br /><span style="font-weight: bold;">It was a lot of fun and very fulfilling</span>.  Having your own company is great.  YOU did it.  Plus coding something that then works is a great feeling.<br /><br /><span style="font-weight: bold;">It's hard to do it alone</span>!  Having someone who<br /><ol><li>understands what you are working on<br /></li><li>cares</li></ol>is very important.  My wonderful & supportive wife has no interest in browser javascript incompatibilities (luckily for her), but when you are hacking your way through something, it is crucial for long term survival to have someone to vent to.  <span style="font-weight: bold;">Get a partner.</span>  As someone said: if you can't convince one person to join you, it probably isn't that good of an idea.  I didn't try very hard and I couldn't figure out what I wanted to share or how to divide the work.  I asked 2 people I respected, but asked too late; perhaps I was too possessive to want to share.<br /><br /><span style="font-weight: bold;">Other people's attention is INVALUABLE!</span>  and surprisingly hard to capture.  Your best friends do not want to spend their time talking about your project.  Just because it is exciting to you does not make it so for them.  You become in a sense, crazy; focused on something other people don't care about (yet).  Yet if you don't talk about it, you lose heart.  It is hard to find out how unimportant it is to other people:  that 5 minutes of time you were asking for to look at it never happens.<br />
+
+
+<img src="11.jpg"/>
+
+<br /><span style="font-weight: bold;">You have to be disciplined.</span>  I think I did OK on this.  We have no TV and I canceled Netflix.  I worked on it 2 hours a day and stayed up late on weekends.  I stopped reading books.  But it is a marathon, not a sprint.<br /><br /><span style="font-weight: bold;">Starting a company has to work at this time in your life.</span>  We had a baby during this time, and in the end, the lack of sleep and desire to play with our new little guy won over the project.  Also, I got a great new opportunity and changed jobs.  Both wonderful changes, but <span style="font-weight: bold;">doom for the project</span>.  I imagine that just-post-college kids have an edge here.  Every decision to work on the project is a decision to NOT do something else.  For those of us who have a life: family they enjoy, a house that needs repair, cooking, washing dishes,etc , life is the real competition.  A single person eating take out in an apartment is a better situation.<br /><br />I had thought, after a year of hard development, I can iterate more slowly and have a life.  I didn't get there.<br /><br /><span style="font-weight: bold;">Test it on real people.</span>  this keeps you honest.  Spend time every day watching someone use the tool.  Buy them coffee in a Internet cafe or something.<br /><br /><span style="font-weight: bold;">I should have used that most common browser for development. </span> I worked on a mac (with Windows running via Parallels for testing).  This was a mistake.  My excuse: IE has poor javascript error communication.  This lead to less focus on bug fixing and avoiding IE incompatibilities.  I always made it work on IE, but it took longer than it should have.<br /><br /><span style="font-weight: bold;">You have to make each annoying development step as easy as possible,</span> otherwise you won't do it as often as possible.  Make browser shortcuts, write scripts, whatever.  This is a marathon.  Make your office / workspace comfortable.<br /><br /><span style="font-weight: bold;">Iterate in public.</span>  I fell into the trap of not rolling things out often enough.  I kept adding features and delaying promoting it.  "Once it has [rich text editing, whatever] people will really like it."  This gave me cover to avoid facing the real word.<br /><br /><span style="font-weight: bold;">Build the application around the "help" content.</span>  Don't explain the how something works, focus on what it should do and write the text first, then design the way it works.  I would reserve a column for it in the interface and make an initial animation highlighting it. <br /><br /><span style="font-weight: bold;">Technologically, we are not there yet.</span>  Expect to spend most of your time on stupid details.  I decided to not support any pre 5.0 browsers with my Javascript version to keep me sane, but even so, there are still many annoying barriers to developing good ideas for people, for example browser incompatibilities, MySQL variations between the versions on my local dev box and my host, etc. My head is full of some of these quirks, which I will forget very soon and anyway will be solved and replaced with new ones.<br /><br /><span style="font-weight: bold;">Comment everything ad nauseum.</span>  You, or at least me, will forget everything in a few weeks.  You are not writing it for others, but for your future self.  Imagine you have memory loss like the movie MEMENTO.  Don't just explain what is happening, explain WHY you are doing it.  "This is because of an IE6 bug"<br /><br /><br /><span style="font-weight: bold;">There are some ideas I was happy about in the project.</span><br /><br />I tried out what I call EIAE  Everything Is Always Editable.  I had no display mode and editing mode.  If you saw some text, it was an editable field.  This was more javascript, but it was cool.  Perhaps a bit too cool as people did not expect to change their password so easily, but in general, I think this is the future.<br /><br />I cut through a lot of the user blocking interfaces. Disk space is cheap.  Signup took 2 fields:  email and password.  If you clicked "try editing a survey" you got an account, all you needed to do was change the email address.  If there were a lot of garbage abandoned accounts, I'd clean them out later.<br /><br />I only got to do part of what I had initially envisioned regarding graphing (one of the main reasons I started the project in the first place).  but the little I did, I think was clean and clear.<br /><br /><span style="font-weight: bold;">In the end, I think it was a good design, but I didn't have the time to really bring it to market. </span>The effort of publishing and promoting was a lot more than I expected.  A partner with knowledge might have changed this.<br /><br /><span style="font-weight: bold;">I'd like to do it again.  </span>(Once the kids are grown up a bit.)<div style="clear:both; padding-bottom:0.25em"></div>
+</div>
+<!-- End .post -->
+  
+  
+    
+    <!-- Begin #comments --------------------------------------------------->
+ 
+
+  <div id="comments">
+	<a name="comments"></a>
+<h2>Comments</h2>      
+           
+      
+        <dt id="c4817787460861538078"><a name="c4817787460861538078"></a>
+        <b> <span style="line-height:16px" class="comment-icon anon-comment-icon"></span>&nbsp;<span class="anon-comment-author">Anonymous</span>: </b> I just ran across this post. Thanks for your innermost thoughts as a result of this project. I do a lot of freelance work in addition to my 'regular job' as a User Interface Engineer and have always wanted to create something new, innovative and interesting with the hope it would become popular. In the end, though, creating small sites for others who benefit and appreciate my work provides enough satisfaction - for now. And occasionally I make a few extra bucks. <span class="item-control blog-admin pid-1804342715"><a style="border:none;" href="http://www.blogger.com/delete-comment.g?blogID=23893454&postID=4817787460861538078" title="Delete Comment" ><span class="delete-comment-icon">&nbsp;</span></a></span>
+        </dt>
+        
+
+	
+<p id="copyright">copyright &copy; Stephen Turbek</p>
+
+
+
+</div>
+
+
+<!-- End wrapper -->
+</div>
+
+
+
+</body>
+</html>

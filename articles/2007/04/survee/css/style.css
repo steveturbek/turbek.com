@@ -1,0 +1,341 @@
+/* colors for the site
+
+this sheet hold all shared styles and is meant to be used with the other specific style sheets
+
+  #class refers to element ID
+  .class refers class="" defined in html tag
+  class refers to base tag, such as fieldset 
+	
+*/
+
+#back_next{
+margin-bottom:10px;
+}
+
+  /* Wrapper */
+
+	  /* Primary layout */
+
+body	{
+  margin: 0 auto;
+  padding: 0;
+  border: 0;
+  text-align: center;
+  color: #000000;
+/*  background: #FFFFFF url(http://www.stephenturbek.com/images/page_bg.gif) top center repeat-y; 
+ */
+font-family: small tahoma, "Bitstream Vera Sans", "Trebuchet MS", "Lucida Grande", lucida, helvetica, sans-serif; 
+  /*font-size: normal;*/
+}
+
+
+#wrapper, #main  {
+margin: 0 auto;
+padding: 0;
+border: 0;
+text-align: center;
+width:800px; 
+}
+
+.leftywrapper  {
+margin: 0 auto;
+padding: 0;
+border: 0;
+text-align: left;
+width:800px; 
+}
+
+/*there was a div float left nav, but it wrapped for me inIE, so back to tables!  from http://css.maxdesign.com.au/floatutorial/tutorial0816.htm */
+
+
+#editing_table { width:95%; }
+
+#left_nav {
+width: 160px;
+margin: 0;
+padding-left: 4px;
+text-align:left;
+background-color:#ffffff;
+}
+
+
+/*used to hide things, for example the answer delete button */
+.hide {  display:none; }
+.display_block {  display:block; }
+.display_inline {  display:inline; }
+.lefty { text-align:left; }
+.centery { text-align:center; }
+
+
+/* Default links   */
+
+a:link, a:visited {
+  color: #3366CC;
+  }
+
+a:hover {
+  }
+
+a:active {
+  color: #99FF00; 
+  }
+  
+.error_text {
+ color: RED;
+ font-weight:bold;
+} 
+ 
+ 
+ .nicebutt,  .gradient_buttonish
+{
+border: 3px double #999999;
+border-top-color: #CCCCCC;
+border-left-color: #CCCCCC;
+padding: 0.25em;
+
+background-color: #FFFFFF;
+background-image: url(../img/background_form_element.gif);
+background-repeat: repeat-x;
+color: #333333;
+font-size: 1.25em;
+font-weight: bold;
+font-family: Verdana, Helvetica, Arial, sans-serif;
+text-decoration:none;
+margin:4px;
+cursor:pointer;
+}
+
+ .nicebutt_disabled
+{
+color: #DDDDDD;
+/* background-image:url(../img/spacer.gif); not sure we are using anymore*/
+
+border: 3px double #999999;
+border-top-color: #CCCCCC;
+border-left-color: #CCCCCC;
+padding: 0.25em;
+background-color: #FFFFFF;
+background-repeat: repeat-x;
+font-size: 1.25em;
+font-weight: bold;
+font-family: Verdana, Helvetica, Arial, sans-serif;
+text-decoration:none;
+margin:4px;
+}
+
+
+.button_small
+{
+border: 2px double #999999;
+border-top-color: #CCCCCC;
+border-left-color: #CCCCCC;
+padding: 0.25em;
+background-color: #FFFFFF;
+background-image: url(../img/background_form_element.gif);
+background-repeat: repeat-x;
+color: #333333;
+font-size: .9em;
+font-weight: normal;
+font-family: Verdana, Helvetica, Arial, sans-serif;
+margin-bottom:10px;
+text-decoration:none;
+  text-align: center;
+
+}
+	
+#left_nav .button_small{
+display:block;
+width:90%;
+}
+
+
+/* ------------------------------------------------------  */
+
+/* Survey (and Editing) styles  */
+
+
+
+h1, .survey_title {
+border:0px solid #eee; 
+background-color: transparent;
+font-size:36px;
+font-family: tahoma, "Bitstream Vera Sans", "Trebuchet MS", "Lucida Grande", lucida, helvetica, sans-serif;
+font-weight:bold;
+width:50%;
+text-align: center;
+margin:10px; 
+}
+
+
+#prog-border, .results-border {/* from http://www.davidanaxagoras.com/2005/04/16/track-your-progress-or-lack-thereof/ */	
+  height: 15px;
+  width: 100%;
+  border: 1px solid silver;  
+  margin:0px;
+  padding: 0px;
+  display:none;
+}
+.results-border {  display:block;}
+
+
+#prog-bar, .results-bar {
+  height: 11px;
+  margin: 2px;
+  padding: 0px;
+  background-color: #C9DDEC;
+  text-align:right;
+}
+
+
+/*  results page styles */
+
+.results_numbers {
+font-size:80%;
+color:gray;
+}
+
+.other_text_results{
+max-height: 100px;
+overflow:auto;
+margin-bottom:20px;
+}
+
+.no_responses {
+font-size:80%;
+color:gray;
+margin:0px;
+}
+
+
+  
+
+/* the core of the form */
+
+
+
+fieldset {
+margin:10px 0px 20px 0px;
+border:0px; 
+padding: 10px 10px 5px 10px;
+font-size: 15px;
+background-color: #C9DDEC;
+display:none;
+width: 99%;
+}
+
+/*the fieldset legend question number (only shown to non js people)*/
+fieldset legend {
+color:#AAAAAA;
+font-size: 24px;
+display:none;
+}
+
+/*  poll version, hide fieldset color */
+.pollform fieldset  {
+background-color:transparent;
+display:block;
+}
+
+
+
+
+/*the question */
+fieldset h4, .editing_question, #survey_instructions, #color_table_example h4 {
+border:0px ; 
+background-color: transparent;
+font-family: tahoma, "Bitstream Vera Sans", "Trebuchet MS", "Lucida Grande", lucida, helvetica, sans-serif;
+font-size:24px;
+width:100%;
+text-align: center;
+ }
+
+/*the question instructions */
+fieldset p, .editing_question_instructions, #color_table_example p {
+border:0px ; 
+background-color: transparent;
+font-size:14px;
+font-family: tahoma, "Bitstream Vera Sans", "Trebuchet MS", "Lucida Grande", lucida, helvetica, sans-serif;
+font-weight:bold;
+overflow:auto;
+text-align: center;
+width:100%;
+ }
+ 
+/* the answers */
+
+
+
+
+fieldset select {
+border:1px solid #AAAAAA;
+font-size: 1.125em;
+color: #333333;
+padding:5px;
+}
+
+fieldset option{
+border-bottom:1px dotted #CCCCCC;
+min-width:200px;
+width:100%;}
+
+.dropdown_other_div{ /*keep the dropdown menu Other rows separated */
+margin-bottom:10px;
+}
+
+fieldset ul, #surveyform ul{
+margin-left:20px;
+padding:2px;
+}
+
+#surveyform li, .answer_row{
+width:100%;
+text-align: left;
+padding:2px;
+list-style:none;
+}
+
+.answer_row img{  /* the delete button */
+margin-left:10px;
+}
+
+.editing_label, fieldset label {/* the answer text and editing answer text */
+font-size:18px;
+border:0px ; 
+background-color: transparent;
+margin:0px 10px 0px 0px;
+padding:0px 10px 0px 0px;
+text-align:left;
+}
+
+fieldset label {display:block;}
+
+.editing_label_with_other_text_field {
+width:35%;
+}
+
+
+/* general styles */
+.box_link {
+font-size:16px;
+text-decoration:none;
+border:1px solid #3366CC;
+padding: 2px 2px 2px 2px; 
+height: 40px;
+margin:2px;
+cursor:pointer;
+}
+
+.box_link_small {
+font-size:9px;
+text-decoration:none;
+border:1px solid #3366CC;
+padding: 2px 2px 2px 2px; 
+cursor:pointer;
+}
+
+.small_text, #prog-bar {
+color: #777;
+font-size:10px;
+}
+
+/******************************************************/
