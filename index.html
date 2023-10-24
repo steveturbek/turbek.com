@@ -70,8 +70,9 @@
         display: flex;
 
 		background-color: #fff;
-		  background-repeat: no-repeat;
-          background-position: center center;
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-size: cover;
       }
 
       @media screen and (max-width: 1050px) {
@@ -203,31 +204,17 @@
 
       <div
         class="home-page-item"
-        style="animation: bubbleCalendarAnimation 5s ease-in infinite"
+        id="bubbleCalendar"
       >
         <style>
-          @keyframes bubbleCalendarAnimation {
-            0% {
-              background: center top / cover no-repeat
+		#bubbleCalendar {background: center top / cover no-repeat
                 url("images/bubble_calendar_timeless_crop.jpg");
-            }
-            45% {
-              background: center top / cover no-repeat
-                url("images/bubble_calendar_timeless_crop.jpg");
-            }
-            50% {
-              background: center top/ cover no-repeat
+		}
+
+		#bubbleCalendar:hover{
+		    background: center / cover no-repeat
                 url("images/bubble_calendar_timeless_finger_L.jpg");
-            }
-            95% {
-              background: center top/ cover no-repeat
-                url("images/bubble_calendar_timeless_finger_L.jpg");
-            }
-            100% {
-              background: center / cover no-repeat
-                url("images/bubble_calendar_timeless_crop.jpg");
-            }
-          }
+		}
         </style>
         <div class="titleBlock">
           <a href="https://BubbleCalendar.com"> Bubble Calendar </a>
@@ -242,32 +229,17 @@
       </div>
 
       <div
-        class="home-page-item"
-        style="animation: parquetAnimation 10s ease-in infinite"
-      >
+        class="home-page-item" id="parquet"      >
         <style>
-          @keyframes parquetAnimation {
-            0% {
-              background: center top / cover no-repeat
-                url("images/hexagon_coffee_table.jpeg");
-            }
-            49% {
-              background: center top / cover no-repeat
-                url("images/hexagon_coffee_table.jpeg");
-            }
-            50% {
-              background: center top/ cover no-repeat
+
+#parquet{background: center top / cover no-repeat
+                url("images/hexagon_coffee_table.jpeg");}
+
+#parquet:hover{
+	background: center top / cover no-repeat
                 url("images/hexagon_coffee_table2.jpeg");
-            }
-            99% {
-              background: center top/ cover no-repeat
-                url("images/hexagon_coffee_table2.jpeg");
-            }
-            100% {
-              background: center / cover no-repeat
-                url("images/hexagon_coffee_table.jpeg");
-            }
-          }
+}
+
         </style>
         <div class="titleBlock">
           <h2> Parquet Flooring Table</h2>
@@ -280,11 +252,7 @@
 
       <div
         class="home-page-item"
-        style="
-          background-image: url('images/bench.jpeg');
-          background-size: cover;
-          background-position: center top;
-        "
+        style="background-image: url('images/bench.jpeg');"
       >
         <div class="titleBlock">
           <h2> Dovetail Bench </h2>
@@ -295,32 +263,11 @@
       </div>
 
       <div
-        class="home-page-item"
-        style="
-          background-image: url('images/felt2.jpg');
-          background-size: cover;
-          background-position: center center;
-          animation: FeltAnimation 10s ease-in infinite;
-        "
-      >
+        class="home-page-item" id="felt"
+        >
         <style>
-          @keyframes FeltAnimation {
-            0% {
-              background: center top / cover no-repeat url("images/felt3.jpg");
-            }
-            45% {
-              background: center top / cover no-repeat url("images/felt3.jpg");
-            }
-            50% {
-              background: center top/ cover no-repeat url("images/felt2.jpg");
-            }
-            95% {
-              background: center top/ cover no-repeat url("images/felt2.jpg");
-            }
-            100% {
-              background: center / cover no-repeat url("images/felt3.jpg");
-            }
-          }
+			#felt{ background-image: url('images/felt2.jpg');}
+			#felt:hover{background: center top / cover no-repeat url("images/felt3.jpg");}
         </style>
         <div class="titleBlock">
           <h2 felt2.jpg>All-felt stool</h2>
@@ -332,58 +279,48 @@
       </div>
 
       <div
-        class="home-page-item"
-        style="
-          background-image: url('images/DSC_0070.jpg');
-          background-size: 250%;
-          background-position: right center;
-        "
+        class="home-page-item" id="JohnGreene"
       >
+
+	  <style>
+		#JohnGreene{ background: right center / 250% no-repeat url('images/DSC_0070.jpg');}
+		#JohnGreene:hover{background: center top / cover no-repeat url("images/IMG_1891.jpg");}
+	</style>
+
         <div class="titleBlock">
           <h2>"John Deere Green" Table</h2>
           <p>
             Using a simple bent metal curve to define a curve. Paint came from a
             happy accident at the shop.
           </p>
-
-          <!-- IMG_1891.jpg -->
         </div>
       </div>
 
       <div
-        class="home-page-item"
-        style="
-          background-image: url('images/MAME0.jpg');
-          background-size: cover;
-          background-position: center center;
-          animation: MAMEAnimation 10s ease-in infinite;
-        "
+        class="home-page-item" id="mame" 
       >
         <style>
-          @keyframes MAMEAnimation {
-            0% {
-              background: center top / cover no-repeat url("images/MAME0.jpg");
+			#mame { background: center bottom / cover no-repeat url("images/MAME0.jpg");}
+			#mame:hover{  background: center bottom / cover no-repeat url("images/MAME3.jpg");			}
+          
+			/* animation: MAMEAnimation 5s ease-in infinite;
+			@keyframes MAMEAnimation {
+			0% {
+              background: center bottom / cover no-repeat url("images/MAME1.jpg");
             }
-            32% {
-              background: center top / cover no-repeat url("images/MAME0.jpg");
+            45% {
+              background: center bottom / cover no-repeat url("images/MAME1.jpg");
             }
-            33% {
-              background: center bottom/ cover no-repeat url("images/MAME1.jpg");
-            }
-            64% {
-              background: center bottom / cover no-repeat
-                url("images/MAME1.jpg");
-            }
-            66% {
-              background: left center/ cover no-repeat url("images/MAME2.jpg");
+            50% {
+              background: center top/ cover no-repeat url("images/MAME2.jpg");
             }
             95% {
-              background: left center/ cover no-repeat url("images/MAME2.jpg");
+              background: center top/ cover no-repeat url("images/MAME2.jpg");
             }
             100% {
-              background: center / cover no-repeat url("images/MAME0.jpg");
-            }
-          }
+              background: center / cover no-repeat url("images/MAME1.jpg");
+            } 
+          }*/
         </style>
 
         <div class="titleBlock">
@@ -395,37 +332,12 @@
         </div>
       </div>
 
-      <div
-        class="home-page-item"
-        style="
-          background-image: url('images/IMG_1039.jpg');
-          background-size: cover;
-          background-position: center center;
-          animation: repeteAnimation 10s ease-in infinite;
-        "
+      <div class="home-page-item" id="repete"
       >
         <style>
-          @keyframes repeteAnimation {
-            0% {
-              background: center top / cover no-repeat
-                url("images/IMG_1039.jpg");
-            }
-            48% {
-              background: center top / cover no-repeat
-                url("images/IMG_1039.jpg");
-            }
-            50% {
-              background: center bottom/ cover no-repeat
-                url("images/IMG_1045.jpg");
-            }
-            98% {
-              background: center bottom / cover no-repeat
-                url("images/IMG_1045.jpg");
-            }
-            100% {
-              background: center / cover no-repeat url("images/IMG_1039.jpg");
-            }
-          }
+			#repete{background-image: url('images/IMG_1039.jpg');}
+			#repete:hover{             background: center top / cover no-repeat
+                url("images/IMG_1045.jpg");}
         </style>
 
         <div class="titleBlock">
@@ -435,32 +347,11 @@
       </div>
 
       <div
-        class="home-page-item"
-        style="
-          background-image: url('images/IMG_9860.jpg');
-          background-size: cover;
-          background-position: center top;
-		  animation: appleTVAnimation 8s ease-in infinite;
-        "
+        class="home-page-item" id="tvremote"
       >
         <style>
-          @keyframes appleTVAnimation {
-            0% {
-              background: center top / cover no-repeat
-                url("images/IMG_9860.jpg");
-            }
-            2% {
-              background: left top/ cover no-repeat
-                url("images/IMG_9859.jpg");
-            }
-            48% {
-              background: left top / cover no-repeat
-                url("images/IMG_9859.jpg");
-            }
-            50% {
-              background: center / cover no-repeat url("images/IMG_9860.jpg");
-            }
-          }
+			#tvremote{background-image: url('images/IMG_9859.jpg');}
+			#tvremote:hover{ background: left top / cover no-repeat url("images/IMG_9860.jpg");}
         </style>
 
         <div class="titleBlock">
@@ -481,11 +372,7 @@
 
       <div
         class="home-page-item"
-        style="
-          background-image: url('images/IMG_0613.jpg');
-          background-size: cover;
-          background-position: center top;
-        "
+        style="background-image: url('images/IMG_0613.jpg');"
       >
         <div class="titleBlock">
           <h2>"White Knight" chain guard</h2>
@@ -499,39 +386,12 @@
       </div>
 
       <div
-        class="home-page-item"
-        style="
-          background-image: url('images/32.jpg');
-          background-size: cover;
-          background-position: center top;
-		  animation: RazorfishConferenceAnimation 10s ease-in infinite;
-        "
+        class="home-page-item" id="razorfishComferenceTable"
       >
         <style>
-          @keyframes RazorfishConferenceAnimation {
-            0% {
-              background: center center / cover no-repeat url("images/32.jpg");
-            }
-            2% {
-              background: center center / cover no-repeat url("images/30.jpg");
-            }
-            33% {
-              background: center center/ cover no-repeat url("images/30.jpg");
-            }
-            64% {
-              background: center center / cover no-repeat
-                url("images/31.jpg");
-            }
-            66% {
-              background: center center/ cover no-repeat url("images/31.jpg");
-            }
-            95% {
-              background: center center/ cover no-repeat url("images/32.jpg");
-            }
-            100% {
-              background: center / cover no-repeat url("images/32.jpg");
-            }
-          }
+			#razorfishComferenceTable{ background: center center / cover no-repeat url("images/32.jpg"); }
+			#razorfishComferenceTable:hover{ background: center center / cover no-repeat url("images/31.jpg");   }
+
         </style>
 
         <div class="titleBlock">
@@ -549,7 +409,6 @@
         class="home-page-item"
         style="
           background-image: url('images/happy_feet_artbots.jpg');
-          background-size: cover;
           background-position: center top;
         "
       >
@@ -560,8 +419,7 @@
             (Shown at Art Bots 2003) Happy Feet is an installation of 5 pairs of
             elegant footwear. Each shoe is mechanically articulated, enabling it
             to tap. The shoes are then free to dance, to create chorus line
-            patterns, to interact with the audience. When unattended, the
-            microcontroller (hidden inside shoeboxes) caused the articulated
+            patterns, to interact with the audience. When unattended, the articulated
             shoes to tap rhythms. When a person steps on the foot pads, the
             shoes copy their steps.
           </p>
@@ -569,30 +427,11 @@
       </div>
 
       <div
-        class="home-page-item"
-        style="
-          background-image: url('images/40.jpg');
-          background-size: cover;
-          background-position: 10% top;
-          background-repeat: no-repeat;
-		  animation: flatpackAnimation 8s ease-in infinite;
-        "
+        class="home-page-item" id="flatpack"
       >
         <style>
-          @keyframes flatpackAnimation {
-            0% {
-              background: center center / cover no-repeat url("images/40.jpg");
-            }
-            2% {
-              background: center center/ contain no-repeat  url("images/39.jpg");
-            }
-            48% {
-              background: center center / contain no-repeat url("images/39.jpg");
-            }
-            50% {
-              background: center / cover no-repeat url("images/40.jpg");
-            }
-          }
+			#flatpack{			background: center center / cover no-repeat url("images/40.jpg");}
+			#flatpack:hover{   background: top center / contain no-repeat url("images/39.jpg"), white;}
         </style>
 
         <div class="titleBlock">
@@ -606,29 +445,11 @@
       </div>
 
       <div
-        class="home-page-item"
-        style="
-          background-image: url('images/69.jpg');
-          background-size: cover;
-          background-position: center top;
-		  animation: fastnerlessAnimation 8s ease-in infinite;
-        "
+        class="home-page-item" id="fastenerless"
       >
         <style>
-          @keyframes fastnerlessAnimation {
-            0% {
-              background: center center / cover no-repeat url("images/69.jpg");
-            }
-            2% {
-              background: center center/ cover no-repeat  url("images/70.jpg");
-            }
-            48% {
-              background: center center / cover no-repeat url("images/70.jpg");
-            }
-            50% {
-              background: center / cover no-repeat url("images/69.jpg");
-            }
-          }
+			#fastenerless{background: center center / cover no-repeat url("images/70.jpg");}
+			#fastenerless:hover{   background: center center / cover no-repeat url("images/69.jpg");}
         </style>
         <div class="titleBlock">
           <h2 >Fastener-less Shelving</h2>
@@ -640,29 +461,11 @@
       </div>
 
       <div
-        class="home-page-item"
-        style="
-          background-image: url('images/71.jpg');
-          background-size: cover;
-          background-position: center center;
-		  animation: carvedChairAnimation 8s ease-in infinite;
-        "
+        class="home-page-item" id="carvedplywoodchair"
       >
         <style>
-          @keyframes carvedChairAnimation {
-            0% {
-              background: center center / cover no-repeat url("images/71.jpg");
-            }
-            2% {
-              background: center center/ cover no-repeat  url("images/72.jpg");
-            }
-            48% {
-              background: center center / cover no-repeat url("images/72.jpg");
-            }
-            50% {
-              background: center / cover no-repeat url("images/71.jpg");
-            }
-          }
+			#carvedplywoodchair{background: center center / cover no-repeat url("images/71.jpg");}
+			#carvedplywoodchair:hover{   background: center center / 80% no-repeat url("images/72.jpg"), white;;}
         </style>
         <div class="titleBlock">
           <h2>Carved Plywood Chair</h2>
@@ -674,30 +477,12 @@
       </div>
 
       <div
-        class="home-page-item"
-        style="
-          background-image: url('images/10.jpg');
-          background-size: cover;
-          background-position: center center;
-		  animation: moldedBarAnimation 8s ease-in infinite;
-		  "
+        class="home-page-item" id="moldedbar"
       >
-        <style>
-          @keyframes moldedBarAnimation {
-            0% {
-              background: center center / cover no-repeat url("images/10.jpg");
-            }
-            2% {
-              background: center center/ cover no-repeat  url("images/09.jpg");
-            }
-            48% {
-              background: center center / cover no-repeat url("images/09.jpg");
-            }
-            50% {
-              background: center / cover no-repeat url("images/10.jpg");
-            }
-          }
-        </style>
+	  <style>
+		#moldedbar{background: center center / cover no-repeat url("images/10.jpg");}
+		#moldedbar:hover{   background: center center / cover no-repeat url("images/09.jpg");}
+	</style>
         <div class="titleBlock">
           <h2 >Curved Plywood Bar</h2>
           <p>
@@ -708,29 +493,11 @@
       </div>
 
       <div
-        class="home-page-item"
-        style="
-          background-image: url('images/73.jpg');
-          background-size: cover;
-          background-position: center center;
-		  animation: foldingtableAnimation 8s ease-in infinite;
-		  "
+        class="home-page-item" id="foldingtable"
       >
         <style>
-          @keyframes foldingtableAnimation {
-            0% {
-              background: center center / cover no-repeat url("images/73.jpg");
-            }
-            2% {
-              background: center center/ contain no-repeat  url("images/75.jpg");
-            }
-            48% {
-              background: center center / contain no-repeat url("images/75.jpg");
-            }
-            50% {
-              background: center / cover no-repeat url("images/73.jpg");
-            }
-          }
+		#foldingtable{background: center center / cover no-repeat url("images/73.jpg");}
+		#foldingtable:hover{   background: center center / contain no-repeat url("images/75.jpg"), white;}
         </style>
         <div class="titleBlock">
           <h2>Folding Table</h2>
@@ -742,29 +509,12 @@
       </div>
 
       <div
-        class="home-page-item"
-        style="
-          background-image: url('images/bench1.jpg');
-          background-size: cover;
-          background-position: center center;
-		  animation: moldedBenchAnimation 8s ease-in infinite;
-		  "
+        class="home-page-item" id="moldedBench"
       >
         <style>
-          @keyframes moldedBenchAnimation {
-            0% {
-              background: center center / cover no-repeat url("images/bench1.jpg");
-            }
-            2% {
-              background: center center/ contain no-repeat  url("images/bench2.jpg");
-            }
-            48% {
-              background: center center / contain no-repeat url("images/bench2.jpg");
-            }
-            50% {
-              background: center / cover no-repeat url("images/bench1.jpg");
-            }
-          }
+		#moldedBench{background: center center / cover no-repeat url("images/bench1.jpg");}
+		#moldedBench:hover{   background: center top / contain no-repeat url("images/bench2.jpg"), white;}
+
         </style>
         <div class="titleBlock">
           <h2>Molded Plywood Bench</h2>
