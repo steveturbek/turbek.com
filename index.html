@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Steve Turbek, Designer in Brooklyn</title>
+    <title>Steve Turbek</title>
 
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
@@ -57,7 +57,7 @@
       }
 
       .home-page-item {
-        padding: 100px 0px 0px 0px;
+        /* padding: 100px 0px 0px 0px; */
         box-shadow: 1px 1px 8px #aaa;
         border-radius: 10px;
       }
@@ -68,6 +68,10 @@
         float: none;
         aspect-ratio: 1/1;
         display: flex;
+
+		background-color: #fff;
+		  background-repeat: no-repeat;
+          background-position: center center;
       }
 
       @media screen and (max-width: 1050px) {
@@ -77,9 +81,6 @@
       }
 
       @media screen and (max-width: 400px) {
-        /* #main {
-              gap: 0;
-            } */
         .home-page-item {
           width: 90%;
         }
@@ -107,10 +108,12 @@
         background: transparent;
       }
 
-      .home-page-item a,
-      .article a,
-      .namer {
+      h2, .home-page-item a,
+      .article a{
         font-size: 200%;
+		font-weight:100;
+		margin:0;
+
       }
 
       .home-page-item p a {
@@ -159,9 +162,9 @@
         .titleBlock p {
           display: block;
         }
-      }
-      .home-page-item {
-        padding: 130px 0px 0px 0px;
+        /* .home-page-item {
+          /* padding: 130px 0px 0px 0px; 
+        } */
       }
     </style>
   </head>
@@ -170,24 +173,18 @@
       <div
         class="home-page-item"
         style="
-          background-color: #fff;
           background-image: url('images/TurbekT.svg');
           background-size: 80%;
-          background-repeat: no-repeat;
-          background-position: center 10%;
         "
       >
         <div class="titleBlock">
           <!-- <img src="images/TurbekT.svg" style="width: 100%;"> -->
 
-          <div class="namer">Steve Turbek</div>
-
-          <p>
-            A designer focused on beautiful solutions to complex problems. His
+                      <h2>Steve Turbek</h2>
+					  <p>              A designer focused on beautiful solutions to complex problems. His
             work has appeared in The New York Times, Artforum, Wired, Web
             Techniques, BoxesandArrows.com, SFMOMA, & Eyebeam.
-          </p>
-          <p>
+            <br />
             <b>steve (at) turbek.com</b>
             <a
               href="https://www.linkedin.com/in/steve-turbek-541b891"
@@ -206,12 +203,32 @@
 
       <div
         class="home-page-item"
-        style="
-          background-image: url('images/bubble_calendar_timeless_finger_L.jpg');
-          background-size: cover;
-          background-position: center top;
-        "
+        style="animation: bubbleCalendarAnimation 5s ease-in infinite"
       >
+        <style>
+          @keyframes bubbleCalendarAnimation {
+            0% {
+              background: center top / cover no-repeat
+                url("images/bubble_calendar_timeless_crop.jpg");
+            }
+            45% {
+              background: center top / cover no-repeat
+                url("images/bubble_calendar_timeless_crop.jpg");
+            }
+            50% {
+              background: center top/ cover no-repeat
+                url("images/bubble_calendar_timeless_finger_L.jpg");
+            }
+            95% {
+              background: center top/ cover no-repeat
+                url("images/bubble_calendar_timeless_finger_L.jpg");
+            }
+            100% {
+              background: center / cover no-repeat
+                url("images/bubble_calendar_timeless_crop.jpg");
+            }
+          }
+        </style>
         <div class="titleBlock">
           <a href="https://BubbleCalendar.com"> Bubble Calendar </a>
           <p>
@@ -226,14 +243,34 @@
 
       <div
         class="home-page-item"
-        style="
-          background-image: url('images/hexagon_coffee_table.jpeg');
-          background-size: cover;
-          background-position: center top;
-        "
+        style="animation: parquetAnimation 10s ease-in infinite"
       >
+        <style>
+          @keyframes parquetAnimation {
+            0% {
+              background: center top / cover no-repeat
+                url("images/hexagon_coffee_table.jpeg");
+            }
+            49% {
+              background: center top / cover no-repeat
+                url("images/hexagon_coffee_table.jpeg");
+            }
+            50% {
+              background: center top/ cover no-repeat
+                url("images/hexagon_coffee_table2.jpeg");
+            }
+            99% {
+              background: center top/ cover no-repeat
+                url("images/hexagon_coffee_table2.jpeg");
+            }
+            100% {
+              background: center / cover no-repeat
+                url("images/hexagon_coffee_table.jpeg");
+            }
+          }
+        </style>
         <div class="titleBlock">
-          <a href="https://BubbleCalendar.com"> Parquet Flooring Table</a>
+          <h2> Parquet Flooring Table</h2>
           <p>
             Using leftover flooring as parque tiles to make hexagons. Seemed
             like a good idea in the beginning.
@@ -250,7 +287,7 @@
         "
       >
         <div class="titleBlock">
-          <a href="https://BubbleCalendar.com"> Dovetail Bench </a>
+          <h2> Dovetail Bench </h2>
           <p>
             Seat plates angle inward for comfort. Japanese-inspired joinery.
           </p>
@@ -260,18 +297,37 @@
       <div
         class="home-page-item"
         style="
-          background-image: url('images/felt3.jpg'), url('images/felt2.jpg');
+          background-image: url('images/felt2.jpg');
           background-size: cover;
-          background-position: center top;
+          background-position: center center;
+          animation: FeltAnimation 10s ease-in infinite;
         "
       >
+        <style>
+          @keyframes FeltAnimation {
+            0% {
+              background: center top / cover no-repeat url("images/felt3.jpg");
+            }
+            45% {
+              background: center top / cover no-repeat url("images/felt3.jpg");
+            }
+            50% {
+              background: center top/ cover no-repeat url("images/felt2.jpg");
+            }
+            95% {
+              background: center top/ cover no-repeat url("images/felt2.jpg");
+            }
+            100% {
+              background: center / cover no-repeat url("images/felt3.jpg");
+            }
+          }
+        </style>
         <div class="titleBlock">
-          <a href="images/felt2.jpg">All-felt stool</a>
+          <h2 felt2.jpg>All-felt stool</h2>
           <p>
             Felt is soft, but surprisingly stiff when folded! Tied with string,
             this is a functional stool weighing just 8 pounds.
           </p>
-          <!-- images/felt3.jpg -->
         </div>
       </div>
 
@@ -284,7 +340,7 @@
         "
       >
         <div class="titleBlock">
-          <a href="images/DSC_0070.jpg">"John Deere Green" Table</a>
+          <h2>"John Deere Green" Table</h2>
           <p>
             Using a simple bent metal curve to define a curve. Paint came from a
             happy accident at the shop.
@@ -297,18 +353,45 @@
       <div
         class="home-page-item"
         style="
-          background-image: url('images/IMG_3766.jpg');
+          background-image: url('images/MAME0.jpg');
           background-size: cover;
-          background-position: center top;
+          background-position: center center;
+          animation: MAMEAnimation 10s ease-in infinite;
         "
       >
+        <style>
+          @keyframes MAMEAnimation {
+            0% {
+              background: center top / cover no-repeat url("images/MAME0.jpg");
+            }
+            32% {
+              background: center top / cover no-repeat url("images/MAME0.jpg");
+            }
+            33% {
+              background: center bottom/ cover no-repeat url("images/MAME1.jpg");
+            }
+            64% {
+              background: center bottom / cover no-repeat
+                url("images/MAME1.jpg");
+            }
+            66% {
+              background: left center/ cover no-repeat url("images/MAME2.jpg");
+            }
+            95% {
+              background: left center/ cover no-repeat url("images/MAME2.jpg");
+            }
+            100% {
+              background: center / cover no-repeat url("images/MAME0.jpg");
+            }
+          }
+        </style>
+
         <div class="titleBlock">
-          <a href="images/IMG_3766.jpg">Classic Arcade Game Table</a>
+          <h2>Classic Arcade Game Table</h2>
           <p>
             A family friendly cabinet for the classic RetroPie MAME project. The
             joysticks fold in and the screen is hidden under the mirrored glass.
           </p>
-          <!-- images/IMG_0723.jpg -->
         </div>
       </div>
 
@@ -318,25 +401,70 @@
           background-image: url('images/IMG_1039.jpg');
           background-size: cover;
           background-position: center center;
+          animation: repeteAnimation 10s ease-in infinite;
         "
       >
+        <style>
+          @keyframes repeteAnimation {
+            0% {
+              background: center top / cover no-repeat
+                url("images/IMG_1039.jpg");
+            }
+            48% {
+              background: center top / cover no-repeat
+                url("images/IMG_1039.jpg");
+            }
+            50% {
+              background: center bottom/ cover no-repeat
+                url("images/IMG_1045.jpg");
+            }
+            98% {
+              background: center bottom / cover no-repeat
+                url("images/IMG_1045.jpg");
+            }
+            100% {
+              background: center / cover no-repeat url("images/IMG_1039.jpg");
+            }
+          }
+        </style>
+
         <div class="titleBlock">
-          <a href="images/IMG_1039.jpg">Re-Pete Coffee Table</a>
-          <p>This coffee table system can make tables from 3 to 10 legs.</p>
-          <!-- images/IMG_1045.jpg -->
+          <h2>Re-Pete Coffee Table</h2>
+          <p>This coffee table system can make tables with leg patterns composed from 3 to 10 legs.</p>
         </div>
       </div>
 
       <div
         class="home-page-item"
         style="
-          background-image: url('images/IMG_9859.jpg');
+          background-image: url('images/IMG_9860.jpg');
           background-size: cover;
           background-position: center top;
+		  animation: appleTVAnimation 8s ease-in infinite;
         "
       >
+        <style>
+          @keyframes appleTVAnimation {
+            0% {
+              background: center top / cover no-repeat
+                url("images/IMG_9860.jpg");
+            }
+            2% {
+              background: left top/ cover no-repeat
+                url("images/IMG_9859.jpg");
+            }
+            48% {
+              background: left top / cover no-repeat
+                url("images/IMG_9859.jpg");
+            }
+            50% {
+              background: center / cover no-repeat url("images/IMG_9860.jpg");
+            }
+          }
+        </style>
+
         <div class="titleBlock">
-          <a href="images/IMG_9859.jpg">Apple TV Remote grip</a>
+          <h2>Apple TV Remote grip</h2>
           <p>
             The AppleTV remote has many design flaws, including not being
             obvious which way to hold it and being hard to pick up if your hands
@@ -347,7 +475,7 @@
               >3D printing file is free to download</a
             >
           </p>
-          <!-- images/IMG_9860.jpg -->
+          
         </div>
       </div>
 
@@ -360,14 +488,13 @@
         "
       >
         <div class="titleBlock">
-          <a href="images/IMG_0613.jpg">"White Knight" chain guard</a>
+          <h2>"White Knight" chain guard</h2>
           <p>
             Inspired by a cyclist friend who wears white jeans, this prototype
             chain guard for single speed bikes keeps your pants clean. The
             pattern of circles enables the atachment brackets to fit any
             sprocket.
           </p>
-          <!-- images/IMG_9860.jpg -->
         </div>
       </div>
 
@@ -377,19 +504,44 @@
           background-image: url('images/32.jpg');
           background-size: cover;
           background-position: center top;
+		  animation: RazorfishConferenceAnimation 10s ease-in infinite;
         "
       >
+        <style>
+          @keyframes RazorfishConferenceAnimation {
+            0% {
+              background: center center / cover no-repeat url("images/32.jpg");
+            }
+            2% {
+              background: center center / cover no-repeat url("images/30.jpg");
+            }
+            33% {
+              background: center center/ cover no-repeat url("images/30.jpg");
+            }
+            64% {
+              background: center center / cover no-repeat
+                url("images/31.jpg");
+            }
+            66% {
+              background: center center/ cover no-repeat url("images/31.jpg");
+            }
+            95% {
+              background: center center/ cover no-repeat url("images/32.jpg");
+            }
+            100% {
+              background: center / cover no-repeat url("images/32.jpg");
+            }
+          }
+        </style>
+
         <div class="titleBlock">
-          <a href="images/32.jpg">Razorfish Conference Table</a>
+          <h2>Razorfish Conference Table</h2>
           <p>
             Conferencing tables designed for the Razorfish conference rooms.
             With rollerblade wheel feet, they are easily reconfigured into
             multiple shapes. An aircraft fuel tank stopper can be opened to run
             laptop cables neatly through the leg.
           </p>
-          <!-- images/30.jpg 
-		images/32.jpg
-		-->
         </div>
       </div>
 
@@ -402,9 +554,8 @@
         "
       >
         <div class="titleBlock">
-          <a href="images/happy_feet_artbots.jpg"
-            >"Happy Feet" interactive scultupure</a
-          >
+          <h2>"Happy Feet" interactive scultupure</h2>
+        
           <p>
             (Shown at Art Bots 2003) Happy Feet is an installation of 5 pairs of
             elegant footwear. Each shoe is mechanically articulated, enabling it
@@ -420,14 +571,32 @@
       <div
         class="home-page-item"
         style="
-          background-image: url('images/flat-pack-bench.jpg');
+          background-image: url('images/40.jpg');
           background-size: cover;
           background-position: 10% top;
           background-repeat: no-repeat;
+		  animation: flatpackAnimation 8s ease-in infinite;
         "
       >
+        <style>
+          @keyframes flatpackAnimation {
+            0% {
+              background: center center / cover no-repeat url("images/40.jpg");
+            }
+            2% {
+              background: center center/ contain no-repeat  url("images/39.jpg");
+            }
+            48% {
+              background: center center / contain no-repeat url("images/39.jpg");
+            }
+            50% {
+              background: center / cover no-repeat url("images/40.jpg");
+            }
+          }
+        </style>
+
         <div class="titleBlock">
-          <a href="images/flat-pack-bench.jpg">Flat Pack Bench</a>
+          <h2>Flat Pack Bench</h2>
           <p>
             Inspired by dinner parties with friends, this flat pack bench that
             could be assembled without tools. The sitter's weight locks the
@@ -442,15 +611,31 @@
           background-image: url('images/69.jpg');
           background-size: cover;
           background-position: center top;
+		  animation: fastnerlessAnimation 8s ease-in infinite;
         "
       >
+        <style>
+          @keyframes fastnerlessAnimation {
+            0% {
+              background: center center / cover no-repeat url("images/69.jpg");
+            }
+            2% {
+              background: center center/ cover no-repeat  url("images/70.jpg");
+            }
+            48% {
+              background: center center / cover no-repeat url("images/70.jpg");
+            }
+            50% {
+              background: center / cover no-repeat url("images/69.jpg");
+            }
+          }
+        </style>
         <div class="titleBlock">
-          <a href="images/69.jpg">Fastener-less Shelving</a>
+          <h2 >Fastener-less Shelving</h2>
           <p>
             Non-parallel metal tubes keep the shelves in place without screws.
             The organic forms were derived from the stresses on the supports.
           </p>
-          <!-- <img src="images/70.jpg"> -->
         </div>
       </div>
 
@@ -459,17 +644,33 @@
         style="
           background-image: url('images/71.jpg');
           background-size: cover;
-          background-position: center top;
+          background-position: center center;
+		  animation: carvedChairAnimation 8s ease-in infinite;
         "
       >
+        <style>
+          @keyframes carvedChairAnimation {
+            0% {
+              background: center center / cover no-repeat url("images/71.jpg");
+            }
+            2% {
+              background: center center/ cover no-repeat  url("images/72.jpg");
+            }
+            48% {
+              background: center center / cover no-repeat url("images/72.jpg");
+            }
+            50% {
+              background: center / cover no-repeat url("images/71.jpg");
+            }
+          }
+        </style>
         <div class="titleBlock">
-          <a href="images/71.jpg">Carved Plywood Chair</a>
+          <h2>Carved Plywood Chair</h2>
           <p>
             An organic-form chair from sheet plywood. Seat hollowed out for
             comfort.
           </p>
-          <!-- <img src="images/72.jpg"> -->
-        </div>
+                  </div>
       </div>
 
       <div
@@ -478,15 +679,31 @@
           background-image: url('images/10.jpg');
           background-size: cover;
           background-position: center center;
-        "
+		  animation: moldedBarAnimation 8s ease-in infinite;
+		  "
       >
+        <style>
+          @keyframes moldedBarAnimation {
+            0% {
+              background: center center / cover no-repeat url("images/10.jpg");
+            }
+            2% {
+              background: center center/ cover no-repeat  url("images/09.jpg");
+            }
+            48% {
+              background: center center / cover no-repeat url("images/09.jpg");
+            }
+            50% {
+              background: center / cover no-repeat url("images/10.jpg");
+            }
+          }
+        </style>
         <div class="titleBlock">
-          <a href="images/10.jpg">Curved Plywood Bar</a>
+          <h2 >Curved Plywood Bar</h2>
           <p>
             Custom designed and built, the curved plywood front opens
             dramatically to show contents.
           </p>
-          <!-- <img src="images/09.jpg"> -->
         </div>
       </div>
 
@@ -496,15 +713,31 @@
           background-image: url('images/73.jpg');
           background-size: cover;
           background-position: center center;
-        "
+		  animation: foldingtableAnimation 8s ease-in infinite;
+		  "
       >
+        <style>
+          @keyframes foldingtableAnimation {
+            0% {
+              background: center center / cover no-repeat url("images/73.jpg");
+            }
+            2% {
+              background: center center/ contain no-repeat  url("images/75.jpg");
+            }
+            48% {
+              background: center center / contain no-repeat url("images/75.jpg");
+            }
+            50% {
+              background: center / cover no-repeat url("images/73.jpg");
+            }
+          }
+        </style>
         <div class="titleBlock">
-          <a href="images/73.jpg">Folding Table</a>
+          <h2>Folding Table</h2>
           <p>
             Based on a traditional Shaker design, the table folds into a
             sideboard.
           </p>
-          <!-- <img src="images/75.jpg"> -->
         </div>
       </div>
 
@@ -514,16 +747,33 @@
           background-image: url('images/bench1.jpg');
           background-size: cover;
           background-position: center center;
-        "
+		  animation: moldedBenchAnimation 8s ease-in infinite;
+		  "
       >
+        <style>
+          @keyframes moldedBenchAnimation {
+            0% {
+              background: center center / cover no-repeat url("images/bench1.jpg");
+            }
+            2% {
+              background: center center/ contain no-repeat  url("images/bench2.jpg");
+            }
+            48% {
+              background: center center / contain no-repeat url("images/bench2.jpg");
+            }
+            50% {
+              background: center / cover no-repeat url("images/bench1.jpg");
+            }
+          }
+        </style>
         <div class="titleBlock">
-          <a href="images/bench1.jpg">Molded Plywood Bench</a>
+          <h2>Molded Plywood Bench</h2>
           <p>
             Springy and strong, the plywood forms can be used for home or public
             seating. The single repeated element can create concave or convex
             curves by altering the spacing of the aluminum connectors.
           </p>
-          <!-- <img src="images/bench2.jpg"> -->
+          
         </div>
       </div>
 
@@ -536,7 +786,7 @@
         "
       >
         <div class="titleBlock">
-          <a href="images/80.jpg">Ergonomic Cane Concept</a>
+          <h2>Ergonomic Cane Concept</h2>
           <p>
             Prototype of injection molded frame over aluminum core, with
             neoprene cuff, adjustable along molded ribs.
@@ -550,10 +800,11 @@
           background-image: url('images/88.jpg');
           background-size: cover;
           background-position: center top;
+
         "
       >
         <div class="titleBlock">
-          <a href="images/88.jpg">Pepto Bismol Bottle Concept</a>
+          <h2>Pepto Bismol Bottle Concept</h2>
           <p>
             The amusing shape also served a purpose - the goose neck top
             delivers a measured dose.
@@ -570,7 +821,7 @@
         "
       >
         <div class="titleBlock">
-          <a href="images/86.jpg">Pratt Student Mailboxes</a>
+          <h2 >Pratt Student Mailboxes</h2>
           <p>
             Competition-winning entry for Pratt Architecture student mailboxes.
             Hand made polypropolene.
@@ -588,7 +839,7 @@
         "
       >
         <div class="titleBlock">
-          <a href="images/84.jpg">Timberframe Pavilion</a>
+          <h2 84.jpg">Timberframe Pavilion</h2>
           <p>
             Designed and built in the summer of 1992-3, this structure combines
             traditional timberframe joints with unusual geometry.
@@ -601,7 +852,7 @@
         class="home-page-item"
         style="
           background-image: url('images/homepage.drstrange.jpg');
-          background-position: left center;
+          background-position: 20% top;
         "
       >
         <div class="titleBlock">
