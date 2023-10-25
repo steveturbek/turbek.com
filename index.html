@@ -56,7 +56,7 @@
         margin-top: 1em;
       }
 
-      .home-page-item {
+      .home-page-item, .article {
         /* padding: 100px 0px 0px 0px; */
         box-shadow: 1px 1px 8px #aaa;
         border-radius: 10px;
@@ -81,16 +81,36 @@
         }
       }
 
+
       @media screen and (max-width: 400px) {
         .home-page-item {
           width: 95%;
 		  /* padding-top: 20%; */
         }
-
-        .article {
-          width: 80%;
-        }
       }
+
+      .titleBlock {
+        background: rgba(255, 255, 255, 0.90);
+        padding: 10px;
+        text-align: left;
+        align-self: flex-end;
+        width: 100%;
+        border-radius: 0 0 10px 10px;
+      }
+
+      .article {
+          width: 95%;
+          background-color: red;
+          margin-left:auto;
+          margin-right:auto;
+          margin-top: 1em;
+        }
+    .article  .titleBlock {
+        background: rgba(255, 255, 255, 1);
+        width: 95%;
+        border-radius: 10px;
+    }
+
 
       a:link,
       a:visited {
@@ -130,20 +150,6 @@
       .home-page-item p i,
       .article p i {
         white-space: nowrap;
-      }
-
-      .article {
-        width: 80%;
-        background-color: #fff;
-      }
-
-      .titleBlock {
-        background: rgba(255, 255, 255, 0.90);
-        padding: 10px;
-        text-align: left;
-        align-self: flex-end;
-        width: 100%;
-        border-radius: 0 0 10px 10px;
       }
 
       .home-page-item p,
@@ -466,7 +472,7 @@
       >
         <style>
 			#carvedplywoodchair{background: center center / cover no-repeat url("images/71.jpg");}
-			#carvedplywoodchair:hover{   background: center center / 80% no-repeat url("images/72.jpg"), white;;}
+			#carvedplywoodchair:hover{   background: center center / 80% no-repeat url("images/72.jpg"), white;}
         </style>
         <div class="titleBlock">
           <h2>Carved Plywood Chair</h2>
@@ -939,14 +945,12 @@
           <i> 2000-ish</i>
         </div>
       </div>
+    </div>
 
-      <div style="clear: both; width: 100%; text-align: center; margin-top: 5%">
-        <div
-          style="clear: both; font-size: 300%; font-weight: 100; margin: auto"
-        >
+<div class="olderessays" style="clear: both; width: 100%; text-align: center; margin-top: 5%">
+        <div style="font-size: 300%; font-weight: 100; margin: auto" >
           Older Essays
         </div>
-      </div>
 
       <div class="article">
         <div class="titleBlock">
