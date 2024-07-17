@@ -68,34 +68,43 @@
         float: none;
         aspect-ratio: 1/1;
         display: flex;
-
-		background-color: #fff;
-		background-repeat: no-repeat;
-		background-position: center center;
-		background-size: cover;
+        /* background-color: #fff; */
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
       }
 
       @media screen and (max-width: 1050px) {
         .home-page-item {
           width: 48%;
         }
+
+        .titleBlock {
+        background: rgba(255, 255, 255, 0.90);
+        padding: 10px;
+        text-align: left;
+        align-self: flex-end;
+        width: 100%;
+        border-radius: 10px 10px 0px 0px;
+      }
       }
 
 
-      @media screen and (max-width: 400px) {
+      @media screen and (max-width: 500px) {
         .home-page-item {
           width: 95%;
 		  /* padding-top: 20%; */
         }
       }
 
+    
       .titleBlock {
         background: rgba(255, 255, 255, 0.90);
         padding: 10px;
         text-align: left;
-        align-self: flex-end;
+        align-self: flex-start;
         width: 100%;
-        border-radius: 0 0 10px 10px;
+        border-radius: 10px 10px 0px 0px;
       }
 
       .article {
@@ -130,7 +139,7 @@
         background: transparent;
       }
 
-      h2, .home-page-item a,
+      h1, h2, .home-page-item a,
       .article a{
         font-size: 200%;
 		font-weight:200;
@@ -181,34 +190,105 @@
       <div
         class="home-page-item"
         style="
+        box-shadow: none;
           background-image: url('images/TurbekT.svg');
-          background-size: 80%;
+          background-size: 100%;
+          border-radius: 0;
         "
       >
-        <div class="titleBlock">
-          <!-- <img src="images/TurbekT.svg" style="width: 100%;"> -->
+       
+      </div>
 
-                      <h2>Steve Turbek</h2>
-					  <p>              A designer focused on beautiful solutions to complex problems. His
-            work has appeared in The New York Times, Artforum, Wired, Web
-            Techniques, BoxesandArrows.com, SFMOMA, & Eyebeam.
-            <br />
-            <b>steve (at) turbek.com</b>
-            <a
-              href="https://www.linkedin.com/in/steve-turbek-541b891"
-              style="margin: left 5px"
-              >LinkedIn</a
-            >
-            <a
-              href="https://www.instagram.com/steveturbek/"
-              class=""
-              style="margin: left 5px"
-              >@SteveTurbek</a
-            >
+
+
+      <div
+      class="home-page-item" id="intro"
+      style="
+      box-shadow: none;
+      display: block;
+      text-align: left;
+      "
+    >
+
+    <style>
+      #intro a  {
+        font-size: 100%;
+        display: block  ;
+      }
+      #intro h1  {
+        font-size: 300%; 
+      }
+
+      /* @media screen and (max-width: 500px) { */
+      /*fix visual to make tighter on mobile */
+      #intro   {
+        aspect-ratio: 2/1;
+      }
+    /* } */
+    </style>
+    
+            <h1>Steve Turbek</h1>
+<br>
+                     A designer focused on beautiful solutions to complex problems. His
+          work has appeared in The New York Times, Artforum, Wired, Web
+          Techniques, BoxesandArrows.com, SFMOMA, & Eyebeam.
+          <br />
+          <br />
+          steve (at) turbek.com
+          <a
+            href="https://www.linkedin.com/in/steve-turbek-541b891"
+            style="margin: left 5px"
+            >LinkedIn</a
+          >
+          <a
+            href="https://www.instagram.com/steveturbek/"
+            class=""
+            style="margin: left 5px"
+            >@SteveTurbek</a
+          >
+        
+    </div>
+
+
+
+      <div
+        class="home-page-item"
+        id="mechanical-library"
+      >
+        <style>
+		#mechanical-library {background: center top / cover no-repeat
+                url("images/universal-joint-display.jpg");                
+		}
+
+		#mechanical-library:hover{
+		    background: center / cover no-repeat
+                url("images/belt-chain-display.jpg");
+		}
+
+    /* #mechanical-library video { */
+  /* width: 100%;
+  height: 100%; */
+  /* position: absolute; */
+  /* object-fit:cover;
+  z-index: 0;
+} */
+        </style>
+<!-- 
+<video autoplay="" muted="" loop="" playsinline="" class="TitlePanel-video">
+  <source src="images/universal-joint-display.mp4" type="video/mp4">
+</video> -->
+
+        <div class="titleBlock">
+          <h2>Mechanical Library </h2>
+          <p>
+            A “Wall of Mechanisms” museum exhibit of motorized physical models; with a website of information, videos, and 3D models to explain how they work. The cabinets are designed to travel to schools and museums to support STEM education.
+            <br><br>
+            More at <a href="https://Mechanical-Library.org"> Mechanical-Library.org</a>
           </p>
         </div>
       </div>
 
+      <!--------------------------------------------------->
       <div
         class="home-page-item"
         id="bubbleCalendar"
@@ -224,9 +304,12 @@
 		}
         </style>
         <div class="titleBlock">
-          <a href="https://BubbleCalendar.com"> Bubble Calendar </a>
+          <h2>Bubble Calendar</h2>
           <p>
-            A poster-sized calendar with a bubble to pop every day! (Now discontinued, was sold through MOMA, Uncommon Goods, & Amazon)
+            A poster-sized calendar with a bubble to pop every day! (Now discontinued, was sold through MOMA, Uncommon Goods, & Amazon).
+
+            <br><br>
+            More at <a href="https://BubbleCalendar.com">BubbleCalendar.com</a>
           </p>
         </div>
       </div>
@@ -247,18 +330,21 @@
         <div class="titleBlock">
           <h2> Parquet Flooring Table</h2>
           <p>
-            Using leftover flooring as parque tiles to make hexagons. Seemed
-            like a good idea in the beginning.
+            Using leftover flooring as parque tiles to make hexagons tables. 
           </p>
         </div>
       </div>
 
       <div
-        class="home-page-item"
-        style="background-image: url('images/bench.jpeg');"
-      >
+        class="home-page-item" id="live-edge-bench" >
+      <style>
+        #live-edge-bench{ background-image: url('images/live-edge-bench_01.jpg');}
+        #live-edge-bench:hover{background: center top / cover no-repeat url("images/live-edge-bench_03.jpg");}
+          </style>
+
+
         <div class="titleBlock">
-          <h2> Dovetail Bench </h2>
+          <h2> Live Edge Bench </h2>
           <p>
             Seat plates angle inward for comfort. Japanese-inspired joinery.
           </p>
@@ -270,7 +356,7 @@
         >
         <style>
 			#felt{ background-image: url('images/felt2.jpg');}
-			#felt:hover{background: center top / cover no-repeat url("images/felt3.jpg");}
+			#felt:hover{background: center top / cover no-repeat url("images/felt3.jpg");}x
         </style>
         <div class="titleBlock">
           <h2 felt2.jpg>All-felt stool</h2>
@@ -291,10 +377,9 @@
 	</style>
 
         <div class="titleBlock">
-          <h2>"John Deere Green" Table</h2>
+          <h2>"Tractor Green" Table</h2>
           <p>
-            Using a simple bent metal curve to define a curve. Paint came from a
-            happy accident at the shop.
+            Rotating a simple metal curve defined a form with interesting positive and negative spaces. Paint color came from a happy accident at the paint shop.
           </p>
         </div>
       </div>
