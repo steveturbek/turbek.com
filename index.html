@@ -56,19 +56,82 @@
         margin-top: 1em;
       }
 
-      .home-page-item, .article {
-        /* padding: 100px 0px 0px 0px; */
+
+      .new-home-page-item, .article {
         box-shadow: 1px 1px 8px #aaa;
         border-radius: 10px;
       }
-
-      .home-page-item {
+      
+.new-home-page-item { 
         width: 30%;
-        /* margin: 1%; */
+        float: none;
+        background-color: #fff;
+        text-align: left;
+        }
+
+      
+
+      @media screen and (max-width: 1050px) {
+        /* tablet */
+        .new-home-page-item {
+          width: 48%;
+        }
+      }
+
+      @media screen and (max-width: 500px) {
+        /* phone */
+        .new-home-page-item {
+          width: 95%;
+        }
+      }
+
+
+
+      .new-home-page-item h2{
+        padding-left: 10px;
+      }
+
+      .flex-container {
+       display: -webkit-box;
+       display: -moz-box;
+       display: -ms-flexbox;
+       display: -webkit-flex;
+       display: flex;
+       flex-flow:row;
+        float: none;
+        aspect-ratio: 1/1;
+        overflow-x: auto;
+        box-shadow: inset 0 0 10px #000;
+        -webkit-overflow-scrolling:touch;  
+        border-radius: 10px 10px 0px  0px ;      
+        
+   }
+   .flex-container div {
+      width:95%;
+       background-size: cover;
+       background-position:0% 50%; 
+       background-repeat: no-repeat;
+       /* background-image: ; */
+       transition: all 0.6s ease;
+       flex:none;
+       -webkit-flex:none;
+   }
+   .flex-container div p{
+    margin: 10px; 
+    font-size: 120%;
+    }
+
+
+
+  
+/* --------------------------------------- */
+      /* .home-page-item {
+        width: 30%;
+        
         float: none;
         aspect-ratio: 1/1;
         display: flex;
-        /* background-color: #fff; */
+        
         background-repeat: no-repeat;
         background-position: center center;
         background-size: cover;
@@ -95,7 +158,7 @@
       @media screen and (max-width: 500px) {
         .home-page-item {
           width: 95%;
-		  /* padding-top: 20%; */
+	
         }
 
         .titleBlock {
@@ -104,7 +167,7 @@
       }
       }
 
-    
+     */
   
 
       .article {
@@ -186,48 +249,36 @@
     </style>
   </head>
   <body>
-    <div id="main">
-      <div
-        class="home-page-item"
-        style="
+     <div id="main">
+   <div
+        class="new-home-page-item" id="logo"
+        style="        
+        aspect-ratio: 1/1;
         box-shadow: none;
+        background-color: transparent;
           background-image: url('images/TurbekT.svg');
           background-size: 100%;
           border-radius: 0;
+          background-repeat: no-repeat;
+          background-position: center ;
         "
-      >
-       
-      </div>
+      ></div>
 
 
 
       <div
-      class="home-page-item" id="intro"
+      class="new-home-page-item" id="intro"
       style="
       box-shadow: none;
+      background-color: transparent;
       display: block;
       text-align: left;
+      padding-top: 5px;
       "
     >
 
-    <style>
-      #intro a  {
-        font-size: 100%;
-        display: block  ;
-      }
-      #intro h1  {
-        font-size: 300%; 
-      }
-
-      /* @media screen and (max-width: 500px) { */
-      /*fix visual to make tighter on mobile */
-      #intro   {
-        aspect-ratio: 2/1;
-      }
-    /* } */
-    </style>
     
-            <h1>Steve Turbek</h1>
+            <h1 style="font-size: 300%; ">Steve Turbek</h1>
                      A designer focused on beautiful solutions to complex problems. His
           work has appeared in The New York Times, Artforum, Wired, Web
           Techniques, BoxesandArrows.com, SFMOMA, & Eyebeam.
@@ -246,291 +297,255 @@
             >@SteveTurbek</a
           >
         
-    </div>
+    </div> 
 
 
-
-      <div
-        class="home-page-item"
-        id="mechanical-library"
-      >
-        <style>
-		#mechanical-library {background: center top / cover no-repeat
-                url("images/universal-joint-display.jpg");                
-		}
-
-		#mechanical-library:hover{
-		    background: center / cover no-repeat
-                url("images/belt-chain-display.jpg");
-		}
-
-    /* #mechanical-library video { */
-  /* width: 100%;
-  height: 100%; */
-  /* position: absolute; */
-  /* object-fit:cover;
-  z-index: 0;
-} */
-        </style>
-<!-- 
-<video autoplay="" muted="" loop="" playsinline="" class="TitlePanel-video">
-  <source src="images/universal-joint-display.mp4" type="video/mp4">
-</video> -->
-
-        <div class="titleBlock">
-          <h2>Mechanical Library </h2>
-          <p>
-            A “Wall of Mechanisms” museum exhibit of motorized physical models; with a website of information, videos, and 3D models to explain how they work. The cabinets are designed to travel to schools and museums to support STEM education.
-            <br><br>
-            More at <a href="https://Mechanical-Library.org"> Mechanical-Library.org</a>
-          </p>
-        </div>
+  <div class="new-home-page-item">
+    <div class="flex-container">    
+      <div style="background-image: url('images/universal-joint-display.jpg')"></div>
+      <div>
+      <p>
+        A museum exhibit to introduce students to Mechanical Engineering using motorized physical models. A connected website explains how they work and where they appear using  videos, and 3D models. The cabinets are designed to travel to schools and museums to support STEM education.
+        <br><br>
+        More at <a href="https://Mechanical-Library.org">Mechanical-Library.org</a>
+      </p>
       </div>
-
+      <div style="background-image: url('images/belt-chain-display.jpg')"></div>
+    </div>
+    <h2>Mechanical Library</h2>
+  </div>
       <!--------------------------------------------------->
-      <div
-        class="home-page-item"
-        id="bubbleCalendar"
-      >
-        <style>
-		#bubbleCalendar {background: center top / cover no-repeat
-                url("images/bubble_calendar_timeless_crop.jpg");
-		}
 
-		#bubbleCalendar:hover{
-		    background: center / cover no-repeat
-                url("images/bubble_calendar_timeless_finger_L.jpg");
-		}
-        </style>
-        <div class="titleBlock">
-          <h2>Bubble Calendar</h2>
+
+      <div class="new-home-page-item">
+        <div class="flex-container">    
+          <div style="background-image: url('images/bubble_calendar_timeless_crop.jpg')"></div>
+          <div>
           <p>
             A poster-sized calendar with a bubble to pop every day! (Now discontinued, was sold through MOMA, Uncommon Goods, & Amazon).
 
             <br><br>
             More at <a href="https://BubbleCalendar.com">BubbleCalendar.com</a>
           </p>
+          </div>
+          <div style="background-image: url('images/bubble_calendar_timeless_finger_L.jpg')"></div>
         </div>
+        <h2>Bubble Calendar</h2>
       </div>
+          <!--------------------------------------------------->
 
-      <div
-        class="home-page-item" id="parquet"      >
-        <style>
-
-#parquet{background: center top / cover no-repeat
-                url("images/hexagon_coffee_table.jpeg");}
-
-#parquet:hover{
-	background: center top / cover no-repeat
-                url("images/hexagon_coffee_table2.jpeg");
-}
-
-        </style>
-        <div class="titleBlock">
-          <h2> Parquet Flooring Table</h2>
-          <p>
-            Using leftover flooring as parque tiles to make hexagons tables. 
-          </p>
-        </div>
-      </div>
-
-      <div
-        class="home-page-item" id="live-edge-bench" >
-      <style>
-        #live-edge-bench{ background-image: url('images/live-edge-bench_01.jpg');}
-        #live-edge-bench:hover{background: center top / cover no-repeat url("images/live-edge-bench_03.jpg");}
-          </style>
-
-
-        <div class="titleBlock">
-          <h2> Live Edge Bench </h2>
-          <p>
-            Seat plates angle inward for comfort. Japanese-inspired joinery.
-          </p>
-        </div>
-      </div>
-
-      <div
-        class="home-page-item" id="felt"
-        >
-        <style>
-			#felt{ background-image: url('images/felt2.jpg');}
-			#felt:hover{background: center top / cover no-repeat url("images/felt3.jpg");}x
-        </style>
-        <div class="titleBlock">
-          <h2 felt2.jpg>All-felt stool</h2>
-          <p>
-            Felt is soft, but surprisingly stiff when folded! Tied with string,
-            this is a functional stool weighing just 8 pounds.
-          </p>
-        </div>
-      </div>
-
-      <div
-        class="home-page-item" id="JohnGreene"
-      >
-
-	  <style>
-		#JohnGreene{ background: right center / 250% no-repeat url('images/DSC_0070.jpg');}
-		#JohnGreene:hover{background: center top / cover no-repeat url("images/IMG_1891.jpg");}
-	</style>
-
-        <div class="titleBlock">
-          <h2>"Tractor Green" Table</h2>
-          <p>
-            Rotating a simple metal curve defined a form with interesting positive and negative spaces. Paint color came from a happy accident at the paint shop.
-          </p>
-        </div>
-      </div>
-
-      <div
-        class="home-page-item" id="mame" 
-      >
-        <style>
-			#mame { background: center bottom / cover no-repeat url("images/MAME0.jpg");}
-			#mame:hover,#mame.hover {  background: center bottom / cover no-repeat url("images/MAME3.jpg");			}
           
-			/* animation: MAMEAnimation 5s ease-in infinite;
-			@keyframes MAMEAnimation {
-			0% {
-              background: center bottom / cover no-repeat url("images/MAME1.jpg");
-            }
-            45% {
-              background: center bottom / cover no-repeat url("images/MAME1.jpg");
-            }
-            50% {
-              background: center top/ cover no-repeat url("images/MAME2.jpg");
-            }
-            95% {
-              background: center top/ cover no-repeat url("images/MAME2.jpg");
-            }
-            100% {
-              background: center / cover no-repeat url("images/MAME1.jpg");
-            } 
-          }*/
-        </style>
-
-        <div class="titleBlock">
-          <h2>Classic Arcade Game Table</h2>
-          <p>
-            A family friendly cabinet for the classic RetroPie MAME project. The
-            joysticks fold in and the screen is hidden under the mirrored glass.
-          </p>
-        </div>
-      </div>
-
-      <div class="home-page-item" id="repete"
-      >
-        <style>
-			#repete{background-image: url('images/IMG_1039.jpg');}
-			#repete:hover{             background: center top / cover no-repeat
-                url("images/IMG_1045.jpg");}
-        </style>
-
-        <div class="titleBlock">
-          <h2>Re-Pete Coffee Table</h2>
-          <p>This coffee table system can make tables with leg patterns composed from 3 to 10 legs.</p>
-        </div>
-      </div>
-
-      <div
-        class="home-page-item" id="tvremote"
-      >
-        <style>
-			#tvremote{background-image: url('images/IMG_9859.jpg');}
-			#tvremote:hover{ background: left top / cover no-repeat url("images/IMG_9860.jpg");}
-        </style>
-
-        <div class="titleBlock">
-          <h2>Apple TV Remote grip</h2>
-          <p>
-            The AppleTV remote has many design flaws, including not being
-            obvious which way to hold it and being hard to pick up if your hands
-            are not so young. This prototype grip clips onto the remote, giving
-            a clear front and back and raising it off the surface.
-            <a
-              href="http://turbek.com/projects/SteveTurbek_3KindsOfSimplicity.stl.zip"
-              >3D printing file is free to download</a
-            >
-          </p>
           
-        </div>
-      </div>
-
-      <div
-        class="home-page-item"
-        style="background-image: url('images/IMG_0613.jpg');"
-      >
-        <div class="titleBlock">
-          <h2>"White Knight" chain guard</h2>
+      <div class="new-home-page-item">
+        <div class="flex-container">    
+          <div style="background-image: url('images/hexagon_coffee_table.jpeg')"></div>
+          <div>
           <p>
-            Inspired by a cyclist friend who wears white jeans, this prototype
-            chain guard for single speed bikes keeps your pants clean. The
-            pattern of circles enables the atachment brackets to fit any
-            sprocket.
+            Using leftover flooring to make hexagons tables. 
           </p>
+          </div>
+          <div style="background-image: url('images/hexagon_coffee_table2.jpeg')"></div>
         </div>
+        <h2>Hex Flooring Table</h2>
       </div>
+          <!--------------------------------------------------->
 
-      <div
-        class="home-page-item" id="razorfishComferenceTable"
-      >
-        <style>
-			#razorfishComferenceTable{ background: center center / cover no-repeat url("images/32.jpg"); }
-			#razorfishComferenceTable:hover{ background: center center / cover no-repeat url("images/31.jpg");   }
 
-        </style>
 
-        <div class="titleBlock">
-          <h2>Razorfish Conference Table</h2>
-          <p>
-            Conferencing tables designed for the Razorfish conference rooms.
-            With rollerblade wheel feet, they are easily reconfigured into
-            multiple shapes. An aircraft fuel tank stopper can be opened to run
-            laptop cables neatly through the leg.
-          </p>
-        </div>
-      </div>
-
-      <div
-        class="home-page-item"
-        style="
-          background-image: url('images/happy_feet_artbots.jpg');
-          background-position: center top;
-        "
-      >
-        <div class="titleBlock">
-          <h2>"Happy Feet" interactive scultupure</h2>
+          <div class="new-home-page-item">
+            <div class="flex-container">    
+              <div style="background-image: url('images/live-edge-bench_01.jpg')"></div>
+              <div>
+              <p>
+                Reclaimed American Mahogony with Japanese-inspired joinery.  Seat plates angle inward for comfort.
+              </p>
+              </div>
+              <div style="background-image: url('images/live-edge-bench_03.jpg')"></div>
+            </div>
+            <h2>Live Edge Bench</h2>
+          </div>
+              <!--------------------------------------------------->
         
-          <p>
-            (Shown at Art Bots 2003) Happy Feet is an installation of 5 pairs of
-            elegant footwear. Each shoe is mechanically articulated, enabling it
-            to tap. The shoes are then free to dance, to create chorus line
-            patterns, to interact with the audience. When unattended, the articulated
-            shoes to tap rhythms. When a person steps on the foot pads, the
-            shoes copy their steps.
-          </p>
-        </div>
-      </div>
+        
 
-      <div
-        class="home-page-item" id="flatpack"
-      >
-        <style>
-			#flatpack{			background: center center / cover no-repeat url("images/40.jpg");}
-			#flatpack:hover{   background: top center / contain no-repeat url("images/39.jpg"), white;}
-        </style>
+              <div class="new-home-page-item">
+                <div class="flex-container">    
+                  <div style="background-image: url('images/felt2.jpg')"></div>
+                  <div>
+                  <p>
+                    Felt is soft, but surprisingly stiff when folded! Tied with string,
+            this is a functional stool weighing just 8 pounds.
+                  </p>
+                  </div>
+                  <div style="background-image: url('images/felt3.jpg')"></div>
+                </div>
+                <h2>All-felt stool</h2>
+              </div>
+                  <!--------------------------------------------------->
+            
+            
+    
 
-        <div class="titleBlock">
-          <h2>Flat Pack Bench</h2>
-          <p>
-            Inspired by dinner parties with friends, this flat pack bench that
+                  <div class="new-home-page-item">
+                    <div class="flex-container">    
+                      <div style="background-image: url('images/DSC_0070.jpg')"></div>
+                      <div>
+                      <p>
+                        A 2D metal curve repeated in three dimensions defines a form with interesting positive and negative spaces. Paint color came from a happy accident at the paint shop.
+                      </p>
+                      </div>
+                      <div style="background-image: url('images/IMG_1891.jpg')"></div>
+                    </div>
+                    <h2>"Tractor Green" Table</h2>
+                  </div>
+                      <!--------------------------------------------------->
+                
+                
+                      
+
+
+                      <div class="new-home-page-item">
+                        <div class="flex-container">    
+                          <div style="background-image: url('images/MAME0.jpg')"></div>
+                          <div>
+                          <p>
+                            A table for the classic 80's arcade games that fits into a stylish living room. The
+            joysticks fold under the screen of the mirrored glass.
+                          </p>
+                          </div>
+                          <div style="background-image: url('images/MAME3.jpg')"></div>
+                          <div style="background-image: url('images/MAME2.jpg')"></div>
+                        </div>
+                        <h2>Classic Arcade Table</h2>
+                      </div>
+                          <!--------------------------------------------------->
+
+
+                        <div class="new-home-page-item">
+                          <div class="flex-container">    
+                            <div style="background-image: url('images/IMG_1039.jpg')"></div>
+                            <div>
+                            <p>
+                            This coffee table system can make tables with leg patterns composed from 3 to 10 legs.
+                            </p>
+                            </div>
+                            <div style="background-image: url('images/IMG_1045.jpg')"></div>
+                                                      </div>
+                          <h2>Re-Pete Coffee Table</h2>
+                        </div>
+                            <!--------------------------------------------------->
+                              
+                          
+                      <div class="new-home-page-item">
+                        <div class="flex-container">    
+                          <div style="background-image: url('images/IMG_9859.jpg')"></div>
+                          <div>
+                          <p>
+                            The 2018 Apple TV remote has many design flaws, including not being
+                            obvious which way to hold it and being hard to pick up. This prototype grip clips onto the remote, givinga clear front and back and raising it off the surface.
+                            <br>
+                            <a
+                              href="http://turbek.com/projects/SteveTurbek_3KindsOfSimplicity.stl.zip"
+                              >3D printing file is free to download</a
+                            >
+                          </p>
+                          </div>
+                          <div style="background-image: url('images/IMG_9860.jpg')"></div>
+                                                    </div>
+                                                    <h2>Apple TV Remote grip</h2>
+                      </div>
+                          <!--------------------------------------------------->
+                              
+
+                          
+                          
+                      <div class="new-home-page-item">
+                        <div class="flex-container">    
+                          <div style="background-image: url('images/IMG_0613.jpg')"></div>
+                          <div>
+                          <p>
+                            Inspired by a cyclist friend who wears white jeans, this prototype
+                            chain guard for single speed bikes keeps your pants clean. The
+                            pattern of circles enables the atachment brackets to fit any
+                            sprocket.
+                          </p>
+                          </div>
+                          
+                                                    </div>
+                                                    <h2>"White Knight"</h2>
+                      </div>
+                          <!--------------------------------------------------->
+                              
+
+    
+                          
+                          
+                          <div class="new-home-page-item">
+                            <div class="flex-container">    
+                              <div style="background-image: url('images/32.jpg')"></div>
+                              <div>
+                              <p>
+                                Conferencing tables designed for the Razorfish conference rooms.
+                                With rollerblade wheel feet, they are easily reconfigured into
+                                multiple shapes. An aircraft fuel tank stopper can be opened to run
+                                laptop cables neatly through the leg.
+                              </p>
+                              </div>
+                              <div style="background-image: url('images/31.jpg')"></div>                              
+                                                        </div>
+                                                        <h2>Conference Table</h2>
+                          </div>
+                              <!--------------------------------------------------->
+                                  
+    
+                              
+                               
+
+    
+                          
+                          
+                          <div class="new-home-page-item">
+                            <div class="flex-container">    
+                              <div style="background-image: url('images/happy_feet_artbots.jpg')"></div>
+                              <div>
+                              <p>
+                                (Shown at Art Bots 2003) Happy Feet is an installation of 5 pairs of
+                                elegant footwear. Each shoe is mechanically articulated, enabling it
+                                to tap. The shoes are then free to dance, to create chorus line
+                                patterns, to interact with the audience. When unattended, the articulated
+                                shoes to tap rhythms. When a person steps on the foot pads, the
+                                shoes copy their steps.
+                              </p>
+                              </div>
+                              <div style="background-image: url('images/happyfeet_girl2.jpeg')"></div>                              
+                                                        </div>
+                                                        <h2>"Happy Feet"</h2>
+                          </div>
+                              <!--------------------------------------------------->
+                                  
+    
+                          
+                              <div class="new-home-page-item">
+                                <div class="flex-container">    
+                                  <div style="background-image: url('images/40.jpg')"></div>
+                                  <div>
+                                  <p>
+                                    Inspired by dinner parties with friends, this flat pack bench that
             could be assembled without tools. The sitter's weight locks the
             wooden rods in place.
-          </p>
-        </div>
-      </div>
+                                  </p>
+                                  </div>
+                                  <div style="background-image: url('images/39.jpg')"></div>                              
+                                                            </div>
+                                                            <h2>Flat Pack Bench</h2>
+                              </div>
+                                  <!--------------------------------------------------->
+                                      
+        
+                              
+                              
 
+                              
       <div
         class="home-page-item" id="fastenerless"
       >
