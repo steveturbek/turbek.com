@@ -56,20 +56,18 @@
         margin-top: 1em;
       }
 
-
-      .new-home-page-item, .article {
+      .new-home-page-item,
+      .article {
         box-shadow: 1px 1px 8px #aaa;
         border-radius: 10px;
       }
-      
-.new-home-page-item { 
+
+      .new-home-page-item {
         width: 30%;
         float: none;
         background-color: #fff;
         text-align: left;
-        }
-
-      
+      }
 
       @media screen and (max-width: 1050px) {
         /* tablet */
@@ -85,104 +83,96 @@
         }
       }
 
-
-
-      .new-home-page-item h2{
+      .new-home-page-item h2 {
         padding-left: 10px;
       }
 
       .flex-container {
-       display: -webkit-box;
-       display: -moz-box;
-       display: -ms-flexbox;
-       display: -webkit-flex;
-       display: flex;
-       flex-flow:row;
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        flex-flow: row;
         float: none;
         aspect-ratio: 1/1;
         overflow-x: auto;
         box-shadow: inset 0 0 10px #000;
-        -webkit-overflow-scrolling:touch;  
-        border-radius: 10px 10px 0px  0px ;      
-        
-   }
-   .flex-container div {
-      width:95%;
-       background-size: cover;
-       background-position:0% 50%; 
-       background-repeat: no-repeat;
-       /* background-image: ; */
-       transition: all 0.6s ease;
-       flex:none;
-       -webkit-flex:none;
-   }
-   .flex-container div p{
-    margin: 10px; 
-    font-size: 120%;
-    }
-
-
-
-  
-/* --------------------------------------- */
-      /* .home-page-item {
-        width: 30%;
-        
-        float: none;
-        aspect-ratio: 1/1;
-        display: flex;
-        
-        background-repeat: no-repeat;
-        background-position: center center;
-        background-size: cover;
-      }
-
-      @media screen and (max-width: 1050px) {
-        .home-page-item {
-          width: 48%;
-        }
-
-
-      }
-
-
-      .titleBlock {
-        background: rgba(255, 255, 255, 0.90);
-        padding: 10px;
-        text-align: left;
-        align-self: flex-end;
-        width: 100%;
-        border-radius: 0px 0px 10px 10px;
-      }
-
-      @media screen and (max-width: 500px) {
-        .home-page-item {
-          width: 95%;
-	
-        }
-
-        .titleBlock {
-        align-self: flex-start;
+        -webkit-overflow-scrolling: touch;
         border-radius: 10px 10px 0px 0px;
       }
+      .flex-container div {
+        width: 95%;
+        background-size: cover;
+        background-position: 0% 50%;
+        background-repeat: no-repeat;
+        /* background-image: ; */
+        transition: all 0.6s ease;
+        flex: none;
+        -webkit-flex: none;
+      }
+      .flex-container div p {
+        margin: 10px;
+        font-size: 120%;
       }
 
-     */
-  
+      /* --------------------------------------- */
+      .home-page-item {
+width: 30%;
+border-radius: 10px;
+float: none;
+aspect-ratio: 1/1;
+display: flex;
+
+background-repeat: no-repeat;
+background-position: center center;
+background-size: cover;
+}
+
+@media screen and (max-width: 1050px) {
+.home-page-item {
+width: 48%;
+}
+
+
+}
+
+
+.titleBlock {
+background: rgba(255, 255, 255, 0.90);
+padding: 10px;
+text-align: left;
+align-self: flex-end;
+width: 100%;
+border-radius: 0px 0px 10px 10px;
+}
+
+@media screen and (max-width: 500px) {
+.home-page-item {
+width: 95%;
+
+}
+
+.titleBlock {
+align-self: flex-start;
+border-radius: 10px 10px 0px 0px;
+}
+}
+
+
 
       .article {
-          width: 95%;
-          background-color: #fff;
-          margin-left:auto;
-          margin-right:auto;
-          margin-top: 1em;
-        }
-    .article  .titleBlock {
+        width: 95%;
+        background-color: #fff;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1em;
+      }
+      .article .titleBlock {
         background: rgba(255, 255, 255, 1);
         width: 95%;
         border-radius: 10px;
-    }
-
+      }
 
       a:link,
       a:visited {
@@ -202,12 +192,13 @@
         background: transparent;
       }
 
-      h1, h2, .home-page-item a,
-      .article a{
+      h1,
+      h2,
+      .home-page-item a,
+      .article a {
         font-size: 200%;
-		font-weight:200;
-		margin:0;
-
+        font-weight: 200;
+        margin: 0;
       }
 
       .home-page-item p a {
@@ -215,9 +206,9 @@
       }
 
       /* .home-page-item p, .article p {
-          margin:0;
-           display: inline;
-          } */
+margin:0;
+display: inline;
+} */
 
       .home-page-item p i,
       .article p i {
@@ -243,809 +234,826 @@
           display: block;
         }
         /* .home-page-item {
-          /* padding: 130px 0px 0px 0px; 
-        } */
+/* padding: 130px 0px 0px 0px; 
+} */
       }
     </style>
   </head>
   <body>
-     <div id="main">
-   <div
-        class="new-home-page-item" id="logo"
-        style="        
-        aspect-ratio: 1/1;
-        box-shadow: none;
-        background-color: transparent;
+    <div id="main">
+      <div
+        class="new-home-page-item"
+        id="logo"
+        style="
+          aspect-ratio: 1/1;
+          box-shadow: none;
+          background-color: transparent;
           background-image: url('images/TurbekT.svg');
           background-size: 100%;
           border-radius: 0;
           background-repeat: no-repeat;
-          background-position: center ;
+          background-position: center;
         "
       ></div>
 
-
-
       <div
-      class="new-home-page-item" id="intro"
-      style="
-      box-shadow: none;
-      background-color: transparent;
-      display: block;
-      text-align: left;
-      padding-top: 5px;
-      "
-    >
-
-    
-            <h1 style="font-size: 300%; ">Steve Turbek</h1>
-                     A designer focused on beautiful solutions to complex problems. His
-          work has appeared in The New York Times, Artforum, Wired, Web
-          Techniques, BoxesandArrows.com, SFMOMA, & Eyebeam.
-          <br />
-          <br />
-          steve (at) turbek.com
-          <a
-            href="https://www.linkedin.com/in/steve-turbek-541b891"
-            style="margin: left 5px"
-            >LinkedIn</a
-          >
-          <a
-            href="https://www.instagram.com/steveturbek/"
-            class=""
-            style="margin: left 5px"
-            >@SteveTurbek</a
-          >
-        
-    </div> 
-
-
-  <div class="new-home-page-item">
-    <div class="flex-container">    
-      <div style="background-image: url('images/universal-joint-display.jpg')"></div>
-      <div>
-      <p>
-        A museum exhibit to introduce students to Mechanical Engineering using motorized physical models. A connected website explains how they work and where they appear using  videos, and 3D models. The cabinets are designed to travel to schools and museums to support STEM education.
-        <br><br>
-        More at <a href="https://Mechanical-Library.org">Mechanical-Library.org</a>
-      </p>
+        class="new-home-page-item"
+        id="intro"
+        style="
+          box-shadow: none;
+          background-color: transparent;
+          display: block;
+          text-align: left;
+          padding-top: 5px;
+        "
+      >
+        <h1 style="font-size: 300%">Steve Turbek</h1>
+        A designer focused on beautiful solutions to complex problems. His work
+        has appeared in The New York Times, Artforum, Wired, Web Techniques,
+        BoxesandArrows.com, SFMOMA, & Eyebeam.
+        <br />
+        <br />
+        steve (at) turbek.com
+        <a
+          href="https://www.linkedin.com/in/steve-turbek-541b891"
+          style="margin: left 5px"
+          >LinkedIn</a
+        >
+        <a
+          href="https://www.instagram.com/steveturbek/"
+          class=""
+          style="margin: left 5px"
+          >@SteveTurbek</a
+        >
       </div>
-      <div style="background-image: url('images/belt-chain-display.jpg')"></div>
-    </div>
-    <h2>Mechanical Library</h2>
-  </div>
-      <!--------------------------------------------------->
-
 
       <div class="new-home-page-item">
-        <div class="flex-container">    
-          <div style="background-image: url('images/bubble_calendar_timeless_crop.jpg')"></div>
+        <div class="flex-container">
+          <div
+            style="background-image: url('images/universal-joint-display.jpg')"
+          ></div>
           <div>
-          <p>
-            A poster-sized calendar with a bubble to pop every day! (Now discontinued, was sold through MOMA, Uncommon Goods, & Amazon).
-
-            <br><br>
-            More at <a href="https://BubbleCalendar.com">BubbleCalendar.com</a>
-          </p>
+            <p>
+              A museum exhibit to introduce students to Mechanical Engineering
+              using motorized physical models. A connected website explains how
+              they work and where they appear using videos, and 3D models. The
+              cabinets are designed to travel to schools and museums to support
+              STEM education.
+              <br /><br />
+              More at
+              <a href="https://Mechanical-Library.org"
+                >Mechanical-Library.org</a
+              >
+            </p>
           </div>
-          <div style="background-image: url('images/bubble_calendar_timeless_finger_L.jpg')"></div>
+          <div
+            style="background-image: url('images/belt-chain-display.jpg')"
+          ></div>
+        </div>
+        <h2>Mechanical Library</h2>
+      </div>
+      <!--------------------------------------------------->
+
+      <div class="new-home-page-item">
+        <div class="flex-container">
+          <div
+            style="
+              background-image: url('images/bubble_calendar_timeless_crop.jpg');
+            "
+          ></div>
+          <div>
+            <p>
+              A poster-sized calendar with a bubble to pop every day! (Now
+              discontinued, was sold through MOMA, Uncommon Goods, & Amazon).
+
+              <br /><br />
+              More at
+              <a href="https://BubbleCalendar.com">BubbleCalendar.com</a>
+            </p>
+          </div>
+          <div
+            style="
+              background-image: url('images/bubble_calendar_timeless_finger_L.jpg');
+            "
+          ></div>
         </div>
         <h2>Bubble Calendar</h2>
       </div>
-          <!--------------------------------------------------->
+      <!--------------------------------------------------->
 
-          
-          
       <div class="new-home-page-item">
-        <div class="flex-container">    
-          <div style="background-image: url('images/hexagon_coffee_table.jpeg')"></div>
+        <div class="flex-container">
+          <div
+            style="background-image: url('images/hexagon_coffee_table.jpeg')"
+          ></div>
           <div>
-          <p>
-            Using leftover flooring to make hexagons tables. 
-          </p>
+            <p>Using leftover flooring to make hexagons tables.</p>
           </div>
-          <div style="background-image: url('images/hexagon_coffee_table2.jpeg')"></div>
+          <div
+            style="background-image: url('images/hexagon_coffee_table2.jpeg')"
+          ></div>
         </div>
         <h2>Hex Flooring Table</h2>
       </div>
-          <!--------------------------------------------------->
+      <!--------------------------------------------------->
 
-
-
-          <div class="new-home-page-item">
-            <div class="flex-container">    
-              <div style="background-image: url('images/live-edge-bench_01.jpg')"></div>
-              <div>
-              <p>
-                Reclaimed American Mahogony with Japanese-inspired joinery.  Seat plates angle inward for comfort.
-              </p>
-              </div>
-              <div style="background-image: url('images/live-edge-bench_03.jpg')"></div>
-            </div>
-            <h2>Live Edge Bench</h2>
+      <div class="new-home-page-item">
+        <div class="flex-container">
+          <div
+            style="background-image: url('images/live-edge-bench_01.jpg')"
+          ></div>
+          <div>
+            <p>
+              Reclaimed American Mahogony with Japanese-inspired joinery. Seat
+              plates angle inward for comfort.
+            </p>
           </div>
-              <!--------------------------------------------------->
-        
-        
-
-              <div class="new-home-page-item">
-                <div class="flex-container">    
-                  <div style="background-image: url('images/felt2.jpg')"></div>
-                  <div>
-                  <p>
-                    Felt is soft, but surprisingly stiff when folded! Tied with string,
-            this is a functional stool weighing just 8 pounds.
-                  </p>
-                  </div>
-                  <div style="background-image: url('images/felt3.jpg')"></div>
-                </div>
-                <h2>All-felt stool</h2>
-              </div>
-                  <!--------------------------------------------------->
-            
-            
-    
-
-                  <div class="new-home-page-item">
-                    <div class="flex-container">    
-                      <div style="background-image: url('images/DSC_0070.jpg')"></div>
-                      <div>
-                      <p>
-                        A 2D metal curve repeated in three dimensions defines a form with interesting positive and negative spaces. Paint color came from a happy accident at the paint shop.
-                      </p>
-                      </div>
-                      <div style="background-image: url('images/IMG_1891.jpg')"></div>
-                    </div>
-                    <h2>"Tractor Green" Table</h2>
-                  </div>
-                      <!--------------------------------------------------->
-                
-                
-                      
-
-
-                      <div class="new-home-page-item">
-                        <div class="flex-container">    
-                          <div style="background-image: url('images/MAME0.jpg')"></div>
-                          <div>
-                          <p>
-                            A table for the classic 80's arcade games that fits into a stylish living room. The
-            joysticks fold under the screen of the mirrored glass.
-                          </p>
-                          </div>
-                          <div style="background-image: url('images/MAME3.jpg')"></div>
-                          <div style="background-image: url('images/MAME2.jpg')"></div>
-                        </div>
-                        <h2>Classic Arcade Table</h2>
-                      </div>
-                          <!--------------------------------------------------->
-
-
-                        <div class="new-home-page-item">
-                          <div class="flex-container">    
-                            <div style="background-image: url('images/IMG_1039.jpg')"></div>
-                            <div>
-                            <p>
-                            This coffee table system can make tables with leg patterns composed from 3 to 10 legs.
-                            </p>
-                            </div>
-                            <div style="background-image: url('images/IMG_1045.jpg')"></div>
-                                                      </div>
-                          <h2>Re-Pete Coffee Table</h2>
-                        </div>
-                            <!--------------------------------------------------->
-                              
-                          
-                      <div class="new-home-page-item">
-                        <div class="flex-container">    
-                          <div style="background-image: url('images/IMG_9859.jpg')"></div>
-                          <div>
-                          <p>
-                            The 2018 Apple TV remote has many design flaws, including not being
-                            obvious which way to hold it and being hard to pick up. This prototype grip clips onto the remote, givinga clear front and back and raising it off the surface.
-                            <br>
-                            <a
-                              href="http://turbek.com/projects/SteveTurbek_3KindsOfSimplicity.stl.zip"
-                              >3D printing file is free to download</a
-                            >
-                          </p>
-                          </div>
-                          <div style="background-image: url('images/IMG_9860.jpg')"></div>
-                                                    </div>
-                                                    <h2>Apple TV Remote grip</h2>
-                      </div>
-                          <!--------------------------------------------------->
-                              
-
-                          
-                          
-                      <div class="new-home-page-item">
-                        <div class="flex-container">    
-                          <div style="background-image: url('images/IMG_0613.jpg')"></div>
-                          <div>
-                          <p>
-                            Inspired by a cyclist friend who wears white jeans, this prototype
-                            chain guard for single speed bikes keeps your pants clean. The
-                            pattern of circles enables the atachment brackets to fit any
-                            sprocket.
-                          </p>
-                          </div>
-                          
-                                                    </div>
-                                                    <h2>"White Knight"</h2>
-                      </div>
-                          <!--------------------------------------------------->
-                              
-
-    
-                          
-                          
-                          <div class="new-home-page-item">
-                            <div class="flex-container">    
-                              <div style="background-image: url('images/32.jpg')"></div>
-                              <div>
-                              <p>
-                                Conferencing tables designed for the Razorfish conference rooms.
-                                With rollerblade wheel feet, they are easily reconfigured into
-                                multiple shapes. An aircraft fuel tank stopper can be opened to run
-                                laptop cables neatly through the leg.
-                              </p>
-                              </div>
-                              <div style="background-image: url('images/31.jpg')"></div>                              
-                                                        </div>
-                                                        <h2>Conference Table</h2>
-                          </div>
-                              <!--------------------------------------------------->
-                                  
-    
-                              
-                               
-
-    
-                          
-                          
-                          <div class="new-home-page-item">
-                            <div class="flex-container">    
-                              <div style="background-image: url('images/happy_feet_artbots.jpg')"></div>
-                              <div>
-                              <p>
-                                (Shown at Art Bots 2003) Happy Feet is an installation of 5 pairs of
-                                elegant footwear. Each shoe is mechanically articulated, enabling it
-                                to tap. The shoes are then free to dance, to create chorus line
-                                patterns, to interact with the audience. When unattended, the articulated
-                                shoes to tap rhythms. When a person steps on the foot pads, the
-                                shoes copy their steps.
-                              </p>
-                              </div>
-                              <div style="background-image: url('images/happyfeet_girl2.jpeg')"></div>                              
-                                                        </div>
-                                                        <h2>"Happy Feet"</h2>
-                          </div>
-                              <!--------------------------------------------------->
-                                  
-    
-                          
-                              <div class="new-home-page-item">
-                                <div class="flex-container">    
-                                  <div style="background-image: url('images/40.jpg')"></div>
-                                  <div>
-                                  <p>
-                                    Inspired by dinner parties with friends, this flat pack bench that
-            could be assembled without tools. The sitter's weight locks the
-            wooden rods in place.
-                                  </p>
-                                  </div>
-                                  <div style="background-image: url('images/39.jpg')"></div>                              
-                                                            </div>
-                                                            <h2>Flat Pack Bench</h2>
-                              </div>
-                                  <!--------------------------------------------------->
-                                      
-        
-                              
-                              
-
-                              
-      <div
-        class="home-page-item" id="fastenerless"
-      >
-        <style>
-			#fastenerless{background: center center / cover no-repeat url("images/70.jpg");}
-			#fastenerless:hover{   background: center center / cover no-repeat url("images/69.jpg");}
-        </style>
-        <div class="titleBlock">
-          <h2 >Fastener-less Shelving</h2>
-          <p>
-            Non-parallel metal tubes keep the shelves in place without screws.
-            The organic forms were derived from the stresses on the supports.
-          </p>
+          <div
+            style="background-image: url('images/live-edge-bench_03.jpg')"
+          ></div>
         </div>
+        <h2>Live Edge Bench</h2>
       </div>
+      <!--------------------------------------------------->
 
-      <div
-        class="home-page-item" id="carvedplywoodchair"
-      >
-        <style>
-			#carvedplywoodchair{background: center center / cover no-repeat url("images/71.jpg");}
-			#carvedplywoodchair:hover{   background: center center / 80% no-repeat url("images/72.jpg"), white;}
-        </style>
-        <div class="titleBlock">
-          <h2>Carved Plywood Chair</h2>
-          <p>
-            An organic-form chair from sheet plywood. Seat hollowed out for
-            comfort.
-          </p>
-                  </div>
-      </div>
-
-      <div
-        class="home-page-item" id="moldedbar"
-      >
-	  <style>
-		#moldedbar{background: center center / cover no-repeat url("images/10.jpg");}
-		#moldedbar:hover{   background: center center / cover no-repeat url("images/09.jpg");}
-	</style>
-        <div class="titleBlock">
-          <h2 >Curved Plywood Bar</h2>
-          <p>
-            Custom designed and built, the curved plywood front opens
-            dramatically to show contents.
-          </p>
+      <div class="new-home-page-item">
+        <div class="flex-container">
+          <div style="background-image: url('images/felt2.jpg')"></div>
+          <div>
+            <p>
+              Felt is soft, but surprisingly stiff when folded! Tied with
+              string, this is a functional stool weighing just 8 pounds.
+            </p>
+          </div>
+          <div style="background-image: url('images/felt3.jpg')"></div>
         </div>
+        <h2>All-felt stool</h2>
       </div>
+      <!--------------------------------------------------->
 
-      <div
-        class="home-page-item" id="foldingtable"
-      >
-        <style>
-		#foldingtable{background: center center / cover no-repeat url("images/73.jpg");}
-		#foldingtable:hover{   background: center center / contain no-repeat url("images/75.jpg"), white;}
-        </style>
-        <div class="titleBlock">
-          <h2>Folding Table</h2>
-          <p>
-            Based on a traditional Shaker design, the table folds into a
-            sideboard.
-          </p>
+      <div class="new-home-page-item">
+        <div class="flex-container">
+          <div style="background-image: url('images/DSC_0070.jpg')"></div>
+          <div>
+            <p>
+              A 2D metal curve repeated in three dimensions defines a form with
+              interesting positive and negative spaces. Paint color came from a
+              happy accident at the paint shop.
+            </p>
+          </div>
+          <div style="background-image: url('images/IMG_1891.jpg')"></div>
         </div>
+        <h2>"Tractor Green" Table</h2>
       </div>
+      <!--------------------------------------------------->
 
-      <div
-        class="home-page-item" id="moldedBench"
-      >
-        <style>
-		#moldedBench{background: center center / cover no-repeat url("images/bench1.jpg");}
-		#moldedBench:hover{   background: center top / contain no-repeat url("images/bench2.jpg"), white;}
-
-        </style>
-        <div class="titleBlock">
-          <h2>Molded Plywood Bench</h2>
-          <p>
-            Springy and strong, the plywood forms can be used for home or public
-            seating. The single repeated element can create concave or convex
-            curves by altering the spacing of the aluminum connectors.
-          </p>
-          
+      <div class="new-home-page-item">
+        <div class="flex-container">
+          <div style="background-image: url('images/MAME0.jpg')"></div>
+          <div>
+            <p>
+              A table for the classic 80's arcade games that fits into a stylish
+              living room. The joysticks fold under the screen of the mirrored
+              glass.
+            </p>
+          </div>
+          <div style="background-image: url('images/MAME3.jpg')"></div>
+          <div style="background-image: url('images/MAME2.jpg')"></div>
         </div>
+        <h2>Classic Arcade Table</h2>
       </div>
+      <!--------------------------------------------------->
 
-      <div
-        class="home-page-item"
-        style="
-          background-image: url('images/80.jpg');
-          background-size: cover;
-          background-position: center center;
-        "
-      >
-        <div class="titleBlock">
-          <h2>Ergonomic Cane Concept</h2>
-          <p>
-            Prototype of injection molded frame over aluminum core, with
-            neoprene cuff, adjustable along molded ribs.
-          </p>
+      <div class="new-home-page-item">
+        <div class="flex-container">
+          <div style="background-image: url('images/IMG_1039.jpg')"></div>
+          <div>
+            <p>
+              This coffee table system can make tables with leg patterns
+              composed from 3 to 10 legs.
+            </p>
+          </div>
+          <div style="background-image: url('images/IMG_1045.jpg')"></div>
         </div>
+        <h2>Re-Pete Coffee Table</h2>
       </div>
+      <!--------------------------------------------------->
 
-      <div
-        class="home-page-item"
-        style="
-          background-image: url('images/88.jpg');
-          background-size: cover;
-          background-position: center top;
-
-        "
-      >
-        <div class="titleBlock">
-          <h2>Pepto Bismol Bottle Concept</h2>
-          <p>
-            The amusing shape also served a purpose - the goose neck top
-            delivers a measured dose.
-          </p>
+      <div class="new-home-page-item">
+        <div class="flex-container">
+          <div style="background-image: url('images/IMG_9859.jpg')"></div>
+          <div>
+            <p>
+              The 2018 Apple TV remote has many design flaws, including not
+              being obvious which way to hold it and being hard to pick up. This
+              prototype grip clips onto the remote, givinga clear front and back
+              and raising it off the surface.
+              <br />
+              <a
+                href="http://turbek.com/projects/SteveTurbek_3KindsOfSimplicity.stl.zip"
+                >3D printing file is free to download</a
+              >
+            </p>
+          </div>
+          <div style="background-image: url('images/IMG_9860.jpg')"></div>
         </div>
+        <h2>Apple TV Remote grip</h2>
       </div>
+      <!--------------------------------------------------->
 
-      <div
-        class="home-page-item"
-        style="
-          background-image: url('images/86.jpg');
-          background-size: cover;
-          background-position: center top;
-        "
-      >
-        <div class="titleBlock">
-          <h2 >Pratt Student Mailboxes</h2>
-          <p>
-            Competition-winning entry for Pratt Architecture student mailboxes.
-            Hand made polypropolene.
-          </p>
-          <!-- <img src="images/85.jpg"> -->
+      <div class="new-home-page-item">
+        <div class="flex-container">
+          <div style="background-image: url('images/IMG_0613.jpg')"></div>
+          <div>
+            <p>
+              Inspired by a cyclist friend who wears white jeans, this prototype
+              chain guard for single speed bikes keeps your pants clean. The
+              pattern of circles enables the atachment brackets to fit any
+              sprocket.
+            </p>
+          </div>
         </div>
+        <h2>"White Knight"</h2>
       </div>
+      <!--------------------------------------------------->
 
-      <div
-        class="home-page-item"
-        style="
-          background-image: url('images/84.jpg');
-          background-size: cover;
-          background-position: center top;
-        "
-      >
-        <div class="titleBlock">
-          <h2 84.jpg">Timberframe Pavilion</h2>
-          <p>
-            Designed and built in the summer of 1992-3, this structure combines
-            traditional timberframe joints with unusual geometry.
-          </p>
-          <!-- <img src="images/85.jpg"> -->
+      <div class="new-home-page-item">
+        <div class="flex-container">
+          <div style="background-image: url('images/32.jpg')"></div>
+          <div>
+            <p>
+              Conferencing tables designed for the Razorfish conference rooms.
+              With rollerblade wheel feet, they are easily reconfigured into
+              multiple shapes. An aircraft fuel tank stopper can be opened to
+              run laptop cables neatly through the leg.
+            </p>
+          </div>
+          <div style="background-image: url('images/31.jpg')"></div>
         </div>
+        <h2>Conference Table</h2>
       </div>
+      <!--------------------------------------------------->
 
-      <div
-        class="home-page-item"
-        style="
-          background-image: url('images/homepage.drstrange.jpg');
-          background-position: 20% top;
-        "
-      >
-        <div class="titleBlock">
-          <a
-            href="https://www.uxmatters.com/mt/archives/2018/12/resisting-the-lure-of-dark-magic-in-user-interface-design.php"
-            >Dark Magic in User-Interface Design
-          </a>
-
-          <p>
-            Magic is powerful, but as we all know, it also has a dark side.
-            Could today's trend toward magical user experiences like gestures
-            and voice spell doom for users?
-          </p>
-          <i> 3 Dec 2018 </i>
+      <div class="new-home-page-item">
+        <div class="flex-container">
+          <div
+            style="background-image: url('images/happy_feet_artbots.jpg')"
+          ></div>
+          <div>
+            <p>
+              (Shown at Art Bots 2003) Happy Feet is an installation of 5 pairs
+              of elegant footwear. Each shoe is mechanically articulated,
+              enabling it to tap. The shoes are then free to dance, to create
+              chorus line patterns, to interact with the audience. When
+              unattended, the articulated shoes to tap rhythms. When a person
+              steps on the foot pads, the shoes copy their steps.
+            </p>
+          </div>
+          <div
+            style="background-image: url('images/happyfeet_girl2.jpeg')"
+          ></div>
         </div>
+        <h2>"Happy Feet"</h2>
       </div>
+      <!--------------------------------------------------->
 
-      <div
-        class="home-page-item"
-        style="
-          background-image: url('images/homepage.make_the_commercial_first02.png');
-          background-size: cover;
-          background-position: right bottom;
-        "
-      >
-        <div class="titleBlock">
-          <a href="http://boxesandarrows.com/make-the-commercial-first/"
-            >Make the Commercial First</a
-          >
-
-          <p>
-            Designers unique skill set can go beyond designing the UI of an
-            existing product idea. Their tools and techniques can be adapted to
-            define the product itself though early testing.
-          </p>
-          <i> 14 Apr 2017 </i>
+      <div class="new-home-page-item">
+        <div class="flex-container">
+          <div style="background-image: url('images/40.jpg')"></div>
+          <div>
+            <p>
+              Inspired by dinner parties with friends, this flat pack bench that
+              could be assembled without tools. The sitter's weight locks the
+              wooden rods in place.
+            </p>
+          </div>
+          <div style="background-image: url('images/39.jpg')"></div>
         </div>
+        <h2>Flat Pack Bench</h2>
       </div>
+      <!--------------------------------------------------->
 
-      <div
-        class="home-page-item"
-        style="
-          background-image: url('images/homepage.remotes.jpg');
-          background-size: cover;
-          background-position: left center;
-        "
-      >
-        <div class="titleBlock">
-          <a
-            href="http://www.uxmatters.com/mt/archives/2017/03/3-kinds-of-simplicity.php"
-            >3 Kinds of Simplicity</a
-          >
-
-          <p>
-            Remote controls are a great way to engage non-designers. These three
-            examples show the difference between Engineering simplicity,
-            Conceptual simplicity, and Aesthetic simplicity.
-          </p>
-          <i> 10 Mar 2017 </i>
+      <div class="new-home-page-item">
+        <div class="flex-container">
+          <div style="background-image: url('images/70.jpg')"></div>
+          <div>
+            <p>
+              Non-parallel metal tubes keep the shelves in place without screws.
+              The organic forms were derived from the stresses on the supports.
+            </p>
+          </div>
+          <div style="background-image: url('images/69.jpg')"></div>
         </div>
+        <h2>Fastener-less Shelving</h2>
       </div>
+      <!--------------------------------------------------->
 
-      <div
-        class="home-page-item"
-        style="
-          background-image: url('images/homepage.solving_sol.jpg');
-          background-size: cover;
-        "
-      >
-        <div class="titleBlock">
-          <a href="https://steveturbek.github.io/solving-sol/237/invisiblemaze/"
-            >#237 The location of a trapezoid</a
-          >
-
-          <p>Submission to solvingsol.com, the Sol LeWitt tribute in code.</p>
-          <i> 10 Mar 2017 </i>
+      <div class="new-home-page-item">
+        <div class="flex-container">
+          <div style="background-image: url('images/71.jpg')"></div>
+          <div>
+            <p>
+              An organic-form chair from carved layers of sheet plywood. Seat
+              hollowed out for comfort.
+            </p>
+          </div>
+          <div style="background-image: url('images/72.jpg')"></div>
         </div>
+        <h2>Carved Plywood Chair</h2>
       </div>
+      <!--------------------------------------------------->
 
-      <div
-        class="home-page-item"
-        style="
-          background-image: url('images/homepage.parallelogram.jpg');
-          background-size: cover;
-        "
-      >
-        <div class="titleBlock">
-          <a href="https://steveturbek.github.io/solving-sol/238/invisiblemaze/"
-            >#238 The location of a parallelogram</a
-          >
-          <p>Submission to solvingsol.com, the Sol LeWitt tribute in code.</p>
-          <i> 10 Mar 2017 </i>
+      <div class="new-home-page-item">
+        <div class="flex-container">
+          <div style="background-image: url('images/10.jpg')"></div>
+          <div>
+            <p>
+              Custom designed and built, the curved plywood front dramatically
+              swings open to show contents.
+            </p>
+          </div>
+          <div style="background-image: url('images/09.jpg')"></div>
         </div>
+        <h2>Curved Plywood Bar</h2>
       </div>
+      <!--------------------------------------------------->
 
-      <div
-        class="home-page-item"
-        style="
-          background-image: url('images/LeadByVisual_image01-1024x680.jpg');
-          background-size: cover;
-          background-position: center center;
-        "
-      >
-        <div class="titleBlock">
-          <a href="https://boxesandarrows.com/unleash-your-visual-superpower/	">
-            Unleash Your Visual Superpower!
-          </a>
-          <p>
-            How enterprise designers can use their special abilities to shape
-            product strategy
-          </p>
-          <i> 17 Nov 2015 </i>
+      <div class="new-home-page-item">
+        <div class="flex-container">
+          <div style="background-image: url('images/73.jpg')"></div>
+          <div>
+            <p>
+              A traditional Shaker sideboard-table updated with organic forms.
+            </p>
+          </div>
+          <div style="background-image: url('images/75.jpg')"></div>
         </div>
+        <h2>Folding Table</h2>
       </div>
+      <!--------------------------------------------------->
 
-      <div
-        class="home-page-item"
-        style="
-          background-image: url('images/homepage.plateau.jpg');
-          background-size: cover;
-          background-position: center top;
-        "
-      >
-        <div class="titleBlock">
-          <a
-            href="http://boxesandarrows.com/plateaus-are-harder-than-mountains/"
-          >
-            Plateaus are Harder Than Mountains
-          </a>
-          <p>How can design help real people use data in their lives?</p>
-          <i> 16 Dec 2014 </i>
+      <div class="new-home-page-item">
+        <div class="flex-container">
+          <div style="background-image: url('images/bench1.jpg')"></div>
+          <div>
+            <p>
+              Springy and strong, the plywood forms can be used for home or
+              public seating. The single repeated element can create concave or
+              convex curves by altering the spacing of the aluminum connectors.
+            </p>
+          </div>
+          <div style="background-image: url('images/bench2.jpg')"></div>
         </div>
+        <h2>Molded Plywood Bench</h2>
       </div>
+      <!--------------------------------------------------->
 
-      <div
-        class="home-page-item"
-        style="
-          background-image: url('images/homepage.blob_game.jpg');
-          background-size: cover;
-          background-position: center top;
-        "
-      >
-        <div class="titleBlock">
-          <a href="/projects/amoeba/">Sketch for a blob game </a>
-          <p>
-            Experiment to generate amoeba like creatures using bezier curves in
-            javascript / HTML canvas
-          </p>
-          <i> 27 Dec 2014 </i>
+      <div class="new-home-page-item">
+        <div class="flex-container">
+          <div
+            style="
+              background-position: center center;
+              background-image: url('images/80.jpg');
+            "
+          ></div>
+          <div>
+            <p>
+              Prototype of injection molded frame over aluminum core, with
+              neoprene cuff, adjustable along molded ribs.
+            </p>
+          </div>
         </div>
+        <h2>Cane Concept</h2>
       </div>
+      <!--------------------------------------------------->
 
+      <div class="new-home-page-item">
+        <div class="flex-container">
+          <div style="background-image: url('images/88.jpg')"></div>
+          <div>
+            <p>
+              The amusing shape also served a purpose - the goose neck top
+              delivers a measured dose.
+            </p>
+          </div>
+        </div>
+        <h2>Pepto Bismol Bottle</h2>
+      </div>
+      <!--------------------------------------------------->
+
+      <div class="new-home-page-item">
+        <div class="flex-container">
+          <div style="background-image: url('images/86.jpg')"></div>
+          <div>
+            <p>
+              Competition-winning entry for Pratt Architecture student
+              mailboxes. Hand made polypropolene.
+            </p>
+            <div style="background-image: url('images/85.jpg')"></div>
+          </div>
+        </div>
+        <h2>Pratt Student Mailboxes</h2>
+      </div>
+      <!--------------------------------------------------->
+
+      <div class="new-home-page-item">
+        <div class="flex-container">
+          <div style="background-image: url('images/84.jpg')"></div>
+          <div>
+            <p>
+              Designed and built in the summer of 1992-3, this structure
+              combines traditional timberframe joints with unusual geometry.
+            </p>
+            <!-- <div style="background-image: url('images/85.jpg')"></div> -->
+          </div>
+        </div>
+        <h2>Timberframe Pavilion</h2>
+      </div>
+      <!--------------------------------------------------->
+<!-- 
       <div
-        class="home-page-item"
-        style="
-          background-image: url('images/homepage.invisibleMaze.png');
-          background-size: cover;
-          background-position: center top;
-        "
-      >
-        <div class="titleBlock">
-          <a href="projects/maze/index.html"> Invisible Maze game </a>
-          <p>
-            A fun little puzzle iPhone game.
+        class="essays"
+        style="clear: both; width: 100%; text-align: center; margin-top: 5%"
+      > -->
 
-            <br /><br />
-            Formerly an iPhone app, it now works in Safari / Chrome. For
-            desktop, use the arrow keys to steer.
 
-            <br />
-            <a href="articles/2013/invisible_maze.html">
-              Notes about the development of the Invisible Maze game
+
+
+        <div style="font-size: 300%; font-weight: 100; width:100%; margin: auto">
+          Essays
+        </div>
+
+
+
+
+
+        <div
+          class="home-page-item"
+          style="
+            background-image: url('images/homepage.drstrange.jpg');
+            background-position: 20% top;
+          "
+        >
+          <div class="titleBlock">
+            <a
+              href="https://www.uxmatters.com/mt/archives/2018/12/resisting-the-lure-of-dark-magic-in-user-interface-design.php"
+              >Dark Magic in User-Interface Design
             </a>
-          </p>
-          <i> 7 march 2014 </i>
-        </div>
-      </div>
 
-      <div
-        class="home-page-item"
-        style="
-          background-image: url('images/homepage.in_house_agency.svg');
-          background-size: cover;
-          background-position: center top;
-        "
-      >
-        <div class="titleBlock">
-          <a
-            href="https://boxesandarrows.com/recruiting-your-army-creating-the-in-house-design-agency/"
-          >
-            Building the In-house Design Agency
-          </a>
-          <p>Getting the best of both worlds</p>
-          <i> 19 Dec 2013 </i>
+            <p>
+              Magic is powerful, but as we all know, it also has a dark side.
+              Could today's trend toward magical user experiences like gestures
+              and voice spell doom for users?
+            </p>
+            <i> 3 Dec 2018 </i>
+          </div>
         </div>
-      </div>
 
-      <div
-        class="home-page-item"
-        style="
-          background-image: url('images/homepage.soldiers.svg');
-          background-size: cover;
-          background-position: right top;
-        "
-      >
-        <div class="titleBlock">
-          <a
-            href="https://boxesandarrows.com/delivering-ux-agency-in-house-teams-individuals/"
-          >
-            Soldiers & Hessians, Ronin & Ninja
-          </a>
-          <p>
-            UX team organization can make or break a company's design strategy
-          </p>
-          <i> 26 Nov 2013 </i>
+        <div
+          class="home-page-item"
+          style="
+            background-image: url('images/homepage.make_the_commercial_first02.png');
+            background-size: cover;
+            background-position: right bottom;
+          "
+        >
+          <div class="titleBlock">
+            <a href="http://boxesandarrows.com/make-the-commercial-first/"
+              >Make the Commercial First</a
+            >
+
+            <p>
+              Designers unique skill set can go beyond designing the UI of an
+              existing product idea. Their tools and techniques can be adapted
+              to define the product itself though early testing.
+            </p>
+            <i> 14 Apr 2017 </i>
+          </div>
         </div>
-      </div>
 
-      <div
-        class="home-page-item"
-        style="
-          background-image: url('images/homepage.The_Shirt_System_sewing_pattern.svg');
-          background-size: cover;
-          background-position: top center;
-        "
-      >
-        <div class="titleBlock">
-          <a
-            href="https://boxesandarrows.com/are-design-patterns-an-anti-pattern/"
-          >
-            Are Design Patterns an Anti-pattern?</a
-          >
-          <p>
-            In a world of limited resources, code beats pictures. (published at
-            BoxesAndArrows.com)
-          </p>
-          <i> 16 Jan 2012 </i>
+        <div
+          class="home-page-item"
+          style="
+            background-image: url('images/homepage.remotes.jpg');
+            background-size: cover;
+            background-position: left center;
+          "
+        >
+          <div class="titleBlock">
+            <a
+              href="http://www.uxmatters.com/mt/archives/2017/03/3-kinds-of-simplicity.php"
+              >3 Kinds of Simplicity</a
+            >
+
+            <p>
+              Remote controls are a great way to engage non-designers. These
+              three examples show the difference between Engineering simplicity,
+              Conceptual simplicity, and Aesthetic simplicity.
+            </p>
+            <i> 10 Mar 2017 </i>
+          </div>
         </div>
-      </div>
 
-      <div
-        class="home-page-item"
-        style="
-          background-image: url('images/homepage.chart_test.svg');
-          background-size: cover;
-          background-position: left top;
-        "
-      >
-        <div class="titleBlock">
-          <a href="projects/chart-test/index.html">
-            Testing Charts via a game</a
-          >
-          <p>
-            How good are you at reading charts? Which chart is the best? I
-            created a small game to test chart skills and get some hard numbers
-            on how well each chart works, including styles. Everyone says that
-            pie charts are bad. But how bad? Let's find out.
-          </p>
-          <i> 18 January 2012 </i>
+        <div
+          class="home-page-item"
+          style="
+            background-image: url('images/homepage.solving_sol.jpg');
+            background-size: cover;
+          "
+        >
+          <div class="titleBlock">
+            <a
+              href="https://steveturbek.github.io/solving-sol/237/invisiblemaze/"
+              >#237 The location of a trapezoid</a
+            >
+
+            <p>Submission to solvingsol.com, the Sol LeWitt tribute in code.</p>
+            <i> 10 Mar 2017 </i>
+          </div>
         </div>
-      </div>
 
-      <div
-        class="home-page-item"
-        style="
-          background-image: url('images/homepage.coffee.jpg');
-          background-size: cover;
-          background-position: left top;
-        "
-      >
-        <div class="titleBlock">
-          <a href="articles/2012/usability-of-coffee.html">
-            Usability, User Experience, and Coffee</a
-          >
-          <p>When Bad Usability is Good User Experience</p>
-          <i> 04 January 2012 </i>
+        <div
+          class="home-page-item"
+          style="
+            background-image: url('images/homepage.parallelogram.jpg');
+            background-size: cover;
+          "
+        >
+          <div class="titleBlock">
+            <a
+              href="https://steveturbek.github.io/solving-sol/238/invisiblemaze/"
+              >#238 The location of a parallelogram</a
+            >
+            <p>Submission to solvingsol.com, the Sol LeWitt tribute in code.</p>
+            <i> 10 Mar 2017 </i>
+          </div>
         </div>
-      </div>
 
-      <div
-        class="home-page-item"
-        style="
-          background-image: url('images/homepage.marathon.png');
-          background-size: cover;
-          background-position: center bottom;
-        "
-      >
-        <div class="titleBlock">
-          <a href="projects/marathon/index.html">
-            New York City Marathon Data Vizualization</a
-          >
-          <p>
-            Having run a couple of marathons, I designed and coded some
-            interactive charts to analyze the New York Marathon overall runner
-            population and look up an individual runner.
-          </p>
-          <i> 21 November 2011 </i>
+        <div
+          class="home-page-item"
+          style="
+            background-image: url('images/LeadByVisual_image01-1024x680.jpg');
+            background-size: cover;
+            background-position: center center;
+          "
+        >
+          <div class="titleBlock">
+            <a
+              href="https://boxesandarrows.com/unleash-your-visual-superpower/	"
+            >
+              Unleash Your Visual Superpower!
+            </a>
+            <p>
+              How enterprise designers can use their special abilities to shape
+              product strategy
+            </p>
+            <i> 17 Nov 2015 </i>
+          </div>
         </div>
-      </div>
 
-      <div
-        class="home-page-item"
-        style="
-          background-image: url('images/dunce-200.jpg');
-          background-size: cover;
-          background-position: center bottom;
-        "
-      >
-        <div class="titleBlock">
-          <a href="https://boxesandarrows.com/are-your-users-s-t-u-p-i-d/">
-            Are your users S.T.U.P.I.D.?</a
-          >
-          <p>There are no dumb users, but people are not just users.</p>
-          <i> 20 April 2011 </i>
+        <div
+          class="home-page-item"
+          style="
+            background-image: url('images/homepage.plateau.jpg');
+            background-size: cover;
+            background-position: center top;
+          "
+        >
+          <div class="titleBlock">
+            <a
+              href="http://boxesandarrows.com/plateaus-are-harder-than-mountains/"
+            >
+              Plateaus are Harder Than Mountains
+            </a>
+            <p>How can design help real people use data in their lives?</p>
+            <i> 16 Dec 2014 </i>
+          </div>
         </div>
-      </div>
 
-      <div
-        class="home-page-item"
-        style="
-          background-image: url('images/timezones.png');
-          background-size: cover;
-          background-position: left top;
-        "
-      >
-        <div class="titleBlock">
-          <a href="docs/timezones.pdf">When can I reach you?</a>
-          <p>
-            by Ben Kleinman, Stephen Turbek
-            <br />
-            Timezone dataviz to highlight the best times to call global offices
-          </p>
-          <i> 2000-ish</i>
+        <div
+          class="home-page-item"
+          style="
+            background-image: url('images/homepage.blob_game.jpg');
+            background-size: cover;
+            background-position: center top;
+          "
+        >
+          <div class="titleBlock">
+            <a href="/projects/amoeba/">Sketch for a blob game </a>
+            <p>
+              Experiment to generate amoeba like creatures using bezier curves
+              in javascript / HTML canvas
+            </p>
+            <i> 27 Dec 2014 </i>
+          </div>
+        </div>
+
+        <div
+          class="home-page-item"
+          style="
+            background-image: url('images/homepage.invisibleMaze.png');
+            background-size: cover;
+            background-position: center top;
+          "
+        >
+          <div class="titleBlock">
+            <a href="projects/maze/index.html"> Invisible Maze game </a>
+            <p>
+              A fun little puzzle iPhone game.
+
+              <br /><br />
+              Formerly an iPhone app, it now works in Safari / Chrome. For
+              desktop, use the arrow keys to steer.
+
+              <br />
+              <a href="articles/2013/invisible_maze.html">
+                Notes about the development of the Invisible Maze game
+              </a>
+            </p>
+            <i> 7 march 2014 </i>
+          </div>
+        </div>
+
+        <div
+          class="home-page-item"
+          style="
+            background-image: url('images/homepage.in_house_agency.svg');
+            background-size: cover;
+            background-position: center top;
+          "
+        >
+          <div class="titleBlock">
+            <a
+              href="https://boxesandarrows.com/recruiting-your-army-creating-the-in-house-design-agency/"
+            >
+              Building the In-house Design Agency
+            </a>
+            <p>Getting the best of both worlds</p>
+            <i> 19 Dec 2013 </i>
+          </div>
+        </div>
+
+        <div
+          class="home-page-item"
+          style="
+            background-image: url('images/homepage.soldiers.svg');
+            background-size: cover;
+            background-position: right top;
+          "
+        >
+          <div class="titleBlock">
+            <a
+              href="https://boxesandarrows.com/delivering-ux-agency-in-house-teams-individuals/"
+            >
+              Soldiers & Hessians, Ronin & Ninja
+            </a>
+            <p>
+              UX team organization can make or break a company's design strategy
+            </p>
+            <i> 26 Nov 2013 </i>
+          </div>
+        </div>
+
+        <div
+          class="home-page-item"
+          style="
+            background-image: url('images/homepage.The_Shirt_System_sewing_pattern.svg');
+            background-size: cover;
+            background-position: top center;
+          "
+        >
+          <div class="titleBlock">
+            <a
+              href="https://boxesandarrows.com/are-design-patterns-an-anti-pattern/"
+            >
+              Are Design Patterns an Anti-pattern?</a
+            >
+            <p>
+              In a world of limited resources, code beats pictures. (published
+              at BoxesAndArrows.com)
+            </p>
+            <i> 16 Jan 2012 </i>
+          </div>
+        </div>
+
+        <div
+          class="home-page-item"
+          style="
+            background-image: url('images/homepage.chart_test.svg');
+            background-size: cover;
+            background-position: left top;
+          "
+        >
+          <div class="titleBlock">
+            <a href="projects/chart-test/index.html">
+              Testing Charts via a game</a
+            >
+            <p>
+              How good are you at reading charts? Which chart is the best? I
+              created a small game to test chart skills and get some hard
+              numbers on how well each chart works, including styles. Everyone
+              says that pie charts are bad. But how bad? Let's find out.
+            </p>
+            <i> 18 January 2012 </i>
+          </div>
+        </div>
+
+        <div
+          class="home-page-item"
+          style="
+            background-image: url('images/homepage.coffee.jpg');
+            background-size: cover;
+            background-position: left top;
+          "
+        >
+          <div class="titleBlock">
+            <a href="articles/2012/usability-of-coffee.html">
+              Usability, User Experience, and Coffee</a
+            >
+            <p>When Bad Usability is Good User Experience</p>
+            <i> 04 January 2012 </i>
+          </div>
+        </div>
+
+        <div
+          class="home-page-item"
+          style="
+            background-image: url('images/homepage.marathon.png');
+            background-size: cover;
+            background-position: center bottom;
+          "
+        >
+          <div class="titleBlock">
+            <a href="projects/marathon/index.html">
+              New York City Marathon Data Vizualization</a
+            >
+            <p>
+              Having run a couple of marathons, I designed and coded some
+              interactive charts to analyze the New York Marathon overall runner
+              population and look up an individual runner.
+            </p>
+            <i> 21 November 2011 </i>
+          </div>
+        </div>
+
+        <div
+          class="home-page-item"
+          style="
+            background-image: url('images/dunce-200.jpg');
+            background-size: cover;
+            background-position: center bottom;
+          "
+        >
+          <div class="titleBlock">
+            <a href="https://boxesandarrows.com/are-your-users-s-t-u-p-i-d/">
+              Are your users S.T.U.P.I.D.?</a
+            >
+            <p>There are no dumb users, but people are not just users.</p>
+            <i> 20 April 2011 </i>
+          </div>
+        </div>
+
+        <div
+          class="home-page-item"
+          style="
+            background-image: url('images/timezones.png');
+            background-size: cover;
+            background-position: left top;
+          "
+        >
+          <div class="titleBlock">
+            <a href="docs/timezones.pdf">When can I reach you?</a>
+            <p>
+              by Ben Kleinman, Stephen Turbek
+              <br />
+              Timezone dataviz to highlight the best times to call global
+              offices
+            </p>
+            <i>2000-ish</i>
+          </div>
         </div>
       </div>
     </div>
 
-<div class="olderessays" style="clear: both; width: 100%; text-align: center; margin-top: 5%">
-        <div style="font-size: 300%; font-weight: 100; margin: auto" >
-          Older Essays
-        </div>
+    <div
+      class="olderessays"
+      style="clear: both; width: 100%; text-align: left; margin-top: 5%"
+    >
+      <style>
+        .olderessays .article {
+          padding-left: 10px;
+        }
+      </style>
+      <div
+        style="
+          font-size: 300%;
+          font-weight: 100;
+          margin: auto;
+          text-align: center;
+        "
+      >
+        Older Essays
+      </div>
 
       <div class="article">
         <div class="titleBlock">
