@@ -73,6 +73,15 @@ three types of items
         text-align: left;
       }
 
+      .new-home-page-item:hover {
+        box-shadow: 0 0 10px #000;
+        cursor: pointer;
+      }
+      #logo:hover,
+      #intro:hover {
+        cursor: default;
+      }
+
       @media screen and (max-width: 1050px) {
         /* tablet */
         .new-home-page-item,
@@ -130,7 +139,8 @@ three types of items
       /* --------------------------------------- */
       /* detail sty/es*/
       /* --------------------------------------- */
-      .new-home-page-item h2 {
+      .new-home-page-item h2,
+      .home-page-item .titleBlock {
         padding-left: 10px;
       }
 
@@ -143,13 +153,13 @@ three types of items
         flex-flow: row;
         float: none;
         aspect-ratio: 1/1;
-        overflow-x: auto;
-        box-shadow: inset 0 0 10px #000;
+        overflow: hidden;
+        /* box-shadow: inset 0 0 10px #000; */
         -webkit-overflow-scrolling: touch;
-        border-radius: 10px 10px 0px 0px;
+        /* border-radius: 10px 10px 0px 0px; */
       }
       .new-home-page-item .flex-container div {
-        width: 95%;
+        width: 100%;
         background-size: cover;
         background-position: 0% 50%;
         background-repeat: no-repeat;
@@ -163,15 +173,19 @@ three types of items
         font-size: 120%;
       }
 
+      .new-home-page-item .description {
+        display: none;
+      }
+
       /* --------------------------------------- */
 
       .home-page-item .titleBlock {
         background: rgba(255, 255, 255, 1);
-        padding: 10px;
         text-align: left;
-        align-self: flex-end;
+        align-self: flex-start;
         width: 100%;
-        border-radius: 0px 0px 10px 10px;
+        border-radius: 10px 10px 0px 0px;
+        vertical-align: top;
       }
 
       @media screen and (max-width: 500px) {
@@ -256,7 +270,7 @@ three types of items
           text-align: left;
         "
       >
-        <h1 style="font-size: 400%">Steve Turbek</h1>
+        <h1 style="font-size: 350%">Steve Turbek</h1>
         A designer focused on beautiful solutions to complex problems. His work
         has appeared in The New York Times, Artforum, Wired, Web Techniques,
         BoxesandArrows.com, SFMOMA, & Eyebeam.
@@ -306,12 +320,13 @@ three types of items
         </div>
       </div>
 
-      <div class="new-home-page-item physical">
+      <div class="newnew new-home-page-item physical">
+        <h2>Mechanical Library</h2>
         <div class="flex-container">
           <div
             style="background-image: url('images/universal-joint-display.jpg')"
           ></div>
-          <div>
+          <div class="description">
             <p>
               A museum exhibit to introduce students to Mechanical Engineering
               using motorized physical models. A connected website explains how
@@ -332,18 +347,18 @@ three types of items
             style="background-image: url('images/belt-chain-display.jpg')"
           ></div>
         </div>
-        <h2>Mechanical Library</h2>
       </div>
       <!--------------------------------------------------->
 
-      <div class="new-home-page-item physical">
+      <div class="newnew new-home-page-item physical">
+        <h2>Bubble Calendar</h2>
         <div class="flex-container">
           <div
             style="
               background-image: url('images/bubble_calendar_timeless_crop.jpg');
             "
           ></div>
-          <div>
+          <div class="description">
             <p>
               A poster-sized calendar with a bubble to pop every day! (Now
               discontinued, was sold through MOMA, Uncommon Goods, & Amazon).
@@ -359,11 +374,11 @@ three types of items
             "
           ></div>
         </div>
-        <h2>Bubble Calendar</h2>
       </div>
       <!--------------------------------------------------->
 
       <div class="new-home-page-item physical">
+        <h2>Hex Flooring Table</h2>
         <div class="flex-container">
           <div
             style="background-image: url('images/hexagon_coffee_table.jpeg')"
@@ -375,11 +390,11 @@ three types of items
             style="background-image: url('images/hexagon_coffee_table2.jpeg')"
           ></div>
         </div>
-        <h2>Hex Flooring Table</h2>
       </div>
       <!--------------------------------------------------->
 
       <div class="new-home-page-item physical">
+        <h2>Live Edge Bench</h2>
         <div class="flex-container">
           <div
             style="background-image: url('images/live-edge-bench_01.jpg')"
@@ -394,11 +409,11 @@ three types of items
             style="background-image: url('images/live-edge-bench_03.jpg')"
           ></div>
         </div>
-        <h2>Live Edge Bench</h2>
       </div>
       <!--------------------------------------------------->
 
       <div class="new-home-page-item physical">
+        <h2>All-felt stool</h2>
         <div class="flex-container">
           <div style="background-image: url('images/felt2.jpg')"></div>
           <div>
@@ -409,11 +424,11 @@ three types of items
           </div>
           <div style="background-image: url('images/felt3.jpg')"></div>
         </div>
-        <h2>All-felt stool</h2>
       </div>
       <!--------------------------------------------------->
 
       <div class="new-home-page-item physical">
+        <h2>"Tractor Green" Table</h2>
         <div class="flex-container">
           <div style="background-image: url('images/DSC_0070.jpg')"></div>
           <div>
@@ -425,11 +440,11 @@ three types of items
           </div>
           <div style="background-image: url('images/IMG_1891.jpg')"></div>
         </div>
-        <h2>"Tractor Green" Table</h2>
       </div>
       <!--------------------------------------------------->
 
       <div class="new-home-page-item physical">
+        <h2>Classic Arcade Table</h2>
         <div class="flex-container">
           <div style="background-image: url('images/MAME0.jpg')"></div>
           <div>
@@ -442,11 +457,11 @@ three types of items
           <div style="background-image: url('images/MAME3.jpg')"></div>
           <div style="background-image: url('images/MAME2.jpg')"></div>
         </div>
-        <h2>Classic Arcade Table</h2>
       </div>
       <!--------------------------------------------------->
 
       <div class="new-home-page-item physical">
+        <h2>Re-Pete Coffee Table</h2>
         <div class="flex-container">
           <div style="background-image: url('images/IMG_1039.jpg')"></div>
           <div>
@@ -457,7 +472,6 @@ three types of items
           </div>
           <div style="background-image: url('images/IMG_1045.jpg')"></div>
         </div>
-        <h2>Re-Pete Coffee Table</h2>
       </div>
       <!--------------------------------------------------->
 
@@ -532,6 +546,7 @@ three types of items
       <!--------------------------------------------------->
 
       <div class="new-home-page-item physical">
+        <h2>Apple TV Remote grip</h2>
         <div class="flex-container">
           <div style="background-image: url('images/IMG_9859.jpg')"></div>
           <div>
@@ -549,7 +564,6 @@ three types of items
           </div>
           <div style="background-image: url('images/IMG_9860.jpg')"></div>
         </div>
-        <h2>Apple TV Remote grip</h2>
       </div>
       <!--------------------------------------------------->
 
@@ -588,6 +602,7 @@ three types of items
       </div>
 
       <div class="new-home-page-item physical">
+        <h2>"White Knight"</h2>
         <div class="flex-container">
           <div style="background-image: url('images/IMG_0613.jpg')"></div>
           <div>
@@ -599,7 +614,6 @@ three types of items
             </p>
           </div>
         </div>
-        <h2>"White Knight"</h2>
       </div>
       <!--------------------------------------------------->
 
@@ -845,6 +859,7 @@ three types of items
       </div>
 
       <div class="new-home-page-item physical">
+        <h2>Conference Table</h2>
         <div class="flex-container">
           <div style="background-image: url('images/32.jpg')"></div>
           <div>
@@ -857,11 +872,11 @@ three types of items
           </div>
           <div style="background-image: url('images/31.jpg')"></div>
         </div>
-        <h2>Conference Table</h2>
       </div>
       <!--------------------------------------------------->
 
       <div class="new-home-page-item physical">
+        <h2>"Happy Feet"</h2>
         <div class="flex-container">
           <div
             style="background-image: url('images/happy_feet_artbots.jpg')"
@@ -880,11 +895,11 @@ three types of items
             style="background-image: url('images/happyfeet_girl2.jpeg')"
           ></div>
         </div>
-        <h2>"Happy Feet"</h2>
       </div>
       <!--------------------------------------------------->
 
       <div class="new-home-page-item physical">
+        <h2>Flat Pack Bench</h2>
         <div class="flex-container">
           <div style="background-image: url('images/40.jpg')"></div>
           <div>
@@ -896,11 +911,11 @@ three types of items
           </div>
           <div style="background-image: url('images/39.jpg')"></div>
         </div>
-        <h2>Flat Pack Bench</h2>
       </div>
       <!--------------------------------------------------->
 
       <div class="new-home-page-item physical">
+        <h2>Fastener-less Shelving</h2>
         <div class="flex-container">
           <div style="background-image: url('images/70.jpg')"></div>
           <div>
@@ -911,11 +926,11 @@ three types of items
           </div>
           <div style="background-image: url('images/69.jpg')"></div>
         </div>
-        <h2>Fastener-less Shelving</h2>
       </div>
       <!--------------------------------------------------->
 
       <div class="new-home-page-item physical">
+        <h2>Carved Plywood Chair</h2>
         <div class="flex-container">
           <div style="background-image: url('images/71.jpg')"></div>
           <div>
@@ -926,11 +941,11 @@ three types of items
           </div>
           <div style="background-image: url('images/72.jpg')"></div>
         </div>
-        <h2>Carved Plywood Chair</h2>
       </div>
       <!--------------------------------------------------->
 
       <div class="new-home-page-item physical">
+        <h2>Curved Plywood Bar</h2>
         <div class="flex-container">
           <div style="background-image: url('images/10.jpg')"></div>
           <div>
@@ -941,11 +956,11 @@ three types of items
           </div>
           <div style="background-image: url('images/09.jpg')"></div>
         </div>
-        <h2>Curved Plywood Bar</h2>
       </div>
       <!--------------------------------------------------->
 
       <div class="new-home-page-item physical">
+        <h2>Folding Table</h2>
         <div class="flex-container">
           <div style="background-image: url('images/73.jpg')"></div>
           <div>
@@ -955,11 +970,11 @@ three types of items
           </div>
           <div style="background-image: url('images/75.jpg')"></div>
         </div>
-        <h2>Folding Table</h2>
       </div>
       <!--------------------------------------------------->
 
       <div class="new-home-page-item physical">
+        <h2>Molded Plywood Bench</h2>
         <div class="flex-container">
           <div style="background-image: url('images/bench1.jpg')"></div>
           <div>
@@ -971,11 +986,11 @@ three types of items
           </div>
           <div style="background-image: url('images/bench2.jpg')"></div>
         </div>
-        <h2>Molded Plywood Bench</h2>
       </div>
       <!--------------------------------------------------->
 
       <div class="new-home-page-item physical">
+        <h2>Cane Concept</h2>
         <div class="flex-container">
           <div
             style="
@@ -990,25 +1005,25 @@ three types of items
             </p>
           </div>
         </div>
-        <h2>Cane Concept</h2>
       </div>
       <!--------------------------------------------------->
 
       <div class="new-home-page-item physical">
+        <h2>Pepto Bismol Bottle</h2>
         <div class="flex-container">
           <div style="background-image: url('images/88.jpg')"></div>
           <div>
             <p>
-              The amusing evocative shape also served a purpose - the goose neck
-              top delivers a measured dose.
+              Concept for a bottle. The evocative shape also served a purpose -
+              the goose neck top delivers a measured dose.
             </p>
           </div>
         </div>
-        <h2>Pepto Bismol Bottle</h2>
       </div>
       <!--------------------------------------------------->
 
       <div class="new-home-page-item physical">
+        <h2>Pratt Student Mailboxes</h2>
         <div class="flex-container">
           <div style="background-image: url('images/86.jpg')"></div>
           <div>
@@ -1019,11 +1034,11 @@ three types of items
             <div style="background-image: url('images/85.jpg')"></div>
           </div>
         </div>
-        <h2>Pratt Student Mailboxes</h2>
       </div>
       <!--------------------------------------------------->
 
       <div class="new-home-page-item physical">
+        <h2>Timberframe Pavilion</h2>
         <div class="flex-container">
           <div style="background-image: url('images/84.jpg')"></div>
           <div>
@@ -1034,11 +1049,10 @@ three types of items
             <!-- <div style="background-image: url('images/85.jpg')"></div> -->
           </div>
         </div>
-        <h2>Timberframe Pavilion</h2>
       </div>
       <!--------------------------------------------------->
       <div
-        class="home-page-item physical"
+        class="home-page-item words"
         style="
           background-image: url('images/open-book.svg');
           background-size: cover;
@@ -1048,7 +1062,7 @@ three types of items
         "
       >
         <div class="titleBlock">
-          <a href="docs/dedicated.pdf"> Dedicated</a>
+          <a href="docs/dedicated.pdf">Dedicated</a>
           <p>A little formal fiction fun.</p>
           <i> 2009 </i>
         </div>
