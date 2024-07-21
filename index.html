@@ -95,8 +95,7 @@ three types of items
         /* phone */
         .new-home-page-item,
         .home-page-item,
-        .article,
-        .new-home-page-item .flex-container div {
+        .article {
           width: 95%;
         }
 
@@ -185,15 +184,16 @@ three types of items
         display: block;
       }
 
-      .new-home-page-item .flex-container div p {
+      .new-home-page-item .flex-container p {
         margin: 10px;
         font-size: 120%;
+        display: none;
       }
-
+      /* 
       .new-home-page-item .description {
         aspect-ratio: auto;
-        height: 300px; /*hack*/
-      }
+        height: 300px; /*hack
+      } */
 
       /* --------------------------------------- */
 
@@ -269,7 +269,7 @@ three types of items
         display: none;
         /* display: flex; */
         justify-content: center;
-        align-items: stretch;
+        /* align-items: stretch; */
         text-align: center;
         margin: auto;
         margin-top: 1em;
@@ -278,10 +278,9 @@ three types of items
       <a href="/">
         <img
           src="images/TurbekT.svg"
-          style="height: 45px; vertical-align: baseline; padding-right: 30px"
-        />
-
-        <h1 style="display: inline; font-size: 400%">Steve Turbek</h1></a
+          style="height: 45px; vertical-align: baseline; padding-right: 10px"
+        />&nbsp;
+        <h1 style="display: inline; font-size: 350%">Steve&nbsp;Turbek</h1></a
       >
     </div>
 
@@ -367,20 +366,18 @@ three types of items
           <div
             style="background-image: url('images/universal-joint-display.jpg')"
           ></div>
-          <div class="description">
-            <p>
-              A museum exhibit to introduce students to Mechanical Engineering
-              using motorized physical models. A connected website explains how
-              they work and where they appear using videos, and 3D models. The
-              cabinets are designed to travel to schools and museums to support
-              STEM education.
-              <br /><br />
-              More at
-              <a href="https://Mechanical-Library.org"
-                >Mechanical-Library.org</a
-              >
-            </p>
-          </div>
+
+          <p>
+            A museum exhibit to introduce students to Mechanical Engineering
+            using motorized physical models. A connected website explains how
+            they work and where they appear using videos, and 3D models. The
+            cabinets are designed to travel to schools and museums to support
+            STEM education.
+            <br /><br />
+            More at
+            <a href="https://Mechanical-Library.org">Mechanical-Library.org</a>
+          </p>
+
           <div
             style="background-image: url('images/cabinet_unit_demo.png')"
           ></div>
@@ -399,7 +396,7 @@ three types of items
               background-image: url('images/bubble_calendar_timeless_crop.jpg');
             "
           ></div>
-          <div class="description">
+        
             <p>
               A poster-sized calendar with a bubble to pop every day! (Now
               discontinued, was sold through MOMA, Uncommon Goods, & Amazon).
@@ -408,7 +405,6 @@ three types of items
               More at
               <a href="https://BubbleCalendar.com">BubbleCalendar.com</a>
             </p>
-          </div>
           <div
             style="
               background-image: url('images/bubble_calendar_timeless_finger_L.jpg');
@@ -424,9 +420,8 @@ three types of items
           <div
             style="background-image: url('images/hexagon_coffee_table.jpeg')"
           ></div>
-          <div class="description">
+          
             <p>Using leftover flooring to make hexagons tables.</p>
-          </div>
           <div
             style="background-image: url('images/hexagon_coffee_table2.jpeg')"
           ></div>
@@ -440,12 +435,11 @@ three types of items
           <div
             style="background-image: url('images/live-edge-bench_01.jpg')"
           ></div>
-          <div class="description">
+          
             <p>
               Reclaimed American Mahogony with Japanese-inspired joinery. Seat
               plates angle inward for comfort.
             </p>
-          </div>
           <div
             style="background-image: url('images/live-edge-bench_03.jpg')"
           ></div>
@@ -457,12 +451,11 @@ three types of items
         <h2>All-felt stool</h2>
         <div class="flex-container">
           <div style="background-image: url('images/felt2.jpg')"></div>
-          <div class="description">
+          
             <p>
               Felt is soft, but surprisingly stiff when folded! Tied with
               string, this is a functional stool weighing just 8 pounds.
             </p>
-          </div>
           <div style="background-image: url('images/felt3.jpg')"></div>
         </div>
       </div>
@@ -472,13 +465,12 @@ three types of items
         <h2>"Tractor Green" Table</h2>
         <div class="flex-container">
           <div style="background-image: url('images/DSC_0070.jpg')"></div>
-          <div class="description">
+          
             <p>
               A 2D metal curve repeated in three dimensions defines a form with
               interesting positive and negative spaces. Paint color came from a
               happy accident at the paint shop.
             </p>
-          </div>
           <div style="background-image: url('images/IMG_1891.jpg')"></div>
         </div>
       </div>
@@ -488,13 +480,12 @@ three types of items
         <h2>Classic Arcade Table</h2>
         <div class="flex-container">
           <div style="background-image: url('images/MAME0.jpg')"></div>
-          <div class="description">
+          
             <p>
               A table for the classic 80's arcade games that fits into a stylish
               living room. The joysticks fold under the screen of the mirrored
               glass.
             </p>
-          </div>
           <div style="background-image: url('images/MAME3.jpg')"></div>
           <div style="background-image: url('images/MAME2.jpg')"></div>
         </div>
@@ -505,12 +496,11 @@ three types of items
         <h2>Re-Pete Coffee Table</h2>
         <div class="flex-container">
           <div style="background-image: url('images/IMG_1039.jpg')"></div>
-          <div class="description">
+          
             <p>
               This coffee table system can make tables with leg patterns
               composed from 3 to 10 legs.
             </p>
-          </div>
           <div style="background-image: url('images/IMG_1045.jpg')"></div>
         </div>
       </div>
@@ -590,7 +580,7 @@ three types of items
         <h2>Apple TV Remote grip</h2>
         <div class="flex-container">
           <div style="background-image: url('images/IMG_9859.jpg')"></div>
-          <div class="description">
+          
             <p>
               The 2018 Apple TV remote has many design flaws, including not
               being obvious which way to hold it and being hard to pick up. This
@@ -602,7 +592,6 @@ three types of items
                 >3D printing file is free to download</a
               >
             </p>
-          </div>
           <div style="background-image: url('images/IMG_9860.jpg')"></div>
         </div>
       </div>
@@ -646,14 +635,13 @@ three types of items
         <h2>"White Knight"</h2>
         <div class="flex-container">
           <div style="background-image: url('images/IMG_0613.jpg')"></div>
-          <div class="description">
+          
             <p>
               Inspired by a cyclist friend who wears white jeans, this prototype
               chain guard for single speed bikes keeps your pants clean. The
               pattern of circles enables the atachment brackets to fit any
               sprocket.
             </p>
-          </div>
         </div>
       </div>
       <!--------------------------------------------------->
@@ -903,14 +891,13 @@ three types of items
         <h2>Conference Table</h2>
         <div class="flex-container">
           <div style="background-image: url('images/32.jpg')"></div>
-          <div class="description">
+          
             <p>
               Conferencing tables designed for the Razorfish conference rooms.
               With rollerblade wheel feet, they are easily reconfigured into
               multiple shapes. An aircraft fuel tank stopper can be opened to
               run laptop cables neatly through the leg.
             </p>
-          </div>
           <div style="background-image: url('images/31.jpg')"></div>
         </div>
       </div>
@@ -922,7 +909,7 @@ three types of items
           <div
             style="background-image: url('images/happy_feet_artbots.jpg')"
           ></div>
-          <div class="description">
+          
             <p>
               (Shown at Art Bots 2003) Happy Feet is an installation of 5 pairs
               of elegant footwear. Each shoe is mechanically articulated,
@@ -931,7 +918,6 @@ three types of items
               unattended, the articulated shoes to tap rhythms. When a person
               steps on the foot pads, the shoes copy their steps.
             </p>
-          </div>
           <div
             style="background-image: url('images/happyfeet_girl2.jpeg')"
           ></div>
@@ -943,13 +929,12 @@ three types of items
         <h2>Flat Pack Bench</h2>
         <div class="flex-container">
           <div style="background-image: url('images/40.jpg')"></div>
-          <div class="description">
+          
             <p>
               Inspired by occasional large dinner parties with friends, this
               flat pack bench that could be assembled without tools. The
               sitter's weight locks the wooden rods in place.
             </p>
-          </div>
           <div style="background-image: url('images/39.jpg')"></div>
         </div>
       </div>
@@ -959,12 +944,11 @@ three types of items
         <h2>Fastener-less Shelving</h2>
         <div class="flex-container">
           <div style="background-image: url('images/70.jpg')"></div>
-          <div class="description">
+          
             <p>
               Non-parallel metal tubes keep the shelves in place without screws.
               The organic forms were derived from the stresses on the supports.
             </p>
-          </div>
           <div style="background-image: url('images/69.jpg')"></div>
         </div>
       </div>
@@ -974,12 +958,11 @@ three types of items
         <h2>Carved Plywood Chair</h2>
         <div class="flex-container">
           <div style="background-image: url('images/71.jpg')"></div>
-          <div class="description">
+          
             <p>
               An organic-form chair from carved layers of sheet plywood. Seat
               hollowed out for comfort.
             </p>
-          </div>
           <div style="background-image: url('images/72.jpg')"></div>
         </div>
       </div>
@@ -989,12 +972,11 @@ three types of items
         <h2>Curved Plywood Bar</h2>
         <div class="flex-container">
           <div style="background-image: url('images/10.jpg')"></div>
-          <div class="description">
+          
             <p>
               Custom designed and built, the curved plywood front dramatically
               swings open to show contents.
             </p>
-          </div>
           <div style="background-image: url('images/09.jpg')"></div>
         </div>
       </div>
@@ -1004,11 +986,10 @@ three types of items
         <h2>Folding Table</h2>
         <div class="flex-container">
           <div style="background-image: url('images/73.jpg')"></div>
-          <div class="description">
+          
             <p>
               A traditional Shaker sideboard-table updated with organic forms.
             </p>
-          </div>
           <div style="background-image: url('images/75.jpg')"></div>
         </div>
       </div>
@@ -1018,13 +999,12 @@ three types of items
         <h2>Molded Plywood Bench</h2>
         <div class="flex-container">
           <div style="background-image: url('images/bench1.jpg')"></div>
-          <div class="description">
+          
             <p>
               Springy and strong, the plywood forms can be used for home or
               public seating. The single repeated element can create concave or
               convex curves by altering the spacing of the aluminum connectors.
             </p>
-          </div>
           <div style="background-image: url('images/bench2.jpg')"></div>
         </div>
       </div>
@@ -1039,12 +1019,11 @@ three types of items
               background-image: url('images/80.jpg');
             "
           ></div>
-          <div class="description">
+          
             <p>
               Prototype of injection molded frame over aluminum core, with
               neoprene cuff, adjustable along molded ribs.
             </p>
-          </div>
         </div>
       </div>
       <!--------------------------------------------------->
@@ -1053,12 +1032,11 @@ three types of items
         <h2>Pepto Bismol Bottle</h2>
         <div class="flex-container">
           <div style="background-image: url('images/88.jpg')"></div>
-          <div class="description">
+          
             <p>
               Concept for a bottle. The evocative shape also served a purpose -
               the goose neck top delivers a measured dose.
             </p>
-          </div>
         </div>
       </div>
       <!--------------------------------------------------->
@@ -1067,7 +1045,7 @@ three types of items
         <h2>Pratt Student Mailboxes</h2>
         <div class="flex-container">
           <div style="background-image: url('images/86.jpg')"></div>
-          <div class="description">
+          
             <p>
               Competition-winning entry for Pratt Architecture student
               mailboxes. Hand made polypropolene.
@@ -1082,7 +1060,7 @@ three types of items
         <h2>Timberframe Pavilion</h2>
         <div class="flex-container">
           <div style="background-image: url('images/84.jpg')"></div>
-          <div class="description">
+          
             <p>
               Designed and built in the summer of 1992-3, this structure
               combines traditional timberframe joints with unusual geometry.
@@ -1655,6 +1633,15 @@ three types of items
                     item.style.display = "block";
                     item.style.border = "10px solid white";
                   });
+
+                  const Pelement = document.querySelectorAll(
+                    ".new-home-page-item .flex-container p"
+                  );
+
+                  Pelement.forEach((item) => {
+                    item.style.display = "block";
+                  });
+                  
 
                   //remove hover effects
                   const element = document.querySelector("body");
