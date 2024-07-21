@@ -43,9 +43,7 @@
       }
 
       #main {
-        /* display: flex; */
         flex-wrap: wrap;
-
         display: inline-flex;
         gap: 1em;
 
@@ -54,6 +52,7 @@
         text-align: center;
         margin: auto;
         margin-top: 1em;
+        max-width: 1280px;
       }
 
       /* home page box layout and genrteral formatting 
@@ -71,12 +70,13 @@ three types of items
         float: none;
         background-color: #fff;
         text-align: left;
+        min-width: 350px;
       }
-
-      .new-home-page-item:hover {
+      .IsInteractive .new-home-page-item:hover {
         box-shadow: 0 0 10px #000;
         cursor: pointer;
       }
+
       #logo:hover,
       #intro:hover {
         cursor: default;
@@ -95,8 +95,14 @@ three types of items
         /* phone */
         .new-home-page-item,
         .home-page-item,
-        .article {
+        .article,
+        .new-home-page-item .flex-container div {
           width: 95%;
+        }
+
+        #intro h1,
+        #intro p {
+          text-align: center;
         }
       }
 
@@ -145,36 +151,48 @@ three types of items
       }
 
       .new-home-page-item .flex-container {
-        display: -webkit-box;
+        /* display: -webkit-box;
         display: -moz-box;
         display: -ms-flexbox;
-        display: -webkit-flex;
+        display: -webkit-flex; */
         display: flex;
-        flex-flow: row;
+        /* flex-wrap: wrap; */
+        flex-flow: column;
+        /* background-color: #99ff00; */
         float: none;
-        aspect-ratio: 1/1;
+        /* aspect-ratio: 1/1; */
         overflow: hidden;
         /* box-shadow: inset 0 0 10px #000; */
-        -webkit-overflow-scrolling: touch;
+        /* -webkit-overflow-scrolling: touch; */
         /* border-radius: 10px 10px 0px 0px; */
       }
       .new-home-page-item .flex-container div {
-        width: 100%;
+        aspect-ratio: 1/1;
         background-size: cover;
         background-position: 0% 50%;
         background-repeat: no-repeat;
         /* background-image: ; */
-        transition: all 0.6s ease;
-        flex: none;
-        -webkit-flex: none;
+        /* transition: all 0.6s ease; */
+        /* flex: none; */
+        /* -webkit-flex: none; */
       }
+
+      /* hide all but first div */
+      .new-home-page-item .flex-container div {
+        display: none;
+      }
+      .new-home-page-item .flex-container > div:first-child {
+        display: block;
+      }
+
       .new-home-page-item .flex-container div p {
         margin: 10px;
         font-size: 120%;
       }
 
       .new-home-page-item .description {
-        display: none;
+        aspect-ratio: auto;
+        height: 300px; /*hack*/
       }
 
       /* --------------------------------------- */
@@ -243,7 +261,30 @@ three types of items
       }
     </style>
   </head>
-  <body>
+
+  <body class="IsInteractive">
+    <div
+      id="miniheader"
+      style="
+        display: none;
+        /* display: flex; */
+        justify-content: center;
+        align-items: stretch;
+        text-align: center;
+        margin: auto;
+        margin-top: 1em;
+      "
+    >
+      <a href="/">
+        <img
+          src="images/TurbekT.svg"
+          style="height: 45px; vertical-align: baseline; padding-right: 30px"
+        />
+
+        <h1 style="display: inline; font-size: 400%">Steve Turbek</h1></a
+      >
+    </div>
+
     <div id="main">
       <div
         class="new-home-page-item"
@@ -383,7 +424,7 @@ three types of items
           <div
             style="background-image: url('images/hexagon_coffee_table.jpeg')"
           ></div>
-          <div>
+          <div class="description">
             <p>Using leftover flooring to make hexagons tables.</p>
           </div>
           <div
@@ -399,7 +440,7 @@ three types of items
           <div
             style="background-image: url('images/live-edge-bench_01.jpg')"
           ></div>
-          <div>
+          <div class="description">
             <p>
               Reclaimed American Mahogony with Japanese-inspired joinery. Seat
               plates angle inward for comfort.
@@ -416,7 +457,7 @@ three types of items
         <h2>All-felt stool</h2>
         <div class="flex-container">
           <div style="background-image: url('images/felt2.jpg')"></div>
-          <div>
+          <div class="description">
             <p>
               Felt is soft, but surprisingly stiff when folded! Tied with
               string, this is a functional stool weighing just 8 pounds.
@@ -431,7 +472,7 @@ three types of items
         <h2>"Tractor Green" Table</h2>
         <div class="flex-container">
           <div style="background-image: url('images/DSC_0070.jpg')"></div>
-          <div>
+          <div class="description">
             <p>
               A 2D metal curve repeated in three dimensions defines a form with
               interesting positive and negative spaces. Paint color came from a
@@ -447,7 +488,7 @@ three types of items
         <h2>Classic Arcade Table</h2>
         <div class="flex-container">
           <div style="background-image: url('images/MAME0.jpg')"></div>
-          <div>
+          <div class="description">
             <p>
               A table for the classic 80's arcade games that fits into a stylish
               living room. The joysticks fold under the screen of the mirrored
@@ -464,7 +505,7 @@ three types of items
         <h2>Re-Pete Coffee Table</h2>
         <div class="flex-container">
           <div style="background-image: url('images/IMG_1039.jpg')"></div>
-          <div>
+          <div class="description">
             <p>
               This coffee table system can make tables with leg patterns
               composed from 3 to 10 legs.
@@ -479,7 +520,7 @@ three types of items
         class="home-page-item words"
         style="
           background-image: url('images/homepage.drstrange.jpg');
-          background-position: 20% top;
+          background-position: 20% bottom;
         "
       >
         <div class="titleBlock">
@@ -549,7 +590,7 @@ three types of items
         <h2>Apple TV Remote grip</h2>
         <div class="flex-container">
           <div style="background-image: url('images/IMG_9859.jpg')"></div>
-          <div>
+          <div class="description">
             <p>
               The 2018 Apple TV remote has many design flaws, including not
               being obvious which way to hold it and being hard to pick up. This
@@ -605,7 +646,7 @@ three types of items
         <h2>"White Knight"</h2>
         <div class="flex-container">
           <div style="background-image: url('images/IMG_0613.jpg')"></div>
-          <div>
+          <div class="description">
             <p>
               Inspired by a cyclist friend who wears white jeans, this prototype
               chain guard for single speed bikes keeps your pants clean. The
@@ -862,7 +903,7 @@ three types of items
         <h2>Conference Table</h2>
         <div class="flex-container">
           <div style="background-image: url('images/32.jpg')"></div>
-          <div>
+          <div class="description">
             <p>
               Conferencing tables designed for the Razorfish conference rooms.
               With rollerblade wheel feet, they are easily reconfigured into
@@ -881,7 +922,7 @@ three types of items
           <div
             style="background-image: url('images/happy_feet_artbots.jpg')"
           ></div>
-          <div>
+          <div class="description">
             <p>
               (Shown at Art Bots 2003) Happy Feet is an installation of 5 pairs
               of elegant footwear. Each shoe is mechanically articulated,
@@ -902,7 +943,7 @@ three types of items
         <h2>Flat Pack Bench</h2>
         <div class="flex-container">
           <div style="background-image: url('images/40.jpg')"></div>
-          <div>
+          <div class="description">
             <p>
               Inspired by occasional large dinner parties with friends, this
               flat pack bench that could be assembled without tools. The
@@ -918,7 +959,7 @@ three types of items
         <h2>Fastener-less Shelving</h2>
         <div class="flex-container">
           <div style="background-image: url('images/70.jpg')"></div>
-          <div>
+          <div class="description">
             <p>
               Non-parallel metal tubes keep the shelves in place without screws.
               The organic forms were derived from the stresses on the supports.
@@ -933,7 +974,7 @@ three types of items
         <h2>Carved Plywood Chair</h2>
         <div class="flex-container">
           <div style="background-image: url('images/71.jpg')"></div>
-          <div>
+          <div class="description">
             <p>
               An organic-form chair from carved layers of sheet plywood. Seat
               hollowed out for comfort.
@@ -948,7 +989,7 @@ three types of items
         <h2>Curved Plywood Bar</h2>
         <div class="flex-container">
           <div style="background-image: url('images/10.jpg')"></div>
-          <div>
+          <div class="description">
             <p>
               Custom designed and built, the curved plywood front dramatically
               swings open to show contents.
@@ -963,7 +1004,7 @@ three types of items
         <h2>Folding Table</h2>
         <div class="flex-container">
           <div style="background-image: url('images/73.jpg')"></div>
-          <div>
+          <div class="description">
             <p>
               A traditional Shaker sideboard-table updated with organic forms.
             </p>
@@ -977,7 +1018,7 @@ three types of items
         <h2>Molded Plywood Bench</h2>
         <div class="flex-container">
           <div style="background-image: url('images/bench1.jpg')"></div>
-          <div>
+          <div class="description">
             <p>
               Springy and strong, the plywood forms can be used for home or
               public seating. The single repeated element can create concave or
@@ -998,7 +1039,7 @@ three types of items
               background-image: url('images/80.jpg');
             "
           ></div>
-          <div>
+          <div class="description">
             <p>
               Prototype of injection molded frame over aluminum core, with
               neoprene cuff, adjustable along molded ribs.
@@ -1012,7 +1053,7 @@ three types of items
         <h2>Pepto Bismol Bottle</h2>
         <div class="flex-container">
           <div style="background-image: url('images/88.jpg')"></div>
-          <div>
+          <div class="description">
             <p>
               Concept for a bottle. The evocative shape also served a purpose -
               the goose neck top delivers a measured dose.
@@ -1026,7 +1067,7 @@ three types of items
         <h2>Pratt Student Mailboxes</h2>
         <div class="flex-container">
           <div style="background-image: url('images/86.jpg')"></div>
-          <div>
+          <div class="description">
             <p>
               Competition-winning entry for Pratt Architecture student
               mailboxes. Hand made polypropolene.
@@ -1041,7 +1082,7 @@ three types of items
         <h2>Timberframe Pavilion</h2>
         <div class="flex-container">
           <div style="background-image: url('images/84.jpg')"></div>
-          <div>
+          <div class="description">
             <p>
               Designed and built in the summer of 1992-3, this structure
               combines traditional timberframe joints with unusual geometry.
@@ -1548,6 +1589,96 @@ three types of items
             toggleElementsByClass(checkbox);
           });
         });
+      });
+
+      document.addEventListener("DOMContentLoaded", function () {
+        // Get all elements with the class "new-home-page-item"
+        const items = document.querySelectorAll(".new-home-page-item");
+
+        items.forEach((item) => {
+          // Add click event listener to each item
+          item.addEventListener("click", function () {
+            // Find the h2 element inside the clicked item
+            const h2 = item.querySelector("h2");
+            if (h2) {
+              // Get the text content of the h2 element
+              const h2Text = h2.textContent.trim();
+              // Encode the text content
+              const encodedText = encodeURIComponent(h2Text);
+              // Update the URL with the query parameter and reload the page
+              const newUrl = new URL(window.location);
+              newUrl.searchParams.set("item", encodedText);
+              window.location.href = newUrl.href;
+            }
+          });
+        });
+
+        function handleQueryChange() {
+          // Get the query parameter from the URL
+          const params = new URLSearchParams(window.location.search);
+          const itemParam = params.get("item");
+
+          if (itemParam) {
+            // Decode the query parameter
+            const decodedItem = decodeURIComponent(itemParam);
+
+            // Find the matching new-home-page-item div with the h2 text
+            let matchFound = false;
+            items.forEach((item) => {
+              const h2 = item.querySelector("h2");
+              if (h2 && h2.textContent.trim() === decodedItem) {
+                matchFound = true;
+              }
+            });
+
+            if (matchFound) {
+              // Hide all other divs with the classes new-home-page-item, home-page-item, article
+              const allItems = document.querySelectorAll(
+                ".new-home-page-item, .home-page-item, .article"
+              );
+              allItems.forEach((item) => {
+                // item.removeEventListener("click", function () {});
+
+                const h2 = item.querySelector("h2");
+                if (!h2 || h2.textContent.trim() !== decodedItem) {
+                  item.style.display = "none";
+                } else {
+                  //matches h2 text, show this project images
+
+                  item.style.display = ""; // Reset display for the matching item
+
+                  //show other divs in item
+                  const flex_containerAll = item.querySelectorAll(
+                    ".new-home-page-item .flex-container div"
+                  );
+                  flex_containerAll.forEach((item) => {
+                    item.style.display = "block";
+                    item.style.border = "10px solid white";
+                  });
+
+                  //remove hover effects
+                  const element = document.querySelector("body");
+                  element.classList.remove("IsInteractive");
+
+                  //show miniheader
+                  const miniheader = document.querySelector("#miniheader");
+                  miniheader.style.display = "flex";
+                }
+              });
+            }
+          } else {
+            // If no query parameter, show all items
+            const allItems = document.querySelectorAll(
+              ".new-home-page-item, .home-page-item, .article"
+            );
+            allItems.forEach((item) => {
+              item.style.display = ""; // Reset display for all items
+            });
+          }
+        }
+
+        // Handle initial load
+        handleQueryChange();
       });
     </script>
   </body>
