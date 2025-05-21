@@ -2,16 +2,53 @@
 <html>
   <head>
     <title>{{ page.title }}</title>
+
+    <style>
+      body {
+        margin: 0%;
+        text-align: center;
+        font: 300 100.01% "Helvetica Neue", Helvetica, "Arial Unicode MS", Arial, sans-serif;
+        line-height: 1.35;
+        text-rendering: optimizeLegibility;
+      }
+
+      #main {
+        flex-wrap: wrap;
+        display: inline-flex;
+        gap: 1em;
+
+        justify-content: center;
+        align-items: stretch;
+        text-align: center;
+        margin: auto;
+        margin-top: 1em;
+        min-width: 800px;
+        max-width: 1280px;
+      }
+
+      #miniheader,
+      #content,
+      footer {
+        width: 100%;
+        display: flex;
+        justify-content: left;
+        align-items: stretch;
+        margin-bottom: 2em;
+      }
+    </style>
   </head>
   <body>
-    <nav>
-      <a href="/">Home</a>
-    </nav>
-
-    {{ content }}
-
-    <footer>
-      <p>© steve turbek</p>
-    </footer>
+    <div id="main">
+      <div id="miniheader" style="">
+        <a href="/" style="color: #333333; text-decoration: none">
+          <img src="/images/TurbekT.svg" style="height: 20px; vertical-align: baseline; padding-right: 10px" />
+          <h1 style="display: inline; font-size: 150%">Steve&nbsp;Turbek</h1></a
+        >
+      </div>
+      <div id="content">{{ content }}</div>
+      <footer>
+        <p>© steve turbek</p>
+      </footer>
+    </div>
   </body>
 </html>
