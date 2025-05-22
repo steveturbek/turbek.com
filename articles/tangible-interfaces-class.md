@@ -122,6 +122,61 @@ The microbit is a small and inexpensive computer and circuit board, which can be
 - [Flappy pixel](https://makecode.microbit.org/S38662-17419-00388-04398)
 - [Flappy Servo](https://makecode.microbit.org/S88818-34957-38430-63386)
 
+# Tangible Design Inspiration
+
+- [The timeless appeal of Olivetti's industrial and minimalist design style](https://abduzeedo.com/timeless-appeal-olivettis-industrial-and-minimalist-design-style#google_vignette)
+- [https://www.domusweb.it/en/design/2022/07/06/quando-il-design-italiano-era-una-cosa-da-fantascienza.html](https://www.domusweb.it/en/design/2022/07/06/quando-il-design-italiano-era-una-cosa-da-fantascienza.html)
+- [https://www.yankodesign.com/2024/12/04/modular-numpad-concept-adds-some-teenage-engineering-industrial-aesthetic-to-your-workflow/](https://www.yankodesign.com/2024/12/04/modular-numpad-concept-adds-some-teenage-engineering-industrial-aesthetic-to-your-workflow/)
+- [You spin me right round, baby, right round.](https://www.theverge.com/news/622914/auto-draft)
+- “Knob Feel” A dude who rated stereo knobs
+  - [Arcam \- AVR21 \- AV Receiver \- Knob Feel Review](https://www.youtube.com/watch?v=5I2J7BAcQro)
+  - [Onkyo TX-NR616 Knob Feel Review](https://www.youtube.com/watch?v=hnloAUVLAho)
+  - [Knob Feel Showcase - Xeeltech Hapticore - CUSTOM KNOB FEELS](https://www.youtube.com/watch?v=grDQHYVJJGY)
+  - [2015 Knob Feel Awards](https://www.youtube.com/watch?v=HN49Vls-UlM)
+- [https://web.archive.org/web/20181130052011/https://www.theverge.com/circuitbreaker/2018/11/21/18105423/ipod-click-wheel-button-music-control-hardware-design](https://web.archive.org/web/20181130052011/https://www.theverge.com/circuitbreaker/2018/11/21/18105423/ipod-click-wheel-button-music-control-hardware-design)
+- [Inside the original iPod](http://reddit.com/r/ipod/comments/vvu3po/replacing_the_ball_bearing_on_the_1g/) scroll wheel
+
+## Tangible Tech Inspiration
+
+- This shows genius level work: How did the PONG game get made before software existed? [https://www.falstad.com/pong/index.html](https://www.falstad.com/pong/index.html)
+- How the 80's Nintendo Duck Hunt light gun worked [How the Nintendo Zapper worked in Slow Motion - The Slow Mo Guys](https://www.youtube.com/watch?v=V6XnSvB34y8)
+- [scottbez1/smartknob: Haptic input knob with software-defined endstops and virtual detents](https://github.com/scottbez1/smartknob)
+- [Detent Polymagnet pair \- 12 position (30 degree) \- \#6 CTSK \- 1" D-shape](https://www.polymagnet.com/products/detent-polymagnet-pair-12-position-30-degree-6-ctsk-1-d-shape)
+- [MaTouch ESP32-S3 RotaryIPS-Display1.28" GC9A01](https://www.makerfabs.com/matouch-esp32-s3-rotaryips-display1-28-gc9a01.html)
+- [T-Encoder Pro \[US\]](https://lilygo.cc/products/t-encoder-pro-us)
+- [https://lovemyswitches.com/knobs/](https://lovemyswitches.com/knobs/)
+- [https://github.com/UrbanCircles/igor](https://github.com/UrbanCircles/igor)
+  - [https://www.makerfabs.com/matouch-smartknob-assembled.html](https://www.makerfabs.com/matouch-smartknob-assembled.html)
+- [https://hackaday.com/2021/12/11/getting-familiar-with-round-displays/](https://hackaday.com/2021/12/11/getting-familiar-with-round-displays/)
+- [https://www.youtube.com/watch?v=nZa-Vqu-\_fU](https://www.youtube.com/watch?v=nZa-Vqu-_fU)
+  - [https://github.com/sb-ocr/focus-dial](https://github.com/sb-ocr/focus-dial)
+  - [https://www.instructables.com/Focus-Dial-a-Digital-Distraction-Blocker/](https://www.instructables.com/Focus-Dial-a-Digital-Distraction-Blocker/)
+- [Ring Rotary Encoder https://www.digikey.ca/en/products/detail/bourns-inc/PER561-P115-N0015/13999552](https://www.digikey.ca/en/products/detail/bourns-inc/PER561-P115-N0015/13999552)
+- [https://www.ptreeusa.com/ttrack_knobs_bolts.html](https://www.ptreeusa.com/ttrack_knobs_bolts.html)
+- [Unusual Round Displays and How to Use Them](https://youtube.com/watch?v=FUU0CAjp1OQ&si=UcEB3_FKxkY1a_-c)
+- [ANO Directional Navigation and Scroll Wheel Rotary Encoder](https://www.adafruit.com/product/5001)
+- [AnySkin: Plug-and-play Skin Sensing for Robotic Touch](https://any-skin.github.io/)
+
+## Fidget Toys
+
+- [https://www.printables.com/search/models?ctx=models\&q=fidget](https://www.printables.com/search/models?ctx=models&q=fidget)
+- [https://www.printables.com/contest/77-fidget-toys](https://www.printables.com/contest/77-fidget-toys)
+- [https://cults3d.com/en/search?q=fidget](https://cults3d.com/en/search?q=fidget)
+- [https://www.thingiverse.com/search?q=fidget\&page=1\#google_vignette](https://www.thingiverse.com/search?q=fidget&page=1#google_vignette)
+- [https://thangs.com/search/fidget?scope=all](https://thangs.com/search/fidget?scope=all)
+- [https://makerworld.com/en/search/collections?keyword=fidget](https://makerworld.com/en/search/collections?keyword=fidget)
+- [https://makerworld.com/en/models/71654-fidget-cock_n_pull](https://makerworld.com/en/models/71654-fidget-cock_n_pull)
+- [Darshan Patel on Instagram: "7 Satisfying 3D-Printed Fidget Toys You’ve Never Seen\!](https://www.instagram.com/reel/DIf2WV2TuBf/?igsh=bjk5eHAwaWk2cmpm)
+- [https://www.youtube.com/shorts/kx2nwlETbQQ](https://www.youtube.com/shorts/kx2nwlETbQQ)
+- [https://www.youtube.com/shorts/Z1blDYoQ8-A](https://www.youtube.com/shorts/Z1blDYoQ8-A)
+- [https://thangs.com/designer/Make%20Anything/3d-model/Snappy%20Switch%20Keychain-1313203](https://thangs.com/designer/Make%20Anything/3d-model/Snappy%20Switch%20Keychain-1313203)
+
+## Physical / Digital Prototyping Tools
+
+- [https://medium.com/@brambos/automotive-ui-prototyping-with-real-car-data-b8cab3bc0621](https://medium.com/@brambos/automotive-ui-prototyping-with-real-car-data-b8cab3bc0621)
+- [https://edges.ideo.com/posts/figproxy](https://edges.ideo.com/posts/figproxy)
+- [https://microflow.vercel.app/](https://microflow.vercel.app/)
+
 # Reference: Readings
 
 ## Books
@@ -141,20 +196,6 @@ The microbit is a small and inexpensive computer and circuit board, which can be
 - [https://www.uxmatters.com/mt/archives/2017/03/3-kinds-of-simplicity.php](https://www.uxmatters.com/mt/archives/2017/03/3-kinds-of-simplicity.php)
 - [https://turbek.com/articles/2012/usability-of-coffee.html](https://turbek.com/articles/2012/usability-of-coffee.html)
 - [ACM International Conference on Tangible, Embedded and Embodied Interaction](https://tei.acm.org/2025/about/about)
-
-## Tangible Design Inspiration
-
-- [The timeless appeal of Olivetti's industrial and minimalist design style](https://abduzeedo.com/timeless-appeal-olivettis-industrial-and-minimalist-design-style#google_vignette)
-- [https://www.domusweb.it/en/design/2022/07/06/quando-il-design-italiano-era-una-cosa-da-fantascienza.html](https://www.domusweb.it/en/design/2022/07/06/quando-il-design-italiano-era-una-cosa-da-fantascienza.html)
-- [https://www.yankodesign.com/2024/12/04/modular-numpad-concept-adds-some-teenage-engineering-industrial-aesthetic-to-your-workflow/](https://www.yankodesign.com/2024/12/04/modular-numpad-concept-adds-some-teenage-engineering-industrial-aesthetic-to-your-workflow/)
-- [You spin me right round, baby, right round.](https://www.theverge.com/news/622914/auto-draft)
-- “Knob Feel” A dude who rated stereo knobs
-  - [Arcam \- AVR21 \- AV Receiver \- Knob Feel Review](https://www.youtube.com/watch?v=5I2J7BAcQro)
-  - [Onkyo TX-NR616 Knob Feel Review](https://www.youtube.com/watch?v=hnloAUVLAho)
-  - [Knob Feel Showcase - Xeeltech Hapticore - CUSTOM KNOB FEELS](https://www.youtube.com/watch?v=grDQHYVJJGY)
-  - [2015 Knob Feel Awards](https://www.youtube.com/watch?v=HN49Vls-UlM)
-- [https://web.archive.org/web/20181130052011/https://www.theverge.com/circuitbreaker/2018/11/21/18105423/ipod-click-wheel-button-music-control-hardware-design](https://web.archive.org/web/20181130052011/https://www.theverge.com/circuitbreaker/2018/11/21/18105423/ipod-click-wheel-button-music-control-hardware-design)
-- [Inside the original iPod](http://reddit.com/r/ipod/comments/vvu3po/replacing_the_ball_bearing_on_the_1g/) scroll wheel
 
 # Reference: Design Process
 
