@@ -7,7 +7,7 @@ layout: default
 
 These are the materials for the Tangible Interfaces Class, created by Steve Turbek in 2025 for the Senior Industrial Design Studio at Pratt Institute.
 
-The class focuses on designing tactile and sensory experiences for consumer and industrial products with extensive use of 3D modeling and printing. It will introduce basic electronics using the [https://microbit.org/get-started/getting-started/introduction/](BBC Microbit), a very simple computer board with a rich sensor package and excellent introductory software. No previous experience of UX or electronics is expected.
+The class focuses on designing tactile and sensory experiences for consumer and industrial products with extensive use of 3D modeling and printing. It will introduce basic electronics using the BBC Microbit, a very simple computer board with a rich sensor package and excellent introductory software. No previous experience of UX or electronics is expected.
 
 We will explore the theory and practices of User Experience Design in the context of physical design. Our objects must not only be beautiful, we must have the open mindset to test them with users.
 
@@ -72,24 +72,36 @@ Students often get tripped up making the "looks like" and a "works like" prototy
 
 When designing modern products, Designers and Engineers often make a "looks like" and a "works like" prototype. They are often quite different until late in the engineering process. The goal of 'works like' prototypes is to quickly change and learn. Form follows function, but often you don’t know what the function looks like\! Example of a “works like” prototype: the original iphone [https://web.archive.org/web/20190501154547/https://www.theverge.com/2019/3/19/18263844/apple-iphone-prototype-m68-original-development-board-red](https://web.archive.org/web/20190501154547/https://www.theverge.com/2019/3/19/18263844/apple-iphone-prototype-m68-original-development-board-red)
 
-# Microbit
+## Tech Tips Triage for Microbit
 
-The microbit is a small computer and circuit board,
+- Make sure to check if sensor or motor needs 5v vs 3v. Some sensors need more volts or amps. Sometimes adding a power cable or battery pack just makes it work
+- Make a firm base to attach things to
+- Tape down wires. Often loose wires are the problem
+- Put the battery pack in the lower connector on T plug
+- Which pins are always safe to use? 0,1,2
+- LED ENABLE code command interferes with pins reading or writing, which can be confusing
+- Watch out for multiple forever loops
+- Keep your main program loop fast, so you can sample data frequently
+- Be very careful with pauses - the microbit doesn't do ANYTHING when paused and will miss input or output.
 
-### Materials to get
+# Reference: Microbit
+
+The microbit is a small and inexpensive computer and circuit board, which can be programmed via a web browser with simple coding. It has a surprising number of sensors and features built in.
+
+## Materials to get
 
 - [BBC Microbit Starter Kit](https://www.amazon.com/dp/B07KG2M7BM)
 - [Sensor Kit](https://www.amazon.com/KEYESTUDIO-Sensors-Microbit-Breakout-Tutorials/dp/B08H8C6TW5) (can share with 3-6 students)
 - [USB-A to USB-C adapter](https://www.amazon.com/Basesailor-Thunderbolt-Converter-Generation-Microsoft/dp/B09SZ5NHF4/) (for newer computers)
 
-### Microbit Documentation
+## Microbit Documentation
 
 - [https://makecode.microbit.org/\#editor](https://makecode.microbit.org/#editor) this is how you program the Microbit
 - [https://docs.keyestudio.com/projects/KS0306/en/latest/](https://docs.keyestudio.com/projects/KS0306/en/latest/)
 - [https://docs.keyestudio.com/projects/KS4009-KS4010/en/latest/](https://docs.keyestudio.com/projects/KS4009-KS4010/en/latest/)
 - [https://wiki.keyestudio.com/KS4009(4010)\_45_in_1_Sensor_Starter_Kit_For_BBC_Micro:bit](<https://wiki.keyestudio.com/KS4009(4010)_45_in_1_Sensor_Starter_Kit_For_BBC_Micro:bit>)
 
-### Introduction to Microbit
+## Introduction to Microbit
 
 - [https://microbit.org/get-started/getting-started/introduction/](https://microbit.org/get-started/getting-started/introduction/)
 - [https://microbit.org/teach/lessons/](https://microbit.org/teach/lessons/)
@@ -98,7 +110,7 @@ The microbit is a small computer and circuit board,
 - [https://www.reddit.com/r/microbit/](https://www.reddit.com/r/microbit/)
 - [https://stackoverflow.com/questions/tagged/bbc-microbit](https://stackoverflow.com/questions/tagged/bbc-microbit)
 
-### Microbit Class code samples
+## Microbit Class code samples
 
 - [Compass](https://makecode.microbit.org/S73740-73796-06271-95761)
 - [Accelerometer (angle sensor)](https://makecode.microbit.org/S35143-81264-77800-96699)
@@ -110,18 +122,7 @@ The microbit is a small computer and circuit board,
 - [Flappy pixel](https://makecode.microbit.org/S38662-17419-00388-04398)
 - [Flappy Servo](https://makecode.microbit.org/S88818-34957-38430-63386)
 
-### Tech Tips Triage for Microbit
-
-- Make sure to check 5v vs 3v. Some, many sensors need more volts or amps. Sometimes a battery pack just makes it work\!
-- Make a firm base to attach things to\!
-- Tape down wires \- often loose wires are the problem\!
-- Put the Battery pack in the lower connector on T plug
-- LED enable code command interferes with pins
-- Which pins are safe? 0,1,2
-- Watch out for multiple forever loops
-- Keep your main program loop fast, with no delays.
-
-# Readings
+# Reference: Readings
 
 ## Books
 
@@ -155,7 +156,7 @@ The microbit is a small computer and circuit board,
 - [https://web.archive.org/web/20181130052011/https://www.theverge.com/circuitbreaker/2018/11/21/18105423/ipod-click-wheel-button-music-control-hardware-design](https://web.archive.org/web/20181130052011/https://www.theverge.com/circuitbreaker/2018/11/21/18105423/ipod-click-wheel-button-music-control-hardware-design)
 - [Inside the original iPod](http://reddit.com/r/ipod/comments/vvu3po/replacing_the_ball_bearing_on_the_1g/) scroll wheel
 
-## Design Process
+# Reference: Design Process
 
 There are LOTS of diagrams to convey some intangible ideas and best practices of design.
 
