@@ -64,6 +64,10 @@ Safety concerns are paramount, as research consistently shows touchscreens requi
 - [https://www.drive.com.au/news/former-apple-design-boss-physical-buttons-return-to-car-interiors/](https://www.drive.com.au/news/former-apple-design-boss-physical-buttons-return-to-car-interiors/)
 - [https://www.vibilagare.se/english/physical-buttons-outperform-touchscreens-new-cars-test-finds](https://www.vibilagare.se/english/physical-buttons-outperform-touchscreens-new-cars-test-finds)
 
+Interestingly, the new apple car play addresses very few of the concerns above
+
+- https://www.topgear.com/car-news/tech/new-apple-carplay-ultra-tested-hands-every-new-feature#comments
+
 # Tips for class
 
 ## "Looks like" and a "Works like" prototypes
@@ -109,6 +113,8 @@ The microbit is a small and inexpensive computer and circuit board, which can be
 - [https://www.youtube.com/results?search_query=microbit](https://www.youtube.com/results?search_query=microbit)
 - [https://www.reddit.com/r/microbit/](https://www.reddit.com/r/microbit/)
 - [https://stackoverflow.com/questions/tagged/bbc-microbit](https://stackoverflow.com/questions/tagged/bbc-microbit)
+- [https://createai.microbit.org](https://createai.microbit.org) - interesting application of data collection and machine learning
+- [https://www.construct.net/en/make-games/manuals/construct-3/plugin-reference/bbc-micro-bit](https://www.construct.net/en/make-games/manuals/construct-3/plugin-reference/bbc-micro-bit) - Construct kids game maker has a microbit plug in
 
 ## Microbit Class code samples
 
