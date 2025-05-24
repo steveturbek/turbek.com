@@ -13,26 +13,9 @@
       }
 
       #main {
-        flex-wrap: wrap;
-        display: inline-flex;
-        gap: 1em;
-
-        justify-content: center;
-        align-items: stretch;
-        text-align: center;
         margin: auto;
         margin-top: 1em;
-        min-width: 800px;
-        max-width: 1280px;
-      }
-
-      @media screen and (max-width: 510px) {
-        html,
-        body {
-          padding: 0;
-          margin: 0;
-          width: 100%;
-        }
+        max-width: 800px;
       }
 
       #miniheader,
@@ -41,6 +24,16 @@
         width: 100%;
         text-align: left;
         margin-bottom: 2em;
+      }
+
+      @media screen and (max-width: 510px) {
+        html,
+        body,
+        #main {
+          padding: 0;
+          margin: 0;
+          width: 100%;
+        }
       }
     </style>
   </head>
