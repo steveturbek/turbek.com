@@ -3,14 +3,22 @@
   <head>
     <title>{{ page.title }}</title>
     <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
 
     <style>
+      html {
+        width: 100%;
+        padding: 0;
+      }
       body {
-        margin: 0%;
+        width: 100%;
+        /* margin: 0%; */
         text-align: center;
         font: 300 100.01% "Helvetica Neue", Helvetica, "Arial Unicode MS", Arial, sans-serif;
-        line-height: 1.35;
-        text-rendering: optimizeLegibility;
+        /* line-height: 1.35;
+        text-rendering: optimizeLegibility; */
+        text-wrap: pretty;
       }
 
       #main {
@@ -28,23 +36,21 @@
       }
 
       @media screen and (max-width: 510px) {
-        body,
         #main {
           padding: 0;
           margin: 0;
-          width: 100%;
-          max-width: 100%;
+          max-width: 95%;
         }
 
-        body {
-          padding: 5px;
+        a {
+          word-break: break-all;
         }
       }
     </style>
   </head>
   <body>
     <div id="main">
-      <div id="miniheader" style="">
+      <div id="miniheader">
         <a href="/" style="color: #333333; text-decoration: none">
           <img src="/images/TurbekT.svg" style="height: 20px; vertical-align: baseline; padding-right: 10px" />
           <h1 style="display: inline; font-size: 150%">Steve&nbsp;Turbek</h1></a

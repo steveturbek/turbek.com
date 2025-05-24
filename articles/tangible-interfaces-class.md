@@ -74,7 +74,7 @@ Interestingly, the new apple car play addresses very few of the concerns above
 
 Students often get tripped up making the "looks like" and a "works like" prototype the same object.
 
-When designing modern products, Designers and Engineers often make a "looks like" and a "works like" prototype. They are often quite different until late in the engineering process. The goal of 'works like' prototypes is to quickly change and learn. Form follows function, but often you don’t know what the function looks like\! Example of a “works like” prototype: the original iphone [https://web.archive.org/web/20190501154547/https://www.theverge.com/2019/3/19/18263844/apple-iphone-prototype-m68-original-development-board-red](https://web.archive.org/web/20190501154547/https://www.theverge.com/2019/3/19/18263844/apple-iphone-prototype-m68-original-development-board-red)
+When designing modern products, Designers and Engineers often make a "looks like" and a "works like" prototype. They are often quite different until late in the engineering process. The goal of 'works like' prototypes is to quickly change and learn. Form follows function, but often you don’t know what the function looks like\! Example of a “works like” prototype: [the original iPhone Prototype](https://web.archive.org/web/20190501154547/https://www.theverge.com/2019/3/19/18263844/apple-iphone-prototype-m68-original-development-board-red)
 
 ## Tech Tips Triage for Microbit
 
@@ -103,7 +103,7 @@ The microbit is a small and inexpensive computer and circuit board, which can be
 - [https://makecode.microbit.org/\#editor](https://makecode.microbit.org/#editor) this is how you program the Microbit
 - [https://docs.keyestudio.com/projects/KS0306/en/latest/](https://docs.keyestudio.com/projects/KS0306/en/latest/)
 - [https://docs.keyestudio.com/projects/KS4009-KS4010/en/latest/](https://docs.keyestudio.com/projects/KS4009-KS4010/en/latest/)
-- [https://wiki.keyestudio.com/KS4009(4010)\_45_in_1_Sensor_Starter_Kit_For_BBC_Micro:bit](<https://wiki.keyestudio.com/KS4009(4010)_45_in_1_Sensor_Starter_Kit_For_BBC_Micro:bit>)
+- [https://wiki.keyestudio.com/](<https://wiki.keyestudio.com/KS4009(4010)_45_in_1_Sensor_Starter_Kit_For_BBC_Micro:bit>)
 
 ## Introduction to Microbit
 
@@ -139,7 +139,7 @@ The microbit is a small and inexpensive computer and circuit board, which can be
   - [Onkyo TX-NR616 Knob Feel Review](https://www.youtube.com/watch?v=hnloAUVLAho)
   - [Knob Feel Showcase - Xeeltech Hapticore - CUSTOM KNOB FEELS](https://www.youtube.com/watch?v=grDQHYVJJGY)
   - [2015 Knob Feel Awards](https://www.youtube.com/watch?v=HN49Vls-UlM)
-- [https://web.archive.org/web/20181130052011/https://www.theverge.com/circuitbreaker/2018/11/21/18105423/ipod-click-wheel-button-music-control-hardware-design](https://web.archive.org/web/20181130052011/https://www.theverge.com/circuitbreaker/2018/11/21/18105423/ipod-click-wheel-button-music-control-hardware-design)
+- [iPod click wheel button hardware design](https://web.archive.org/web/20181130052011/https://www.theverge.com/circuitbreaker/2018/11/21/18105423/ipod-click-wheel-button-music-control-hardware-design)
 - [Inside the original iPod](http://reddit.com/r/ipod/comments/vvu3po/replacing_the_ball_bearing_on_the_1g/) scroll wheel
 
 ## Tangible Tech Inspiration
@@ -208,7 +208,7 @@ The microbit is a small and inexpensive computer and circuit board, which can be
 There are LOTS of diagrams to convey some intangible ideas and best practices of design.
 
 - [https://www.uxbeginner.com/ux-design-processes/](https://www.uxbeginner.com/ux-design-processes/)
-- [https://www.figma.com/design/bzcOKTm4IUs733LrS4gnex/Design-Process---Double-Diamond-(Community)?node-id=0-1\&p=f\&t=cOMQyqwtMhjszNnE-0](<https://www.figma.com/design/bzcOKTm4IUs733LrS4gnex/Design-Process---Double-Diamond-(Community)?node-id=0-1&p=f&t=cOMQyqwtMhjszNnE-0>)
+- [figma Design-Process---Double-Diamond](<https://www.figma.com/design/bzcOKTm4IUs733LrS4gnex/Design-Process---Double-Diamond-(Community)?node-id=0-1&p=f&t=cOMQyqwtMhjszNnE-0>)
 - [https://www.designcouncil.org.uk/our-resources/the-double-diamond/](https://www.designcouncil.org.uk/our-resources/the-double-diamond/)
 - [https://thedesignsquiggle.com/about](https://thedesignsquiggle.com/about)
 
