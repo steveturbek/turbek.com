@@ -188,13 +188,17 @@ The microbit is a small and inexpensive computer and circuit board, which can be
 ## Books
 
 - Game
-  - [https://archive.org/details/game-feel](https://archive.org/details/game-feel)
+  - [Game Feel: A Game Designer's Guide to Virtual Sensation](https://archive.org/details/game-feel) by Steve Swink, 2008
 - UX Design
-  - [The Design of Everyday Things](https://en.wikipedia.org/wiki/The_Design_of_Everyday_Things) \- Classic book on design
-  - [https://sensible.com/dont-make-me-think/](https://sensible.com/dont-make-me-think/)
-  - [https://rosenfeldmedia.com/books/lean-user-research/](https://rosenfeldmedia.com/books/lean-user-research/)
-  - [https://rosenfeldmedia.com/books/web-form-design/](https://rosenfeldmedia.com/books/web-form-design/)
-- Tangible User Interfaces: Past, Present and Future Directions 2010 book (not especially recommended, but same name as course)
+  - [The Design of Everyday Things](https://en.wikipedia.org/wiki/The_Design_of_Everyday_Things) By Donald Norman, 1988
+  - [Don’t Make Me Think, A Common Sense Approach to Web (and Mobile) Usability](https://sensible.com/dont-make-me-think/) by Steve Krug, 2014
+  - [Validating Product Ideas Through Lean User Research](https://rosenfeldmedia.com/books/lean-user-research/) by Tomer Sharon, 2016
+  - [Web Form Design](https://rosenfeldmedia.com/books/web-form-design/) By Luke Wroblewski 2008
+- Physical Computing
+  - [Tangible User Interfaces: Past, Present and Future Directions](https://cs.wellesley.edu/~oshaer/TUI_NOW.pdf) by Orit Shaer and Eva Hornecker, 2010
+  - [Physical Computing: Sensing and Controlling the Physical](https://archive.org/details/physicalcomputin0000osul), by Tom Igoe and Dan O'Sullivan, 2004
+  - [Smart Things: Ubiquitous Computing User Experience Design](https://archive.org/details/smartthingsubiqu0000kuni) by Mike Kuniavsky, 2010
+  - [https://web.stanford.edu/class/me327/readings/MacLean08-RHFE-Design.pdf](Haptic Interaction Design for Everyday Interfaces) by Karon E MacLean, 2008
 
 ## Essays, Articles
 
@@ -202,6 +206,7 @@ The microbit is a small and inexpensive computer and circuit board, which can be
 - [https://www.uxmatters.com/mt/archives/2017/03/3-kinds-of-simplicity.php](https://www.uxmatters.com/mt/archives/2017/03/3-kinds-of-simplicity.php)
 - [https://turbek.com/articles/2012/usability-of-coffee.html](https://turbek.com/articles/2012/usability-of-coffee.html)
 - [ACM International Conference on Tangible, Embedded and Embodied Interaction](https://tei.acm.org/2025/about/about)
+- [Haptic UX — The Design Guide for Building Touch Experiences]([)https://medium.muz.li/haptic-ux-the-design-guide-for-building-touch-experiences-84639aa4a1b8) by Justin Baker, 2019
 
 # Reference: Design Process
 
