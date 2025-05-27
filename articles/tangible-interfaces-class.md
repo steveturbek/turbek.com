@@ -198,7 +198,7 @@ The microbit is a small and inexpensive computer and circuit board, which can be
   - [Tangible User Interfaces: Past, Present and Future Directions](https://cs.wellesley.edu/~oshaer/TUI_NOW.pdf) by Orit Shaer and Eva Hornecker, 2010
   - [Physical Computing: Sensing and Controlling the Physical](https://archive.org/details/physicalcomputin0000osul), by Tom Igoe and Dan O'Sullivan, 2004
   - [Smart Things: Ubiquitous Computing User Experience Design](https://archive.org/details/smartthingsubiqu0000kuni) by Mike Kuniavsky, 2010
-  - [https://web.stanford.edu/class/me327/readings/MacLean08-RHFE-Design.pdf](Haptic Interaction Design for Everyday Interfaces) by Karon E MacLean, 2008
+  - [Haptic Interaction Design for Everyday Interfaces](https://web.stanford.edu/class/me327/readings/MacLean08-RHFE-Design.pdf) by Karon E MacLean, 2008
 
 ## Essays, Articles
 
