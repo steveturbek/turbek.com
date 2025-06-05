@@ -24,7 +24,23 @@ What feels good? Why?
 
 ### Section 2 (Week 3-5)
 
-"Hacky Bird": the student will design and produce a tangible interface that creatively interprets the video game [Flappy Bird](https://flappybird.io/) in the real world without a screen using physical sensors and output. The project will include design, electronics, programming, & prototyping of a ‘works like’ model.
+<details>
+<summary>
+#### Media Control Device
+</summary>
+
+Design Brief: Design and make a working object that can control media on your laptop or phone. You may use any sensor, or multiple sensors to make an engaging and innovative experience using Microbit Bluetooth software extension. [Sample code](https://makecode.microbit.org/_WwdYaeHUVMe6). Here is a [reference project](https://www.thingiverse.com/thing:7057254#google_vignette) using the common rotary encoder sensor.
+
+</details>
+
+<details>
+<summary>
+#### "Hacky Bird"
+</summary>
+
+Design Brief: design and produce a tangible interface that creatively interprets the video game [Flappy Bird](https://flappybird.io/) in the real world using physical sensors and output, but without a screen. The project will include design, electronics, programming, & prototyping of a ‘works like’ model.
+
+</details>
 
 ### Section 3 (Week 6-15) Team Project
 
@@ -127,6 +143,7 @@ The microbit is a small and inexpensive computer and circuit board, which can be
 - [Servo sonar with smoothing](https://makecode.microbit.org/S24125-16117-53200-02888)
 - [Flappy pixel](https://makecode.microbit.org/S38662-17419-00388-04398)
 - [Flappy Servo](https://makecode.microbit.org/S88818-34957-38430-63386)
+- [Media player](https://makecode.microbit.org/_7jhAMzf3XUFJ) uses [microbit-pxt-blehid extension](https://github.com/bsiever/microbit-pxt-blehid?tab=readme-ov-file)
 
 # Tangible Design Inspiration
 
