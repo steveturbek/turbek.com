@@ -183,6 +183,8 @@ The microbit is a small and inexpensive computer and circuit board, which can be
 - [https://www.youtube.com/shorts/kx2nwlETbQQ](https://www.youtube.com/shorts/kx2nwlETbQQ)
 - [https://www.youtube.com/shorts/Z1blDYoQ8-A](https://www.youtube.com/shorts/Z1blDYoQ8-A)
 - [https://thangs.com/designer/Make%20Anything/3d-model/Snappy%20Switch%20Keychain-1313203](https://thangs.com/designer/Make%20Anything/3d-model/Snappy%20Switch%20Keychain-1313203)
+- [magnet flipper](https://makerworld.com/en/models/1396684-super-swivel-fidgets-magnetic-slider-fidgets#profileId-1447836)
+- [gear shifter](https://makerworld.com/en/models/1396684-super-swivel-fidgets-magnetic-slider-fidgets#profileId-1447836)
 
 ## Physical / Digital Prototyping Tools
 
