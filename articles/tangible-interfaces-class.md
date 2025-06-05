@@ -24,23 +24,13 @@ What feels good? Why?
 
 ### Section 2 (Week 3-5)
 
-<details>
-<summary>
 #### Media Control Device
-</summary>
 
 Design Brief: Design and make a working object that can control media on your laptop or phone. You may use any sensor, or multiple sensors to make an engaging and innovative experience using Microbit Bluetooth software extension. [Sample code](https://makecode.microbit.org/_WwdYaeHUVMe6). Here is a [reference project](https://www.thingiverse.com/thing:7057254#google_vignette) using the common rotary encoder sensor.
 
-</details>
-
-<details>
-<summary>
 #### "Hacky Bird"
-</summary>
 
 Design Brief: design and produce a tangible interface that creatively interprets the video game [Flappy Bird](https://flappybird.io/) in the real world using physical sensors and output, but without a screen. The project will include design, electronics, programming, & prototyping of a ‘works like’ model.
-
-</details>
 
 ### Section 3 (Week 6-15) Team Project
 
