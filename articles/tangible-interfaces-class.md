@@ -93,6 +93,9 @@ When designing modern products, Designers and Engineers often make a "looks like
 - Watch out for multiple forever loops
 - Keep your main program loop fast, so you can sample data frequently
 - Be very careful with pauses - the microbit doesn't do ANYTHING when paused and will miss input or output.
+- When powered just by microbit, range is 90 degrees, slower
+- When powered with 6 AA, range goes to 180 degrees, is faster
+- I2EE LCD screen - remember to adjust polarity or can look off
 
 # Reference: Microbit
 
@@ -107,6 +110,7 @@ The microbit is a small and inexpensive computer and circuit board, which can be
 ## Microbit Documentation
 
 - [https://makecode.microbit.org/\#editor](https://makecode.microbit.org/#editor) this is how you program the Microbit
+- [Microbit Edge Connector pins](https://tech.microbit.org/hardware/edgeconnector)
 - [https://docs.keyestudio.com/projects/KS0306/en/latest/](https://docs.keyestudio.com/projects/KS0306/en/latest/)
 - [https://docs.keyestudio.com/projects/KS4009-KS4010/en/latest/](https://docs.keyestudio.com/projects/KS4009-KS4010/en/latest/)
 - [https://wiki.keyestudio.com/](<https://wiki.keyestudio.com/KS4009(4010)_45_in_1_Sensor_Starter_Kit_For_BBC_Micro:bit>)
@@ -147,7 +151,8 @@ The microbit is a small and inexpensive computer and circuit board, which can be
   - [Knob Feel Showcase - Xeeltech Hapticore - CUSTOM KNOB FEELS](https://www.youtube.com/watch?v=grDQHYVJJGY)
   - [2015 Knob Feel Awards](https://www.youtube.com/watch?v=HN49Vls-UlM)
 - [iPod click wheel button hardware design](https://web.archive.org/web/20181130052011/https://www.theverge.com/circuitbreaker/2018/11/21/18105423/ipod-click-wheel-button-music-control-hardware-design)
-- [Inside the original iPod](http://reddit.com/r/ipod/comments/vvu3po/replacing_the_ball_bearing_on_the_1g/) scroll wheel
+- [Inside the original iPod scroll wheel](http://reddit.com/r/ipod/comments/vvu3po/replacing_the_ball_bearing_on_the_1g/)
+- [Vintage phone design examples](https://www.reddit.com/r/nextfuckinglevel/comments/1ly3yl5/design_of_vintage_phones/)
 
 ## Tangible Tech Inspiration
 
@@ -169,6 +174,7 @@ The microbit is a small and inexpensive computer and circuit board, which can be
 - [Unusual Round Displays and How to Use Them](https://youtube.com/watch?v=FUU0CAjp1OQ&si=UcEB3_FKxkY1a_-c)
 - [ANO Directional Navigation and Scroll Wheel Rotary Encoder](https://www.adafruit.com/product/5001)
 - [AnySkin: Plug-and-play Skin Sensing for Robotic Touch](https://any-skin.github.io/)
+- [connect old skool joystick to arduino](https://www.instructables.com/DB-15-Joystick-Adapter-Device-With-Arduino/)
 
 ## Fidget Toys
 
