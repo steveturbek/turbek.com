@@ -35,11 +35,12 @@ The goals of the project are to
   - all 5 microswitch work from switch leads and the pins
   - microswitch cam discs that trigger switches at home point are broken for shoulder, elbow, wrist. for shoulder, using broken pieces, looks like trigger radius is 30mm, clearance is 26-28mm. cup depth is 10mm, center hole dia is 6mm
   - Repaired the Gripper motor and the encoder, which was banged in. microswitch re-attached
-  - using multimeter on Gripper and base motor encoders, it seems
+  - gripper motor plate uses unusual 3.5mm hex for screws
+  - using multimeter on Gripper and base, it seems motor encoders work!
   - Motors do NOT have auto stop switches at ends of rotation. assume they do it in software
   - cams are missing, but based on base, the 'home' position, where microswitch is, should be the center of movement.
   - confirmed Gripper encoder works, hand spinning disc. 47 ohm resistor works to LED. LED is infrared, not visible. photoresistor needs 10k pull up to 5v each to pin 0 and 1, where signal is read. (Arduino has this built in)
-  - assuming other encoders work, proceeding with buying gear
+  - assuming other encoders work, proceeding with buying parts
 
 ## TODO
 
@@ -81,8 +82,6 @@ The goals of the project are to
 | Robot Arm | 11 kg (24 lb.) |
 | Controller | 5 kg (11 lb.) |
 
-### Notes
-
 ### Original power supply
 
 - - 15V, 4A, unregulated, supplies power to the robot motors.
@@ -100,7 +99,7 @@ The goals of the project are to
 
 ### Scorbot Cable connector
 
-The Scorbot cable connector is an unusual [D 50](https://en.wikipedia.org/wiki/D-subminiature) cable. Connectors and breakout boards that fit are available at Amazon or Ali Express.
+The Scorbot cable connector is an unusual [DB 50](https://en.wikipedia.org/wiki/D-subminiature) cable. Connectors and breakout boards that fit are available at Amazon or Ali Express. [DB 50 connector Specification](https://www.farnell.com/datasheets/1656989.pdf)
 
 Here is the pin numbers (looking at the scorbot cable connector pins)
 
@@ -188,3 +187,10 @@ Here is the pin numbers (looking at the scorbot cable connector pins)
 | [**scorbot_config**](https://github.com/greenpro/scorbot_config)                                     | • [CraigCode1010.com](http://craigcode1010.com/)<br>• Complete SAC project documentation                                                                                                                                                                                                                                                                                    | Configuration files for Scorbot integration with MoveIt motion planning framework. Part of SAC (Scorbot Arm Control) project.                                                   |
 | [**sac_description**](https://github.com/greenpro/sac_description)                                   | • [Project Documentation](http://craigcode1010.com/)<br>• ROS system topology details                                                                                                                                                                                                                                                                                       | ROS package with URDF descriptions for Southern Adventist University robotic arm simulation, includes Scorbot modeling for Gazebo.                                              |
 | [**r2d3**](https://github.com/ajnsit/r2d3)                                                           | • Cross-platform simulator documentation                                                                                                                                                                                                                                                                                                                                    | Free robotic manipulator simulator using Blender and Python, specifically designed for Scorbot ER-V with forward/inverse kinematics and ACL programming support.                |
+
+### Other Robot Arm Projects
+
+- [PAROL6](https://github.com/PCrnjak/PAROL6-Desktop-robot-arm)
+- [BCN3D Moveo](https://github.com/BCN3D/BCN3D-Moveo)
+- [LeRobot](https://github.com/huggingface/lerobot)
+- [Faze4-Robotic-arm](https://github.com/PCrnjak/Faze4-Robotic-arm)
