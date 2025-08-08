@@ -42,6 +42,9 @@ The goals of the project are to
   - confirmed Gripper encoder works, hand spinning disc. 47 ohm resistor works to LED. LED is infrared, not visible. photoresistor needs 10k pull up to 5v each to pin 0 and 1, where signal is read. (Arduino has this built in)
   - assuming other encoders work, proceeding with buying parts
 
+  - arduino mega has 5v outputs
+  - H bridge has enable pins to enable PWM speed control
+
 ## TODO
 
 - check / set microswitches are in centerpoint of movement
@@ -50,8 +53,10 @@ The goals of the project are to
 ## Project Parts List
 
 - Scorbot ER iii robot arm, without controller or Teaching pendant (~$200-300)
-- Arduino-type Mega board
-- D-50 style connector
+- [Arduino-type Mega board](https://a.co/d/h9p4QL3)
+- [D-50 style connector board](https://a.co/d/717fIG9)
+- [L298N dual h bridge motor controller](https://a.co/d/8DAa5Af)
+- [12v 10 amp power supply](https://a.co/d/0ydMZDN)
 
 ## Scorbot Description
 
