@@ -9,49 +9,46 @@ These are the materials for the Tangible Interfaces Class, created by Steve Turb
 
 The class focuses on designing tactile and sensory experiences for consumer and industrial products with extensive use of 3D modeling and printing. It will introduce basic electronics using the BBC Microbit, a very simple computer board with a rich sensor package and excellent introductory software. No previous experience of UX or electronics is expected.
 
-We will explore the theory and practices of User Experience Design in the context of physical design. Our objects must not only be beautiful, we must have the open mindset to test them with users.
+We will explore the theory and practices of User Experience Design Process in the context of physical design. Our objects must not only be beautiful, we must have the open mindset to validare our designs with users.
 
 ## Class Schedule
 
 ### Project 1: Design a Fidget Toy (Week 1-2)
 
-Warm up design exercise and skills assessment to design a fidget toy. 
-Feel free to be inspired by the many that exist.  
+Warm up design exercise and skills assessment. Feel free to be inspired by the many that exist.  
 What feels good? Why?
 
 Class 1
 - Intro to class
 
-Homework: find and 3D print (or make) 1-3 "interesting to feel" fidget toys. make a slide for each abiit why it is interesting. 
-Purchase basic microbit and electronics components 
+Homework: Find and 3D print (or make) 1-3 "interesting to feel" fidget toys. make a slide for each about why it is interesting. 
+- Purchase basic microbit and electronics components 
 
 Class 2 
-Class discussion on fidget toys
-pemcil sketching for your ideas
+- Class discussion on fidget toys
+- Pencil sketching for your ideas
 
-homework for next Thursday
-- Sketch Sketch Sketch!
-- 3D print
+Homework for NEXT Thursday
+- Sketch, Sketch, Sketch!
+- remember to 3D print test models early!
 
 Class 3 
-class presentations & discussion 
-work on final models
+- In-process presentations & discussion 
+- Work on final models
 
 Homework: final 3D model & presentation
 
-
-
 Class 4 
-presentations of fidget toys
-In class discussion 
-Write documentation and share to 3D sharing sites
-Introduce Project 2
+- Presentations of fidget toys
+- In class discussion 
+- Write documentation and share to 3D sharing sites
+- Introduce Project 2
 
 ### Project 2 Media Control Device (Week 3-5)
 
 Design Brief: Design and make a working object that can control music/video on your laptop or phone. The basic hardware and software will be provided, using Microbit Bluetooth software extension. [Sample code](https://makecode.microbit.org/_WwdYaeHUVMe6).
 
-Your task will be to design the physical form and select one or more sensors to make an engaging and innovative experience. 
+Your task will be to design the physical form and one or more sensors to make an engaging and innovative experience. 
 
 [Example reference model](https://www.thingiverse.com/thing:7057254#google_vignette) using the common rotary encoder sensor.
 
