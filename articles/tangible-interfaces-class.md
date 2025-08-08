@@ -13,20 +13,47 @@ We will explore the theory and practices of User Experience Design in the contex
 
 ## Class Schedule
 
-### Section 1 Design Fidget toy (Week 1-2)
+### Project 1: Design a Fidget Toy (Week 1-2)
 
-Quick design exercise to design a fidget toy. Feel free to be inspired by the many that exist.  
+Warm up design exercise and skills assessment to design a fidget toy. 
+Feel free to be inspired by the many that exist.  
 What feels good? Why?
 
-- Explore what has been done.
-- Sketch Sketch Sketch
-- 3D model & print to present Monday of week 3
+Class 1
+- Intro to class
 
-### Section 2 (Week 3-5)
+Homework: find and 3D print (or make) 1-3 "interesting to feel" fidget toys. make a slide for each abiit why it is interesting. 
+Purchase basic microbit and electronics components 
 
-#### Media Control Device
+Class 2 
+Class discussion on fidget toys
+pemcil sketching for your ideas
 
-Design Brief: Design and make a working object that can control media on your laptop or phone. You may use any sensor, or multiple sensors to make an engaging and innovative experience using Microbit Bluetooth software extension. [Sample code](https://makecode.microbit.org/_WwdYaeHUVMe6). Here is a [reference project](https://www.thingiverse.com/thing:7057254#google_vignette) using the common rotary encoder sensor.
+homework for next Thursday
+- Sketch Sketch Sketch!
+- 3D print
+
+Class 3 
+class presentations & discussion 
+work on final models
+
+Homework: final 3D model & presentation
+
+
+
+Class 4 
+presentations of fidget toys
+In class discussion 
+Write documentation and share to 3D sharing sites
+Introduce Project 2
+
+### Project 2 Media Control Device (Week 3-5)
+
+Design Brief: Design and make a working object that can control music/video on your laptop or phone. The basic hardware and software will be provided, using Microbit Bluetooth software extension. [Sample code](https://makecode.microbit.org/_WwdYaeHUVMe6).
+
+Your task will be to design the physical form and select one or more sensors to make an engaging and innovative experience. 
+
+[Example reference model](https://www.thingiverse.com/thing:7057254#google_vignette) using the common rotary encoder sensor.
 
 <!--
 #### "Hacky Bird"
@@ -34,14 +61,41 @@ Design Brief: Design and make a working object that can control media on your la
 Design Brief: design and produce a tangible interface that creatively interprets the video game [Flappy Bird](https://flappybird.io/) in the real world using physical sensors and output, but without a screen. The project will include design, electronics, programming, & prototyping of a ‘works like’ model.
 -->
 
-### Section 3 (Week 6-15) Team Project
+Class 5 
+Intro to Microbit software and hardware
 
-The final team design project, "AquaNova Submarine", is tasked with creating controls for the next generation of personal submersibles.
+homework: sketch physical design of remote control
 
-See details here:  
-[https://github.com/steveturbek/Tangible-Interfaces-Submarine-Design-Project/tree/main](https://github.com/steveturbek/Tangible-Interfaces-Submarine-Design-Project/tree/main)
+Class 6 (monday)
+Present sketches, discuss
 
-## Tangible Interfaces are an opportunity for designers
+Workshop with high school STEM students (as consulting engineers) to explore sensor mechanisms and coding. 
+
+Class 7 
+In class work on 3D model, software, & electronics 
+
+Homework: Bring finished models, software, electronics, with a Presentation milanote board
+
+
+Class 8 
+In class work on 3D model, software, & electronics 
+
+Class 9
+In class work on 3D model, software, & electronics 
+
+Class 10 
+Present products with marketing slides and or video
+Discussion, Debrief
+Introduce Project 3
+Pick 4 teams of 3 people
+
+### Project 3: Team Design of Submarine Cockpit (Week 6-15) 
+
+The final team design project is to design and prototype controls for the next generation of personal submersibles.[Project details](https://github.com/steveturbek/Tangible-Interfaces-Submarine-Design-Project/tree/main)
+
+## Class Description
+
+### Tangible Interfaces are an opportunity for designers
 
 ”Software is eating the world” [claimed Marc Andreessen in 2011](https://www.wsj.com/articles/SB10001424053111903480904576512250915629460). Its all-consuming hunger is ravaging the product design landscape. Many consumer products, from camera to Walkman to in-car controls are now simply apps on a featureless glass oblong. This leads to bland product design and customer dissatisfaction. In car design, this has even become a safety concern. “Physical buttons are increasingly rare in modern cars The driver in the worst-performing car control system needs four times longer to perform simple tasks than in the best-performing” [link](https://www.vibilagare.se/english/physical-buttons-outperform-touchscreens-new-cars-test-finds)
 
@@ -80,23 +134,23 @@ Interestingly, the new apple car play addresses very few of the concerns above
 
 ## "Looks like" and a "Works like" prototypes
 
-Students often get tripped up making the "looks like" and a "works like" prototype the same object.
+Students often compromise the form of their design model to accommodate the prototype electronics.
 
-When designing modern products, Designers and Engineers often make a "looks like" and a "works like" prototype. They are often quite different until late in the engineering process. The goal of 'works like' prototypes is to quickly change and learn. Form follows function, but often you don’t know what the function looks like\! Example of a “works like” prototype: [the original iPhone Prototype](https://web.archive.org/web/20190501154547/https://www.theverge.com/2019/3/19/18263844/apple-iphone-prototype-m68-original-development-board-red)
+When designing modern products, Designers and Engineers often make a "looks like" and a "works like" prototype. They are often look totally different until late in the engineering process. The goal of 'works like' prototypes is to quickly change and learn. Form follows function, but often you don’t know what the function looks like\! Example of a “works like” prototype: [the original iPhone Prototype](https://web.archive.org/web/20190501154547/https://www.theverge.com/2019/3/19/18263844/apple-iphone-prototype-m68-original-development-board-red)
 
 ## Tech Tips Triage for Microbit
 
 - Make sure to check if sensor or motor needs 5v vs 3v. Some sensors need more volts or amps. Sometimes adding a power cable or battery pack just makes it work
 - Make a firm base to attach things to
 - Tape down wires. Often loose wires are the problem
-- Put the battery pack in the lower connector on T plug
+- If using the T shaped microbit edge connector for a breadboard, put the battery pack into the T shaped connector, not the microbit.  
 - Which pins are always safe to use? 0,1,2
 - LED ENABLE code command interferes with pins reading or writing, which can be confusing
 - Watch out for multiple forever loops
 - Keep your main program loop fast, so you can sample data frequently
 - Be very careful with pauses - the microbit doesn't do ANYTHING when paused and will miss input or output.
-- When powered just by microbit, range is 90 degrees, slower
-- When powered with 6 AA, range goes to 180 degrees, is faster
+- When powered just by microbit, a servo range is 90 degrees and is slower
+- When powered with 6 AA, servo range goes to 180 degrees, is faster
 - I2EE LCD screen - remember to adjust polarity or can look off
 
 # Reference: Microbit
