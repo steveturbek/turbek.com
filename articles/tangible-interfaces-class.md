@@ -44,15 +44,9 @@ Class 4
 - Write documentation and share to 3D sharing sites
 - Introduce Project 2
 
-### Project 2 Media Control Device (Week 3-5)
+### Project 2 Media Remote Control Design (Week 3-5)
 
-Design Brief: Design and make a working object that can control music/video on your laptop or phone. [Project details](.html)
-
-The basic hardware and software will be provided, using Microbit Bluetooth software extension. [Sample code](https://makecode.microbit.org/_WwdYaeHUVMe6).
-
-Your task will be to design the physical form and one or more sensors to make an engaging and innovative experience. 
-
-[Example reference model](https://www.thingiverse.com/thing:7057254#google_vignette) using the common rotary encoder sensor.
+Design Brief: Design and make a working object that can control music/video on your laptop or phone. [Project details](tangible-interfaces-class-microbit-bluetooth-media-player-remote.html)
 
 <!--
 #### "Hacky Bird"
