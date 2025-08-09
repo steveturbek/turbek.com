@@ -46,7 +46,9 @@ Class 4
 
 ### Project 2 Media Control Device (Week 3-5)
 
-Design Brief: Design and make a working object that can control music/video on your laptop or phone. The basic hardware and software will be provided, using Microbit Bluetooth software extension. [Sample code](https://makecode.microbit.org/_WwdYaeHUVMe6).
+Design Brief: Design and make a working object that can control music/video on your laptop or phone. [Project details](.html)
+
+The basic hardware and software will be provided, using Microbit Bluetooth software extension. [Sample code](https://makecode.microbit.org/_WwdYaeHUVMe6).
 
 Your task will be to design the physical form and one or more sensors to make an engaging and innovative experience. 
 
