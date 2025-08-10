@@ -5,11 +5,12 @@ layout: default
 
 # Tangible Interfaces Class
 
-These are the materials for the Tangible Interfaces Class, created by Steve Turbek in 2025 for the Senior Industrial Design Studio at Pratt Institute.
+This page contains the materials for the Tangible Interfaces Senior Industrial Design Studio, created by Steve Turbek in 2025 at Pratt Institute.
 
-The class focuses on designing tactile and sensory experiences for consumer and industrial products with extensive use of 3D modeling and printing. It will introduce basic electronics using the BBC Microbit, a very simple computer board with a rich sensor package and excellent introductory software. No previous experience of UX or electronics is expected.
+The studio focuses on designing with tactile and sensory components to build interactive user experiences embodied in physical products. The studio is built around on iterative making with extensive use of 3D modeling and printing.
+It will introduce basic electronics using the BBC Microbit, a very simple computer board with a rich sensor package and excellent introductory software. No previous experience of UX or electronics is expected.
 
-We will explore the theory and practices of User Experience Design Process in the context of physical design. Our objects must not only be beautiful, we must have the open mindset to validare our designs with users.
+We will explore the theory and practices of the User Experience Design Process in the context of physical design. Our objects must not only be beautiful, we must have the open mindset to validate our designs with users to improve them. 
 
 ## Class Schedule
 
@@ -67,14 +68,14 @@ Workshop with high school STEM students (as consulting engineers) to explore sen
 Class 7 
 In class work on 3D model, software, & electronics 
 
-Homework: Bring finished models, software, electronics, with a Presentation milanote board
-
 
 Class 8 
 In class work on 3D model, software, & electronics 
 
 Class 9
 In class work on 3D model, software, & electronics 
+
+Homework: Bring finished models, software, electronics, with a Presentation milanote board. 
 
 Class 10 
 Present products with marketing slides and or video
