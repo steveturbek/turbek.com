@@ -12,6 +12,90 @@ It will introduce basic electronics using the BBC Microbit, a very simple comput
 
 We will explore the theory and practices of the User Experience Design Process in the context of physical design. Our objects must not only be beautiful, we must have the open mindset to validate our designs with users to improve them.
 
+## Class Schedule
+
+### Project 1: Design a Fidget Toy (Week 1-2)
+
+Warm up design exercise and skills assessment. Feel free to be inspired by the many that exist.  
+What feels good? Why?
+
+Class 1
+
+- Intro to class
+
+Homework: Find and 3D print (or make) 1-3 "interesting to feel" fidget toys. make a slide for each about why it is interesting.
+
+- Purchase basic microbit and electronics components
+
+Class 2
+
+- Class discussion on fidget toys
+- Pencil sketching for your ideas
+
+Homework for NEXT Thursday
+
+- Sketch, Sketch, Sketch!
+- remember to 3D print test models early!
+
+Class 3
+
+- In-process presentations & discussion
+- Work on final models
+
+Homework: final 3D model & presentation
+
+**_Class 4 September 8_**
+
+- Presentations of fidget toys
+- In class discussion
+- Write documentation and share to 3D sharing sites
+- Introduce Project 2
+
+### Project 2 Media Remote Control Design (Week 3-5)
+
+Design Brief: Design and make a working object that can control music/video on your laptop or phone. [Project details](tangible-interfaces-class-microbit-bluetooth-media-player-remote.html)
+
+<!--
+#### "Hacky Bird"
+
+Design Brief: design and produce a tangible interface that creatively interprets the video game [Flappy Bird](https://flappybird.io/) in the real world using physical sensors and output, but without a screen. The project will include design, electronics, programming, & prototyping of a ‘works like’ model.
+-->
+
+Class 5
+Intro to Microbit software and hardware
+
+homework: sketch physical design of remote control
+
+Class 6 (monday)
+Present sketches, discuss
+
+Workshop with high school STEM students (as consulting engineers) to explore sensor mechanisms and coding. Date TBD
+
+Class 7
+In class work on 3D model, software, & electronics
+
+Class 8
+In class work on 3D model, software, & electronics
+
+Class 9
+In class work on 3D model, software, & electronics
+
+Homework: Bring finished models, software, electronics, with a Presentation milanote board.
+
+**_Class 10 (September 29)_**
+Present products with marketing slides and or video
+Discussion, Debrief
+Introduce Project 3
+Pick 4 teams of 3 people
+
+Guest Speakers Oct 2& 6 (TBD)
+
+**_Final presentation Dec 8_**
+
+### Project 3: Team Design of Submarine Cockpit (Week 6-15)
+
+The final team design project is to design and prototype controls for the next generation of personal submersibles.[Project details](https://github.com/steveturbek/Tangible-Interfaces-Submarine-Design-Project/tree/main)
+
 ## Class Description
 
 ### Tangible Interfaces are an opportunity for designers

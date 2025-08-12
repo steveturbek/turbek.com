@@ -1,5 +1,5 @@
 ---
-title: Tangible Interfaces Class Overview
+title: Tangible Interfaces Class Bluetooth Media Remote Control project
 layout: default
 ---
 
