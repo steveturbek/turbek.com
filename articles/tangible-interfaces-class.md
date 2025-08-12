@@ -39,7 +39,7 @@ Class 3
 
 Homework: final 3D model & presentation
 
-Class 4 
+***Class 4 September 8***
 - Presentations of fidget toys
 - In class discussion 
 - Write documentation and share to 3D sharing sites
@@ -63,7 +63,7 @@ homework: sketch physical design of remote control
 Class 6 (monday)
 Present sketches, discuss
 
-Workshop with high school STEM students (as consulting engineers) to explore sensor mechanisms and coding. 
+Workshop with high school STEM students (as consulting engineers) to explore sensor mechanisms and coding. Date TBD
 
 Class 7 
 In class work on 3D model, software, & electronics 
@@ -77,15 +77,21 @@ In class work on 3D model, software, & electronics
 
 Homework: Bring finished models, software, electronics, with a Presentation milanote board. 
 
-Class 10 
+***Class 10 (September 29)***
 Present products with marketing slides and or video
 Discussion, Debrief
 Introduce Project 3
 Pick 4 teams of 3 people
 
+Guest Speakers Oct 2& 6 (TBD)
+
+***Final presentation Dec 8***
+
 ### Project 3: Team Design of Submarine Cockpit (Week 6-15) 
 
 The final team design project is to design and prototype controls for the next generation of personal submersibles.[Project details](https://github.com/steveturbek/Tangible-Interfaces-Submarine-Design-Project/tree/main)
+
+
 
 ## Class Description
 
