@@ -12,6 +12,18 @@ It will introduce basic electronics using the BBC Microbit, a very simple comput
 
 We will explore the theory and practices of the User Experience Design Process in the context of physical design. Our objects must not only be beautiful, we must have the open mindset to validate our designs with users to improve them.
 
+[[_TOC_]]
+
+## Class Description
+
+### Tangible Interfaces are an opportunity for designers
+
+”Software is eating the world” [claimed Marc Andreessen in 2011](https://www.wsj.com/articles/SB10001424053111903480904576512250915629460). Its all-consuming hunger is ravaging the product design landscape. Many consumer products, from camera to Walkman to in-car controls are now simply apps on a featureless glass oblong. This leads to bland product design and customer dissatisfaction. In car design, this has even become a safety concern. “Physical buttons are increasingly rare in modern cars The driver in the worst-performing car control system needs four times longer to perform simple tasks than in the best-performing” [link](https://www.vibilagare.se/english/physical-buttons-outperform-touchscreens-new-cars-test-finds)
+
+An era where “everything is an app and all apps look the same” is also an opportunity for industrial designers to create innovative new products. In Tangible Interfaces, the student is invited to think beyond the screen and design for touch, hearing, and the [dozens of other senses](https://en.wikipedia.org/wiki/Sense) that people have.
+
+_What’s your favorite instance of haptic nostalgia—the poignant memory of the physicality of an obsolete thing—like dialing a rotary phone, shifting gears in a manual transmission, opening a soda can with a pull ring?_ [Erin McKean (@emckean.bsky.social)](https://bsky.app/profile/emckean.bsky.social/post/3lfjeep3w4k22)
+
 ## Class Schedule
 
 ### Project 1: Design a Fidget Toy (Week 1-2)
@@ -83,30 +95,19 @@ In class work on 3D model, software, & electronics
 Homework: Bring finished models, software, electronics, with a Presentation milanote board.
 
 **_Class 10 (September 29)_**
-Present products with marketing slides and or video
-Discussion, Debrief
-Introduce Project 3
-Pick 4 teams of 3 people
 
-Guest Speakers Oct 2& 6 (TBD)
-
-**_Final presentation Dec 8_**
+- Present products with marketing slides and or video
+- Discussion, Debrief
+- Introduce Project 3
+- Pick 4 teams of 3 people
 
 ### Project 3: Team Design of Submarine Cockpit (Week 6-15)
 
 The final team design project is to design and prototype controls for the next generation of personal submersibles.[Project details](https://github.com/steveturbek/Tangible-Interfaces-Submarine-Design-Project/tree/main)
 
-## Class Description
+**_Final presentation Dec 8_**
 
-### Tangible Interfaces are an opportunity for designers
-
-”Software is eating the world” [claimed Marc Andreessen in 2011](https://www.wsj.com/articles/SB10001424053111903480904576512250915629460). Its all-consuming hunger is ravaging the product design landscape. Many consumer products, from camera to Walkman to in-car controls are now simply apps on a featureless glass oblong. This leads to bland product design and customer dissatisfaction. In car design, this has even become a safety concern. “Physical buttons are increasingly rare in modern cars The driver in the worst-performing car control system needs four times longer to perform simple tasks than in the best-performing” [link](https://www.vibilagare.se/english/physical-buttons-outperform-touchscreens-new-cars-test-finds)
-
-An era where “everything is an app and all apps look the same” is also an opportunity for industrial designers to create innovative new products. In Tangible Interfaces, the student is invited to think beyond the screen and design for touch, hearing, and the [dozens of other senses](https://en.wikipedia.org/wiki/Sense) that people have.
-
-_What’s your favorite instance of haptic nostalgia—the poignant memory of the physicality of an obsolete thing—like dialing a rotary phone, shifting gears in a manual transmission, opening a soda can with a pull ring?_ [Erin McKean (@emckean.bsky.social)](https://bsky.app/profile/emckean.bsky.social/post/3lfjeep3w4k22)
-
-## Case Study: Car Controls Design
+## Case Study: Car Dashboard Design
 
 The design of in-car interfaces has become increasingly controversial as touchscreens replace traditional physical controls, creating a tension between technological advancement and user safety. Customers and safety researchers have expressed clear preference for physical over touch screen controls.
 
@@ -132,86 +133,6 @@ Safety concerns are paramount, as research consistently shows touchscreens requi
 Interestingly, the new apple car play addresses very few of the concerns above
 
 - [New Apple CarPlay Ultra tested: hands-on](https://www.topgear.com/car-news/tech/new-apple-carplay-ultra-tested-hands-every-new-feature#comments)
-
-## Class Schedule
-
-### Project 1: Design a Fidget Toy (Week 1-2)
-
-Warm up design exercise and skills assessment. Feel free to be inspired by the many that exist.  
-What feels good? Why?
-
-Class 1
-
-- Intro to class
-
-Homework: Find and 3D print (or make) 1-3 "interesting to feel" fidget toys. make a slide for each about why it is interesting.
-
-- Purchase basic microbit and electronics components
-
-Class 2
-
-- Class discussion on fidget toys
-- Pencil sketching for your ideas
-
-Homework for NEXT Thursday
-
-- Sketch, Sketch, Sketch!
-- remember to 3D print test models early!
-
-Class 3
-
-- In-process presentations & discussion
-- Work on final models
-
-Homework: final 3D model & presentation
-
-Class 4
-
-- Presentations of fidget toys
-- In class discussion
-- Write documentation and share to 3D sharing sites
-- Introduce Project 2
-
-### Project 2 Media Remote Control Design (Week 3-5)
-
-Design Brief: Design and make a working object that can control music/video on your laptop or phone. [Project details](tangible-interfaces-class-microbit-bluetooth-media-player-remote.html)
-
-<!--
-#### "Hacky Bird"
-
-Design Brief: design and produce a tangible interface that creatively interprets the video game [Flappy Bird](https://flappybird.io/) in the real world using physical sensors and output, but without a screen. The project will include design, electronics, programming, & prototyping of a ‘works like’ model.
--->
-
-Class 5
-Intro to Microbit software and hardware
-
-homework: sketch physical design of remote control
-
-Class 6 (monday)
-Present sketches, discuss
-
-Workshop with high school STEM students (as consulting engineers) to explore sensor mechanisms and coding.
-
-Class 7
-In class work on 3D model, software, & electronics
-
-Class 8
-In class work on 3D model, software, & electronics
-
-Class 9
-In class work on 3D model, software, & electronics
-
-Homework: Bring finished models, software, electronics, with a Presentation milanote board.
-
-Class 10
-Present products with marketing slides and or video
-Discussion, Debrief
-Introduce Project 3
-Pick 4 teams of 3 people
-
-### Project 3: Team Design of Submarine Cockpit (Week 6-15)
-
-The final team design project is to design and prototype controls for the next generation of personal submersibles. [Project details](https://github.com/steveturbek/Tangible-Interfaces-Submarine-Design-Project/blob/main/README.md)
 
 # Tips for class
 
