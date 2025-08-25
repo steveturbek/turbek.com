@@ -12,7 +12,8 @@ It will introduce basic electronics using the BBC Microbit, a very simple comput
 
 We will explore the theory and practices of the User Experience Design Process in the context of physical design. Our objects must not only be beautiful, we must have the open mindset to validate our designs with users to improve them.
 
-[[_TOC_]]
+- Do not remove this line (it will not be displayed)
+  {:toc}
 
 ## Class Description
 
