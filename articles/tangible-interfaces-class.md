@@ -236,23 +236,23 @@ The microbit is a small and inexpensive computer and circuit board, which can be
 
 ## Fidget Toys
 
-- [https://www.printables.com/search/models?ctx=models\&q=fidget](https://www.printables.com/search/models?ctx=models&q=fidget)
-- [https://www.printables.com/contest/77-fidget-toys](https://www.printables.com/contest/77-fidget-toys)
-- [https://cults3d.com/en/search?q=fidget](https://cults3d.com/en/search?q=fidget)
-- [https://www.thingiverse.com/search?q=fidget\&page=1\#google_vignette](https://www.thingiverse.com/search?q=fidget&page=1#google_vignette)
-- [https://thangs.com/search/fidget?scope=all](https://thangs.com/search/fidget?scope=all)
-- [https://makerworld.com/en/search/collections?keyword=fidget](https://makerworld.com/en/search/collections?keyword=fidget)
+- [Fidgets on Printables.com](https://www.printables.com/search/models?ctx=models&q=fidget)
+- [Fidgets on Printables.com](https://www.printables.com/contest/77-fidget-toys)
+- [Fidgets on Cults3d.com](https://cults3d.com/en/search?q=fidget)
+- [Fidgets on Thingverse.com](https://www.thingiverse.com/search?q=fidget&page=1#google_vignette)
+- [Fidgets on Thangs.com](https://thangs.com/search/fidget?scope=all)
+- [Fidgets on Makerworld.com](https://makerworld.com/en/search/collections?keyword=fidget)
 - [https://makerworld.com/en/models/71654-fidget-cock_n_pull](https://makerworld.com/en/models/71654-fidget-cock_n_pull)
 - [Darshan Patel on Instagram: "7 Satisfying 3D-Printed Fidget Toys You’ve Never Seen\!](https://www.instagram.com/reel/DIf2WV2TuBf/?igsh=bjk5eHAwaWk2cmpm)
-- [https://www.youtube.com/shorts/kx2nwlETbQQ](https://www.youtube.com/shorts/kx2nwlETbQQ)
-- [https://www.youtube.com/shorts/Z1blDYoQ8-A](https://www.youtube.com/shorts/Z1blDYoQ8-A)
-- [https://thangs.com/designer/Make%20Anything/3d-model/Snappy%20Switch%20Keychain-1313203](https://thangs.com/designer/Make%20Anything/3d-model/Snappy%20Switch%20Keychain-1313203)
+- [Fidgets on YouTube](https://www.youtube.com/shorts/kx2nwlETbQQ)
+- [Fidgets on YouTube 2](https://www.youtube.com/shorts/Z1blDYoQ8-A)
+- [Snappy Switch Keychain](https://thangs.com/designer/Make%20Anything/3d-model/Snappy%20Switch%20Keychain-1313203)
 - [magnet flipper](https://makerworld.com/en/models/1396684-super-swivel-fidgets-magnetic-slider-fidgets#profileId-1447836)
 - [gear shifter](https://makerworld.com/en/models/1396684-super-swivel-fidgets-magnetic-slider-fidgets#profileId-1447836)
 
 ## Physical / Digital Prototyping Tools
 
-- [https://medium.com/@brambos/automotive-ui-prototyping-with-real-car-data-b8cab3bc0621](https://medium.com/@brambos/automotive-ui-prototyping-with-real-car-data-b8cab3bc0621)
+- [Automotive-ui-prototyping-with-real-car-data](https://medium.com/@brambos/automotive-ui-prototyping-with-real-car-data-b8cab3bc0621)
 - [https://edges.ideo.com/posts/figproxy](https://edges.ideo.com/posts/figproxy)
 - [https://microflow.vercel.app/](https://microflow.vercel.app/)
 
@@ -279,7 +279,7 @@ The microbit is a small and inexpensive computer and circuit board, which can be
 - [https://www.uxmatters.com/mt/archives/2017/03/3-kinds-of-simplicity.php](https://www.uxmatters.com/mt/archives/2017/03/3-kinds-of-simplicity.php)
 - [https://turbek.com/articles/2012/usability-of-coffee.html](https://turbek.com/articles/2012/usability-of-coffee.html)
 - [ACM International Conference on Tangible, Embedded and Embodied Interaction](https://tei.acm.org/2025/about/about)
-- [Haptic UX — The Design Guide for Building Touch Experiences]([)https://medium.muz.li/haptic-ux-the-design-guide-for-building-touch-experiences-84639aa4a1b8) by Justin Baker, 2019
+- [Haptic UX — The Design Guide for Building Touch Experiences](https://medium.muz.li/haptic-ux-the-design-guide-for-building-touch-experiences-84639aa4a1b8) by Justin Baker, 2019
 
 # Reference: Design Process
 
