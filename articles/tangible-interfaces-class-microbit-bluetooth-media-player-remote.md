@@ -35,7 +35,8 @@ This is a fun little demo project using a Micro:bit as a Bluetooth media control
 
 ## Example Project
 
-[Example reference model](https://www.thingiverse.com/thing:7057254#google_vignette) using the common rotary encoder sensor.
+This is a sample project using the common KY-040 rotary encoder sensor.
 
-Software example be accessed at https://makecode.microbit.org/_WwdYaeHUVMe6.
-Project uses the awesome [microbit-pxt-blehid extension by bsiever](https://github.com/bsiever/microbit-pxt-blehid)
+- [Example reference model](https://www.thingiverse.com/thing:7057254#google_vignette)
+- [Code for example](https://makecode.microbit.org/S63332-71073-18456-31510)
+- Project uses the awesome [microbit-pxt-blehid extension by bsiever](https://github.com/bsiever/microbit-pxt-blehid)
