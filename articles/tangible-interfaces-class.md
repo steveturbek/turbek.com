@@ -54,7 +54,7 @@ Class 3
 
 Homework: final 3D model & presentation
 
-**_Class 4 September 8_**
+**Final Presentation**
 
 - Presentations of fidget toys
 - In class discussion
@@ -92,7 +92,7 @@ In class work on 3D model, software, & electronics
 
 Homework: Bring finished models, software, electronics, with a Presentation milanote board.
 
-**_Class 10 (September 29)_**
+**Final Presentation**
 
 - Present products with marketing slides and or video
 - Discussion, Debrief
@@ -103,7 +103,7 @@ Homework: Bring finished models, software, electronics, with a Presentation mila
 
 The final team design project is to design and prototype controls for the next generation of personal submersibles.[Project details](https://github.com/steveturbek/Tangible-Interfaces-Submarine-Design-Project/tree/main)
 
-**_Final presentation Dec 8_**
+**Final presentation**
 
 ## Case Study: Car Dashboard Design
 
