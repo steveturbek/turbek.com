@@ -11,8 +11,8 @@ Example software will be provided, your task is to design the physical form and 
 
 This is a deceptively simple product that everyone can understand and we can build in class. It may seem boring, but it rewards exploration of user needs and technical opportunities.
 
-- _I work in an operating room and music always makes the day better. For years, I've used radio frequency remotes to control iPods while scrubbed in, all the while unable to utilize an iOS device for this purpose until now. This is the answer to a tiny prayer that somebody make a remote for the iPhone. I love this thing. I love it so much._ [https://www.amazon.com/Satechi-Bluetooth-Button-Media-Compatible/dp/B00RM75NL0](product review)
-- _I bought this for my motorcycle so I could control my music in my bluetooth helmet without taking my hands off of the handle bars. The steering wheel attachment is awesome and I used it to help mount it to my handlebars._ [https://www.amazon.com/Satechi-Bluetooth-Button-Media-Compatible/dp/B00RM75NL0](product review)
+- _I work in an operating room and music always makes the day better. For years, I've used radio frequency remotes to control iPods while scrubbed in, all the while unable to utilize an iOS device for this purpose until now. This is the answer to a tiny prayer that somebody make a remote for the iPhone. I love this thing. I love it so much._ [product review](https://www.amazon.com/Satechi-Bluetooth-Button-Media-Compatible/dp/B00RM75NL0)
+- _I bought this for my motorcycle so I could control my music in my bluetooth helmet without taking my hands off of the handle bars. The steering wheel attachment is awesome and I used it to help mount it to my handlebars._ [product review](https://www.amazon.com/Satechi-Bluetooth-Button-Media-Compatible/dp/B00RM75NL0))
 
 ## Parts
 
@@ -57,12 +57,12 @@ Note that the same code also enables the microbit to become a keyboard, mouse or
 
 This is a sample project using the common KY-040 rotary encoder sensor.
 
-- [Example reference model](https://www.thingiverse.com/thing:7057254#google_vignette)
-- [Code for example](https://makecode.microbit.org/S63332-71073-18456-31510)
+- [Example reference 3D model](https://www.thingiverse.com/thing:7057254)
+- [Microbit Code for example](https://makecode.microbit.org/S63332-71073-18456-31510)
 
 ## References
 
 - The Microbit Bluetooth code uses the awesome [microbit-pxt-blehid extension by bsiever](https://github.com/bsiever/microbit-pxt-blehid)
-- [https://bsiever.github.io/microbit-pxt-blehid/#2-have-your-device-connect-to-the-microbit](How to Pair and Unpair the Microbit to you phone & computer)
-- [https://en.wikipedia.org/wiki/Human_interface_device](Human interface device)
+- [How to Pair and Unpair the Microbit to you phone & computer](https://bsiever.github.io/microbit-pxt-blehid/#2-have-your-device-connect-to-the-microbit)
+- [Human interface device](https://en.wikipedia.org/wiki/Human_interface_device))
 - [Bluetooth Media Control Service Official Docs](https://www.bluetooth.com/wp-content/uploads/Files/Specification/HTML/35697-MCS-html5/out/en/index-en.html) -not very beginner friendly
