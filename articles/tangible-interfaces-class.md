@@ -78,14 +78,25 @@ homework: sketch physical design of remote control
 
 Class 6 (monday)
 Present sketches, discuss
-
 Workshop with high school STEM students (as consulting engineers) to explore sensor mechanisms and coding. Date TBD
 
 Class 7
 In class work on 3D model, software, & electronics
 
+Concepts
+
+- Basic Program flow (On Start, ve Forever)
+- Pause, loops, If statements
+
 Class 8
 In class work on 3D model, software, & electronics
+
+Concepts
+
+- Analog readings - proportion of voltage, compared to reference
+- WHy 1023? Binary counting, slices and resolution
+- Map function in Microbit editor
+- Controling Servos
 
 Class 9
 In class work on 3D model, software, & electronics
@@ -185,15 +196,17 @@ The microbit is a small and inexpensive computer and circuit board, which can be
 
 ## Microbit Class code samples
 
-- [Compass](https://makecode.microbit.org/S73740-73796-06271-95761)
-- [Accelerometer Tilt Game](https://makecode.microbit.org/S21771-63176-65881-31903)
-- [Ultrasonic Distance Sensor](https://makecode.microbit.org/S45031-64324-54424-03888) In microbit code editor, open "extensions", search for 'Sonar' and add. [example project](https://www.instructables.com/Distance-Sensing-With-the-Microbit-and-Sonar-HC-SR/) [Example video](https://www.youtube.com/watch?v=_nI336ZbHcQ)
-- [Analog-data-smoothing](https://makecode.microbit.org/S61055-28532-56631-56450) More advanced concept to be aware of
-- [Rotary encoder](https://makecode.microbit.org/S64071-13319-65768-28069)
-- [Servo simple](https://makecode.microbit.org/S21494-23982-18118-18659)
-- [Servo sonar with smoothing](https://makecode.microbit.org/S24125-16117-53200-02888)
-- [Flappy pixel](https://makecode.microbit.org/S38662-17419-00388-04398)
-- [Flappy Servo](https://makecode.microbit.org/S88818-34957-38430-63386)
+1. [Compass](https://makecode.microbit.org/S73740-73796-06271-95761)
+1. [Accelerometer Tilt Game](https://makecode.microbit.org/S21771-63176-65881-31903)
+1. [Ultrasonic Distance Sensor](https://makecode.microbit.org/S45031-64324-54424-03888) In microbit code editor, open "extensions", search for 'Sonar' and add. [example project](https://www.instructables.com/Distance-Sensing-With-the-Microbit-and-Sonar-HC-SR/) [Example video](https://www.youtube.com/watch?v=_nI336ZbHcQ)
+1. [Basic Analog sensor](https://makecode.microbit.org/S00413-52693-48127-34852)
+1. [Analog-data-smoothing](https://makecode.microbit.org/S61055-28532-56631-56450) More advanced concept to be aware of
+1. [Rotary encoder](https://makecode.microbit.org/S64071-13319-65768-28069)
+1. [Servo simple](https://makecode.microbit.org/S21494-23982-18118-18659)
+1. [Control Servo with potentiometer](https://makecode.microbit.org/S07735-75535-28524-22846)
+1. [Servo sonar with smoothing](https://makecode.microbit.org/S24125-16117-53200-02888)
+1. [Flappy pixel](https://makecode.microbit.org/S38662-17419-00388-04398)
+1. [Flappy Servo](https://makecode.microbit.org/S88818-34957-38430-63386)
 
 # Tangible Design Inspiration
 
