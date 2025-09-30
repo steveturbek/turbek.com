@@ -210,6 +210,7 @@ The microbit is a small and inexpensive computer and circuit board, which can be
 1. [Joystick as input](https://makecode.microbit.org/S60802-26853-41090-38929)
 1. [Flappy pixel](https://makecode.microbit.org/S38662-17419-00388-04398)
 1. [Flappy Servo](https://makecode.microbit.org/S88818-34957-38430-63386)
+1. [Wireless Social Network](https://makecode.microbit.org/#) Choose "Micro Chat" Tutorial
 
 # Tangible Design Inspiration
 
