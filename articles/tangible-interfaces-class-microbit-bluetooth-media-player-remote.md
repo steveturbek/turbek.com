@@ -53,13 +53,15 @@ This is a fun little demo project using a Micro:bit as a Bluetooth media control
 
 Note that the same code also enables the microbit to become a keyboard, mouse or gamepad
 
+[Controlling YouTube videos](https://makecode.microbit.org/S91983-65039-74564-26926) demonstrates the "jump back 10 seconds" for learning guitar, etc It only works for youTube on a laptop chrome browser. (this is a limitation of the iphone, not the microbit)
+
 ## Example Project
 
 This is a sample project using the common KY-040 rotary encoder sensor.
 
 - [Example reference 3D model](https://www.thingiverse.com/thing:7057254)
 - [Microbit Code for example](https://makecode.microbit.org/S63332-71073-18456-31510)
-- [example of saving state](https://makecode.microbit.org/_esRE4E4J2V0r) Note doesn't work well!
+- [example of saving state of the volume of the device](https://makecode.microbit.org/_esRE4E4J2V0r) Note doesn't work well!
 
 ## References
 
