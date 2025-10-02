@@ -204,6 +204,7 @@ The microbit is a small and inexpensive computer and circuit board, which can be
 1. [Basic Analog sensor](https://makecode.microbit.org/S00413-52693-48127-34852)
 1. [Analog-data-smoothing](https://makecode.microbit.org/S61055-28532-56631-56450) More advanced concept to be aware of
 1. [Rotary encoder](https://makecode.microbit.org/S64071-13319-65768-28069)
+1. [Rotary encoder with RGB Color Picker](https://makecode.microbit.org/S70469-08391-17891-16578)
 1. [Servo simple](https://makecode.microbit.org/S21494-23982-18118-18659)
 1. [Control Servo with potentiometer](https://makecode.microbit.org/S07735-75535-28524-22846)
 1. [Servo sonar with smoothing](https://makecode.microbit.org/S97093-33787-20371-25883)
