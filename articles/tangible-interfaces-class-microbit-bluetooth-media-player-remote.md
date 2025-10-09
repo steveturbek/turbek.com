@@ -60,7 +60,7 @@ Note that the same code also enables the microbit to become a keyboard, mouse or
 This is a sample project using the common KY-040 rotary encoder sensor.
 
 - [Example reference 3D model](https://www.thingiverse.com/thing:7057254)
-- [Microbit Code for example](https://makecode.microbit.org/S63332-71073-18456-31510)
+- [Microbit Code for example](https://makecode.microbit.org/S62191-90771-53225-82716)
 - [example of saving state of the volume of the device](https://makecode.microbit.org/_esRE4E4J2V0r) Note doesn't work well!
 
 ## References
