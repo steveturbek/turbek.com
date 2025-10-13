@@ -138,8 +138,11 @@ Safety concerns are paramount, as research consistently shows touchscreens requi
 - [New Safety Guidelines Could Kill an Annoying Automotive Trend](https://www.motortrend.com/news/new-car-interior-touchscreen-euro-ncap-safety-testing)
 - [Former Apple design boss calls for physical buttons to return to car interiors](https://www.drive.com.au/news/former-apple-design-boss-physical-buttons-return-to-car-interiors/)
 - [Physical buttons outperform touchscreens in new cars, test finds](https://www.vibilagare.se/english/physical-buttons-outperform-touchscreens-new-cars-test-finds)
+- [screens Studios](https://www.screensstudio.com/en/products) - recordings of almost every car infotainment system
+- [Auto Interfaces](https://www.autointerfaces.com)
+- [Sci-Fi Interfaces](https://scifiinterfaces.com)
 
-Interestingly, the new apple car play addresses very few of the concerns above
+Interestingly, the new apple car play addresses very few of the safety concerns above
 
 - [New Apple CarPlay Ultra tested: hands-on](https://www.topgear.com/car-news/tech/new-apple-carplay-ultra-tested-hands-every-new-feature#comments)
 
