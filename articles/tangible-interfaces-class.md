@@ -85,7 +85,7 @@ In class work on 3D model, software, & electronics
 
 Concepts
 
-- Basic Program flow (On Start, ve Forever)
+- Basic Program flow (On Start, Forever)
 - Pause, loops, If statements
 
 Class 8
