@@ -61,9 +61,9 @@ Homework: final 3D model & presentation
 - Write documentation and share to 3D sharing sites
 - Introduce Project 2
 
-### Project 2 Media Remote Control Design (Week 3-5)
+### [Project 2 Media Remote Control Design](tangible-interfaces-class-microbit-bluetooth-media-player-remote.html) (Week 3-5)
 
-Design Brief: Design and make a working object that can control music/video on your laptop or phone. [Project details](tangible-interfaces-class-microbit-bluetooth-media-player-remote.html)
+Design Brief: Design and make a working object that can control music/video on your laptop or phone.
 
 <!--
 #### "Hacky Bird"
@@ -110,11 +110,11 @@ Homework: Bring finished models, software, electronics, with a Presentation mila
 - Introduce Project 3
 - Pick 4 teams of 3 people
 
-### Project 3: Team Design of Submarine Cockpit (Week 6-15)
+### Project 3: [Submarine Cockpit](https://github.com/steveturbek/Tangible-Interfaces-Submarine-Design-Project/tree/main)
 
-The final team design project is to design and prototype controls for the next generation of personal submersibles.[Project details](https://github.com/steveturbek/Tangible-Interfaces-Submarine-Design-Project/tree/main)
+The final team design project is to design and prototype controls for the next generation of personal submersibles.
 
-**Final presentation**
+<hr>
 
 ## Case Study: Car Dashboard Design
 
