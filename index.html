@@ -73,7 +73,7 @@ three types of items
       }
 
       @media screen and (max-width: 1050px) {
-        /* tablet */
+        /* 3 col */
         .new-home-page-item,
         .home-page-item,
         .article {
@@ -81,8 +81,17 @@ three types of items
         }
       }
 
+      @media screen and (max-width: 720px) {
+        /* 2 col */
+        .new-home-page-item,
+        .home-page-item,
+        .article {
+          width: 70%;
+        }
+      }
+
       @media screen and (max-width: 500px) {
-        /* phone */
+        /* 1 col */
         .new-home-page-item,
         .home-page-item,
         .article {
@@ -197,12 +206,7 @@ three types of items
       }
 
       @media screen and (max-width: 500px) {
-        .home-page-item {
-          width: 95%;
-        }
-
-        .titleBlock {
-          /* align-self: flex-start; */
+        .home-page-item .titleBlock {
           border-radius: 10px 10px 0px 0px;
         }
       }
@@ -280,26 +284,26 @@ three types of items
       ></div>
 
       <div class="new-home-page-item" id="intro" style="box-shadow: none; background-color: transparent; display: block; text-align: left">
-        <h1 style="padding-top: 0; margin-top: 0; font-size: 4.5vw; font-weight: 200">Steve<br />Turbek</h1>
-        <p style="font-size: 150%; text-align: left">A designer focused on delightful solutions to complex problems.</p>
-        <p style="font-size: 130%; text-align: left">
+        <h1 style="padding-top: 0; margin: 0; margin-bottom: 20px; font-size: 80px; line-height: 80px; font-weight: 200">Steve<br />Turbek</h1>
+        <p style="font-size: 24px; margin: 0; margin-bottom: 10px; text-align: left">A designer focused on delightful solutions to complex problems.</p>
+        <p style="font-size: 20px; text-align: left; margin: 0">
           steve(at)turbek.com
           <a href="https://www.linkedin.com/in/steve-turbek-541b891" style="margin: left 5px">LinkedIn</a>
           <a href="https://www.instagram.com/steveturbek/" class="" style="margin: left 5px">@SteveTurbek</a>
         </p>
         <style>
           #filterPanel input[type="checkbox"] {
-            width: 1.5em;
-            height: 1.5rem;
+            width: 18px;
+            height: 18px;
             /* accent-color: #eee; */
             margin-left: 15px;
             vertical-align: bottom;
           }
           #filterPanel label {
-            font-size: 150%;
+            font-size: 18px;
           }
         </style>
-        <div id="filterPanel" style="margin-top: 20px; border: 1px solid #aaa; padding: 10px; vertical-align: middle; border-radius: 10px">
+        <div id="filterPanel" style="margin-top: 20px; border: 1px solid #aaa; padding: 10px; vertical-align: middle; border-radius: 10px; font-size: 18px">
           Show
           <input type="checkbox" id="physical" name="physical" checked />
           <label for="physical">Things</label>
